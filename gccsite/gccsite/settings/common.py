@@ -61,6 +61,7 @@ INSTALLED_APPS = (
     # Django and vendor, at the bottom for template overriding
     'django.contrib.admin',
     'zinnia',
+    'massmailer',
     # Debug Toolbar (will not load if DEBUG = False)
     'debug_toolbar',
 )

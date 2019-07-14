@@ -26,6 +26,8 @@ urlpatterns = [
     path('lang/', include('django.conf.urls.i18n')),
     # News (blog)
     path('news/', include('news.urls')),
+    # Mass mailer
+    path('mailing/', include('massmailer.urls')),
 ]
 
 if settings.DEBUG:
