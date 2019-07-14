@@ -22,5 +22,6 @@ typing; python_version < '3.5'
 
 # From Prologin
 git+https://github.com/prologin/django-proloauth-client
+git+https://github.com/prologin/django-massmailer
 # Pillow for images
 pillow
