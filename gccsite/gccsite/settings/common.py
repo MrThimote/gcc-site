@@ -62,6 +62,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'zinnia',
     'massmailer',
+    'reversion',
     # Debug Toolbar (will not load if DEBUG = False)
     'debug_toolbar',
 )
@@ -178,6 +179,20 @@ OAUTH_CLIENT_ID = 'gcc'
 
 # Cache durations and keys
 CacheSetting = namedtuple('CacheSetting', 'key duration')
+
+
+# Celery
+# Celery (task scheduler)
+
+BROKER_URL = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['pickle']
+CELERY_TASK_SERIALIZER = 'pickle'
+CELERY_RESULT_SERIALIZER = 'pickle'
+CELERY_TIMEZONE = TIME_ZONE
+CELERY_ENABLE_UTC = True
+CELERY_RESULT_BACKEND = BROKER_URL  # also use redis to store the results
+CELERY_RESULT_PERSISTENT = True  # keep results on broker restart
+CELERY_TASK_RESULT_EXPIRES = 3600 * 12  # 12 hours
 
 
 # Debug toolbar
