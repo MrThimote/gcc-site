@@ -28,6 +28,6 @@ def export_queryset_as_csv(queryset, filename):
     writer.writeheader()
 
     for data in datas:
-        row = writer.writerow(data)
+        writer.writerow(data)
 
     return response

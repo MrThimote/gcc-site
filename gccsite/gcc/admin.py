@@ -57,7 +57,7 @@ class ExportCsvMixin:
         writer.writeheader()
 
         for data in datas:
-            row = writer.writerow(data)
+            writer.writerow(data)
 
         return response
 

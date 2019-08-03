@@ -14,7 +14,6 @@ from django.db.models import Q
 from django.urls import reverse
 from django.utils.formats import date_format
 from django.utils.functional import cached_property
-from django.utils.translation import ugettext_noop
 
 from adminsortable.models import SortableMixin
 from centers.models import Center
