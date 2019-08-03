@@ -318,6 +318,7 @@ def override_locale(category, lang):
 
 class SubprocessFailedException(Exception):
     def __init__(self, message, returncode, stdout, stderr):
+        super().__init__(message)
         self.message = message
         self.returncode = returncode
         self.stdout = stdout.decode('utf-8', 'replace')

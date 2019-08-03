@@ -6,6 +6,8 @@ import traceback
 from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
 
+from geopy.exc import GeopyError
+
 
 class ContactInlineAdmin(admin.TabularInline):
     model = centers.models.Contact
@@ -35,7 +37,7 @@ class CenterAdmin(admin.ModelAdmin):
             try:
                 center.geocode(suffix=', FRANCE')
                 success += 1
-            except Exception:
+            except GeopyError:
                 errors += 1
         self.message_user(
             request,
@@ -53,7 +55,7 @@ class CenterAdmin(admin.ModelAdmin):
             try:
                 center.normalize(suffix=', FRANCE')
                 success += 1
-            except Exception:
+            except (GeopyError, ValueError):
                 traceback.print_exc()
                 errors += 1
         self.message_user(
