@@ -99,6 +99,7 @@ class Event(models.Model):
         )
 
     def csv_name(self):
+        """Return the event's name pre-formatted for csv output."""
         return (
             self.event_start.strftime('%Y-%m-%d')
             + '_'
@@ -106,6 +107,7 @@ class Event(models.Model):
         )
 
     def short_description(self):
+        """A short description of this event."""
         return '{name} – {start} to {end}'.format(
             name=self.center.name,
             start=date_format(self.event_start, "SHORT_DATE_FORMAT"),
@@ -187,6 +189,7 @@ class Applicant(models.Model):
 
     @property
     def status(self):
+        """The 'highest' status for this applicant's application."""
         wishes_status = set(wish.status for wish in self.eventwish_set.all())
 
         for wish_status in reversed(STATUS_ORDER):
@@ -196,6 +199,7 @@ class Applicant(models.Model):
         return ApplicantStatusTypes.incomplete.value
 
     def is_locked(self):
+        # TODO document
         return EventWish.objects.filter(
             ~Q(
                 status__in=[
@@ -207,11 +211,13 @@ class Applicant(models.Model):
         ).exists()
 
     def has_rejected_choices(self):
+        # TODO document
         return EventWish.objects.filter(
             applicant=self, status=ApplicantStatusTypes.rejected.value
         ).exists()
 
     def has_non_rejected_choices(self):
+        # TODO document
         return EventWish.objects.filter(
             ~Q(status=ApplicantStatusTypes.rejected.value), applicant=self
         ).exists()
@@ -241,15 +247,19 @@ class Applicant(models.Model):
         return export_datas
 
     def get_status_display(self):
+        """Return this applicant's status in text form."""
         return ApplicantStatusTypes(self.status).name
 
     def list_of_assignation_wishes(self):
+        # TODO document
         return [event for event in self.assignation_wishes.all()]
 
     def list_of_assignation_event(self):
+        # TODO document
         return [event for event in self.assignation_event.all()]
 
     def has_complete_application(self):
+        # TODO document
         # TODO: optimize requests
         if not self.user.has_complete_profile():
             return False
@@ -266,6 +276,7 @@ class Applicant(models.Model):
         return True
 
     def validate_current_wishes(self):
+        """Validate an applicant's current wishes."""
         for wish in self.eventwish_set.all():
             if wish.status == ApplicantStatusTypes.incomplete.value:
                 wish.status = ApplicantStatusTypes.pending.value

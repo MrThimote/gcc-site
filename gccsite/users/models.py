@@ -94,6 +94,7 @@ class GCCUser(AbstractUser, AddressableModel):
 
     @cached_property
     def participations_count(self):
+        """The number of times this user has been to an event."""
         applicants = Applicant.objects.filter(user=self)
         return sum(
             (applicant.status == ApplicantStatusTypes.confirmed.value)
@@ -102,17 +103,21 @@ class GCCUser(AbstractUser, AddressableModel):
 
     @property
     def unsubscribe_token(self):
+        """The token used to unsubscribe from the mailing lists."""
         user_id = str(self.id).encode()
         secret = settings.SECRET_KEY.encode()
         return hashlib.sha256(user_id + secret).hexdigest()
 
     def has_partial_address(self):
+        """Return if the user has filled part of their address fields."""
         return any((self.address, self.city, self.country, self.postal_code))
 
     def has_complete_address(self):
+        """Return if the user has filled their complete address."""
         return all((self.address, self.city, self.country, self.postal_code))
 
     def has_complete_profile(self):
+        """Return if the user's profile is complete."""
         return self.has_complete_address() and all(
             (
                 self.first_name,
@@ -125,9 +130,11 @@ class GCCUser(AbstractUser, AddressableModel):
         )
 
     def get_absolute_url(self):
+        """Return the url for this user's profile."""
         return reverse('users:profile', args=[self.pk])
 
     def get_unsubscribe_url(self):
+        """Return the email unsubscribe url for this user."""
         return '{}{}?uid={}&token={}'.format(
             settings.SITE_BASE_URL,
             reverse('users:unsubscribe'),
