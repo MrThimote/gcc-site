@@ -58,6 +58,7 @@ class IndexView(FormView):
         instance, created = SubscriberEmail.objects.get_or_create(
             email=form.cleaned_data['email']
         )
+        
 
         if created:
             messages.add_message(
@@ -67,7 +68,8 @@ class IndexView(FormView):
                 'gcc/mails/subscribe',
                 instance.email,
                 {'unsubscribe_url': instance.unsubscribe_url},
-            )
+            )  
+
         else:
             messages.add_message(
                 self.request,
