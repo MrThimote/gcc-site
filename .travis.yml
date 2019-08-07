@@ -8,4 +8,4 @@ matrix:
   include:
     - name: Black formatter
       script: black --check .
-      after_failure: utils/travis_notify_unformatted.sh
+      after_failure: scripts/travis_notify_unformatted.sh
