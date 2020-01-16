@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 from django.contrib import admin
+from django.contrib.auth.decorators import login_required
 from django.urls import include, path
 
 from gcc import staff_views, views
@@ -34,7 +35,7 @@ APPLICATION_PATTERNS = [
     ),
     path(
         'form/<int:edition>/',
-        views.ApplicationFormView.as_view(),
+        login_required(views.ApplicationFormView.as_view(), login_url='https://prologin.org/user/login'),
         name='application_form',
     ),
     path(
