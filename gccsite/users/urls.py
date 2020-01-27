@@ -16,4 +16,6 @@ urlpatterns = [
     path('<int:pk>/', include(user_patterns)),
     # Logout (login is fuly handled by oauth)
     path('logout', views.LogoutView.as_view(), name='logout'),
+    # Mailing unsubscribe
+    path('unsubscribe', views.UnsubscribeView.as_view(), name='unsubscribe'),
 ]
