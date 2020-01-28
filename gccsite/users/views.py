@@ -11,6 +11,7 @@ from django.utils.translation import ugettext_lazy as _
 from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.http import require_POST
+from django.views.generic.base import View
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import UpdateView
 from rules.contrib.views import PermissionRequiredMixin
@@ -101,3 +102,28 @@ class PasswordFormMixin:
         if form_class is None:
             form_class = self.get_form_class()
         return form_class(self.get_object(), **self.get_form_kwargs())
+
+class UnsubscribeView(View):
+    def get_user_token(self, req_params):
+        try:
+            user_id = req_params['uid']
+            token = req_params['token']
+        except KeyError:
+            raise Http404()
+        User = auth.get_user_model()
+        u = get_object_or_404(User, pk=user_id)
+        if not compare_digest(token, u.unsubscribe_token):
+            raise Http404()
+        return u, token
+
+    def get(self, request, *args, **kwargs):
+        user, token = self.get_user_token(request.GET)
+        return render(request, 'users/unsubscribe.html',
+                      {'unsubscribe_user': user, 'unsubscribe_token': token})
+
+    def post(self, request, *args, **kwargs):
+        user, _ = self.get_user_token(request.POST)
+        user.allow_mailing = False
+        user.save()
+        return render(request, 'users/unsubscribe_confirm.html',
+                      {'unsubscribe_user': user})
