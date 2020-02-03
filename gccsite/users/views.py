@@ -103,6 +103,7 @@ class PasswordFormMixin:
             form_class = self.get_form_class()
         return form_class(self.get_object(), **self.get_form_kwargs())
 
+
 class UnsubscribeView(View):
     def get_user_token(self, req_params):
         try:
@@ -118,12 +119,18 @@ class UnsubscribeView(View):
 
     def get(self, request, *args, **kwargs):
         user, token = self.get_user_token(request.GET)
-        return render(request, 'users/unsubscribe.html',
-                      {'unsubscribe_user': user, 'unsubscribe_token': token})
+        return render(
+            request,
+            'users/unsubscribe.html',
+            {'unsubscribe_user': user, 'unsubscribe_token': token},
+        )
 
     def post(self, request, *args, **kwargs):
         user, _ = self.get_user_token(request.POST)
         user.allow_mailing = False
         user.save()
-        return render(request, 'users/unsubscribe_confirm.html',
-                      {'unsubscribe_user': user})
+        return render(
+            request,
+            'users/unsubscribe_confirm.html',
+            {'unsubscribe_user': user},
+        )

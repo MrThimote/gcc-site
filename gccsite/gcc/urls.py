@@ -35,7 +35,10 @@ APPLICATION_PATTERNS = [
     ),
     path(
         'form/<int:edition>/',
-        login_required(views.ApplicationFormView.as_view(), login_url='https://prologin.org/user/login'),
+        login_required(
+            views.ApplicationFormView.as_view(),
+            login_url='https://prologin.org/user/login',
+        ),
         name='application_form',
     ),
     path(
