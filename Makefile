@@ -28,7 +28,7 @@ smtpserver:
 	python $(TOP)/smtp_debug.py --host $(SMTP_HOST) --port $(SMTP_PORT) --lag $(SMTP_LAG)
 
 celeryworker:
-	$(CELERY) -l debug -A gccsite worker
+	$(CELERY) -l debug -A gccsite worker -Q gcc
 
 shell:
 	$(MANAGE) shell
