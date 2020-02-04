@@ -14,9 +14,9 @@
         {% endblocktrans %}
       </h3>
       <p>
-        {% blocktrans %}As soon as you accepted the candidates, they will receive
-        an email to notify them that they are selected for the event, and asking
-        them to confirm their venue.{% endblocktrans %}
+      {% blocktrans %}Make sure you <strong>already</strong> sent an email to
+      all the candidates to notify that they are selected for the event, and
+      asking them to confirm their venue.{% endblocktrans %}
       </p>
       <a class="btn btn-success" href="{% url 'gcc:accept_all_send' event=event.pk %}">
         {% trans "Go On" %}
