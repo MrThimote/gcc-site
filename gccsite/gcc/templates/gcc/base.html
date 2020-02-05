@@ -1,5 +1,6 @@
 {% load i18n staticfiles %}
 {% load static %}
+{% load django_bootstrap_breadcrumbs %}
 
 <!doctype html>
 <html lang="{{ LANGUAGE_CODE }}">
@@ -15,10 +16,11 @@
   <link rel="stylesheet" href="{% static 'vendor/bootstrap/dist/css/bootstrap.min.css' %}"/>
   <link rel="stylesheet" href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}"/>
 
+  {% block extra_head %}{% endblock %}
+
   {# Custom #}
   <link rel="stylesheet" type="text/css" href="{% static 'gcc/css/gcc.css' %}"/>
 
-  {% block extra_head %}{% endblock %}
 </head>
 <body class="tex2jax_ignore {% block body_class %}{% endblock %}" {% block body_tag %}{% endblock %}>
 
@@ -48,6 +50,10 @@
   {% block super_content %}
   {# Content #}
     <div class="container">
+        {% block breadcrumbs %}
+          {% clear_breadcrumbs %}
+        {% endblock %}
+        {% render_breadcrumbs "django_bootstrap_breadcrumbs/bootstrap3.html" %}
       {% include 'prologin/messages.html' %}
       {% block content %}{% endblock %}
     </div>
