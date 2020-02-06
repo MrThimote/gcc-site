@@ -94,6 +94,12 @@ urlpatterns = [
     path(
         'editions/<int:year>/', views.EditionsView.as_view(), name='editions'
     ),
+    # Remove after february 2020: candidates received a wrong url
+    path(
+        'confirm/<int:wish>/',
+        views.ApplicationConfirmVenueView.as_view(),
+        name='confirm',
+    ),
     # Admin panel
     path('admin/', admin.site.urls),
 ]
