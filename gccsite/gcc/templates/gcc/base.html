@@ -67,15 +67,18 @@
   </footer>
 
   {# Scripts #}
-  <script src="{% static 'vendor/jquery/dist/jquery.min.js' %}"></script>
-  <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+
+  {% block extra_script %}
+    <script src="{% static 'vendor/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+  {% endblock %}
+
   <script type="application/javascript">
   $(function() {
     $('.modal[role="dialog"]').modal();
   });
   </script>
 
-  {% block extra_script %}{% endblock %}
   {% if google_analytics_id %}<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
