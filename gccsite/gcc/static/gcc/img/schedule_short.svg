@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -7,14 +9,28 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 816 1056"
-   height="1056"
-   width="816"
-   xml:space="preserve"
-   id="svg2"
    version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="334.66132"
+   height="416.31866"
+   viewBox="0 0 334.66132 416.31866"
    sodipodi:docname="schedule_short.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"><sodipodi:namedview
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18"><path
+         d="M 0,0 H 252 V 402 H 0 Z"
+         id="path16"
+         inkscape:connector-curvature="0" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath22"><path
+         d="M -2,-2 H 334 V 435 H -2 Z"
+         id="path20"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -23,461 +39,407 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1916"
-     inkscape:window-height="1036"
-     id="namedview296"
+     inkscape:window-width="1596"
+     inkscape:window-height="861"
+     id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.80113636"
-     inkscape:cx="408"
-     inkscape:cy="528"
+     inkscape:zoom="1.6033603"
+     inkscape:cx="164.82176"
+     inkscape:cy="179.25687"
      inkscape:window-x="0"
-     inkscape:window-y="42"
+     inkscape:window-y="18"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" /><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath20"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path18"
-         d="M -2,-2 H 334 V 535 H -2 Z" /></clipPath><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath300"><rect
-         style="fill:#3e3e3e;fill-opacity:1;stroke:#000000;stroke-width:0.99974996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect302"
-         width="243.97424"
-         height="400.5"
-         x="185.496"
-         y="-776.9505"
-         transform="scale(1,-1)" /></clipPath></defs><g
-     transform="matrix(2.5509947,0,0,-2.5457186,-366.92098,1990.4739)"
+     inkscape:current-layer="g10" /><g
      id="g10"
-     clip-path="url(#clipPath300)"><g
-       transform="matrix(0.9739491,0,0,-1,9.4547096,776.57548)"
-       id="g12"><g
-         transform="matrix(0.75,0,0,0.75,181.5,0)"
-         id="g14"><g
-           clip-path="url(#clipPath20)"
-           id="g16"><path
-   id="path22"
-   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 0,21 H 111 V 534 H 0 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path24"
-   style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M -1,-1 H 333 V 21 H -1 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path26"
-   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 110,20 H 333 V 53 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path28"
-   style="fill:#990000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 110,52 H 222 V 179 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path30"
-   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 221,52 H 333 V 179 H 221 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path32"
-   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="m 110,178 h 223 v 64 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path34"
-   style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 110,241 H 222 V 387 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path36"
-   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="M 221,241 H 333 V 387 H 221 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path38"
-   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="m 110,386 h 223 v 43 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path40"
-   style="fill:#38761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="m 110,428 h 223 v 43 H 110 Z"
-   inkscape:connector-curvature="0" /><path
-   id="path42"
-   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   d="m 110,470 h 223 v 64 H 110 Z"
-   inkscape:connector-curvature="0" /><g
-   id="g44"><path
-     id="path46"
-     style="fill:#000000;fill-opacity:0.14901961;fill-rule:nonzero;stroke:none"
-     d="m 111,386 v 0 h 110 v 1 H 111 Z"
-     inkscape:connector-curvature="0" /></g><path
-   id="path48"
-   style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-   d="M -0.5,-1 V 534 M -1,73.5 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 h 112 m -112,21 h 112 m -112,55 h 112 m -112,27 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 h 112 m -112,42 h 112 m -112,21 H 111 M 110.5,-1 V 534 M 221.5,-1 V 534 M -1,-0.5 h 334 m -334,21 h 334 m -334,32 h 334 m -334,126 h 334 m -334,63 h 334 m -334,187 h 334 m -334,42 h 334 m -334,63 H 333 M 332.5,-1 v 535"
-   inkscape:connector-curvature="0" /><text
-   id="text52"
-   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(32,15.245117)"><tspan
-     id="tspan50"
-     y="0"
-     x="0 9.3859997 17.316 22.372999 29.601 33.202 38.258999">Horaire</tspan></text>
-
+     inkscape:groupmode="layer"
+     inkscape:label="planning"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,416.31867)"><g
+       id="g12"
+       transform="translate(-0.502,-75.705)"><g
+         id="g14" /><g
+         id="g222"><g
+           clip-path="url(#clipPath18)"
+           id="g220"><g
+             transform="matrix(1,0,0,-1,0,402)"
+             id="g218"><g
+               transform="matrix(0.75,0,0,0.75,1.5,0)"
+               id="g216"><g
+                 clip-path="url(#clipPath22)"
+                 id="g214"><path
+                   d="M 0,0 H 333 V 21 H 0 Z"
+                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path24"
+                   inkscape:connector-curvature="0" /><path
+                   d="M 0,42 H 111 V 434 H 0 Z"
+                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path26"
+                   inkscape:connector-curvature="0" /><path
+                   d="M -1,20 H 333 V 42 H -1 Z"
+                   style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path28"
+                   inkscape:connector-curvature="0" /><path
+                   d="M 110,41 H 333 V 74 H 110 Z"
+                   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path30"
+                   inkscape:connector-curvature="0" /><path
+                   d="M 110,73 H 222 V 200 H 110 Z"
+                   style="fill:#990000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path32"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 221,73 h 112 v 85 H 221 Z"
+                   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path34"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 221,157 h 112 v 43 H 221 Z"
+                   style="fill:#674ea7;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path36"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 110,199 h 223 v 64 H 110 Z"
+                   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path38"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 110,262 h 112 v 88 H 110 Z"
+                   style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path40"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 221,262 h 112 v 88 H 221 Z"
+                   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path42"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 110,349 h 223 v 43 H 110 Z"
+                   style="fill:#20124d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path44"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 110,391 h 223 v 43 H 110 Z"
+                   style="fill:#38761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path46"
+                   inkscape:connector-curvature="0" /><g
+                   id="g50"><path
+                     d="M 0,0 V 0 20 H -1 V 0 Z m 111,0 v 0 20 h -1 V 0 Z m 111,0 v 0 20 h -1 V 0 Z M 111,349 v 0 h 110 v 1 H 111 Z M 333,0 v 0 20 h -1 V 0 Z M 222,157 v 0 h 110 v 1 H 222 Z M -1,-1 v 0 H 333 V 0 H -1 Z"
+                     style="fill:#000000;fill-opacity:0.14902003;fill-rule:nonzero;stroke:none"
+                     id="path48"
+                     inkscape:connector-curvature="0" /></g><path
+                   d="M -0.5,20 V 434 M -1,94.5 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 h 112 m -112,21 h 112 m -112,44 h 112 m -112,22 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 H 111 M 110.5,20 V 434 M 221.5,20 V 434 M -1,20.5 h 334 m -334,21 h 334 m -334,32 h 334 m -334,126 h 334 m -334,63 h 334 m -334,129 h 334 m -334,42 H 333 M 332.5,20 v 414"
+                   style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path52"
+                   inkscape:connector-curvature="0" /><text
+                   transform="translate(32,36.245117)"
+                   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text56"><tspan
+                     x="0 9.3859997 17.316 22.372999 29.601 33.202 38.258999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan54">Horaire</tspan></text>
 <text
-   id="text56"
-   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(142,15.245117)"><tspan
-     id="tspan54"
-     y="0"
-     x="0 8.658 15.886 27.443001 34.671001 42.601002">Samedi</tspan></text>
-
+                   transform="translate(148,36.245117)"
+                   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text60"><tspan
+                     x="0 7.9299998 15.86 23.790001 31.719999"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan58">Lundi</tspan></text>
 <text
-   id="text60"
-   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(245,15.245117)"><tspan
-     id="tspan58"
-     y="0"
-     x="0 9.3859997 12.987 24.544001 31.771999 39.702 46.93 54.860001">Dimanche</tspan></text>
-
+                   transform="translate(259,36.245117)"
+                   style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text64"><tspan
+                     x="0 10.829 18.056999 23.114 31.044001"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan62">Mardi</tspan></text>
 <text
-   id="text64"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,47.245117)"><tspan
-     id="tspan62"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">09:00 - 09:30</tspan></text>
-
+                   transform="translate(16,62.193848)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text68"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan66">09:00 - 09:30</tspan></text>
 <text
-   id="text68"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(122,33.962738)"><tspan
-     id="tspan66"
-     y="0"
-     x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198">Accueil et petit-</tspan></text>
-
+                   transform="translate(122,54.962738)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text72"><tspan
+                     x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan70">Accueil et petit-</tspan></text>
 <text
-   id="text72"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(141,47.40222)"><tspan
-     id="tspan70"
-     y="0"
-     x="0 7.1370001 13.6422 16.883101 23.3883 30.525299 37.6623 44.1675">déjeuner</tspan></text>
-
+                   transform="translate(141,68.40222)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text76"><tspan
+                     x="0 7.1370001 13.6422 16.883101 23.3883 30.525299 37.6623 44.1675"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan74">déjeuner</tspan></text>
 <text
-   id="text76"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(233,34.08377)"><tspan
-     id="tspan74"
-     y="0"
-     x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198">Accueil et petit-</tspan></text>
-
+                   transform="translate(233,55.08377)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text80"><tspan
+                     x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan78">Accueil et petit-</tspan></text>
 <text
-   id="text80"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(252,47.523254)"><tspan
-     id="tspan78"
-     y="0"
-     x="0 7.1370001 13.6422 16.883101 23.3883 30.525299 37.6623 44.1675">déjeuner</tspan></text>
-
+                   transform="translate(252,68.523254)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text84"><tspan
+                     x="0 7.1370001 13.6422 16.883101 23.3883 30.525299 37.6623 44.1675"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan82">déjeuner</tspan></text>
 <text
-   id="text84"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,68.24512)"><tspan
-     id="tspan82"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">09:30 - 10:00</tspan></text>
-
+                   transform="translate(16,89.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text88"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan86">09:30 - 10:00</tspan></text>
 <text
-   id="text88"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(125,105.96274)"><tspan
-     id="tspan86"
-     y="0"
-     x="0 3.2409 9.7461004 12.987 16.883101 23.3883 29.893499 36.398701 42.248699 45.489601 48.087002 54.592201 61.097401 64.338303 70.843498 77.348701">Introduction au </tspan></text>
-
+                   transform="translate(125,126.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text92"><tspan
+                     x="0 3.2409 9.7461004 12.987 16.883101 23.3883 29.893499 36.398701 42.248699 45.489601 48.087002 54.592201 61.097401 64.338303 70.843498 77.348701"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan90">Introduction au </tspan></text>
 <text
-   id="text92"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(147,119.40222)"><tspan
-     id="tspan90"
-     y="0"
-     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499">Python</tspan></text>
-
+                   transform="translate(147,140.40222)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text96"><tspan
+                     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan94">Python</tspan></text>
 <text
-   id="text96"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(224,112.96274)"><tspan
-     id="tspan94"
-     y="0"
-     x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 33.777901 36.375301 42.880501 49.3857 55.235699 58.476601 64.326599 66.924004 73.429199 79.934402 86.439598 89.680496 96.185699 102.6909">Projet jeux video ou </tspan></text>
-
+                   transform="translate(239,118.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text100"><tspan
+                     x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 33.777901 43.523998 46.121399 51.971401 55.8675 62.3727 68.877899 71.475304"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan98">Projet microbit</tspan></text>
 <text
-   id="text100"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(256,126.40222)"><tspan
-     id="tspan98"
-     y="0"
-     x="0 9.7461004 12.3435 18.193501 22.0896 28.594801 35.099998 37.697399">microbit</tspan></text>
-
+                   transform="translate(16,110.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text104"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan102">10:00 - 10:30</tspan></text>
 <text
-   id="text104"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,89.24512)"><tspan
-     id="tspan102"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">10:00 - 10:30</tspan></text>
-
+                   transform="translate(16,131.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text108"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan106">10:30 - 11:00</tspan></text>
 <text
-   id="text108"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,110.24512)"><tspan
-     id="tspan106"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">10:30 - 11:00</tspan></text>
-
+                   transform="translate(16,152.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text112"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan110">11:00 - 11:30</tspan></text>
 <text
-   id="text112"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,131.24512)"><tspan
-     id="tspan110"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">11:00 - 11:30</tspan></text>
-
+                   transform="translate(16,173.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text116"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan114">11:30 - 12:00</tspan></text>
 <text
-   id="text116"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,152.24512)"><tspan
-     id="tspan114"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">11:30 - 12:00</tspan></text>
-
+                   transform="translate(240,175.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text120"><tspan
+                     x="0 8.4474001 14.9526 21.4578 24.6987 31.203899 35.099998 41.605202 48.110401 53.9604 56.5578 63.063 66.959099"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan118">Conférencière</tspan></text>
 <text
-   id="text120"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,173.24512)"><tspan
-     id="tspan118"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">12:00 - 12:30</tspan></text>
-
+                   transform="translate(16,194.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text124"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan122">12:00 - 12:30</tspan></text>
 <text
-   id="text124"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,194.24512)"><tspan
-     id="tspan122"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">12:30 - 13:00</tspan></text>
-
+                   transform="translate(16,215.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text128"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan126">12:30 - 13:00</tspan></text>
 <text
-   id="text128"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(140,213.96274)"><tspan
-     id="tspan126"
-     y="0"
-     x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901">Déjeuner</tspan></text>
-
+                   transform="translate(140,234.96274)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text132"><tspan
+                     x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan130">Déjeuner</tspan></text>
 <text
-   id="text132"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(251,213.96274)"><tspan
-     id="tspan130"
-     y="0"
-     x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901">Déjeuner</tspan></text>
-
+                   transform="translate(251,234.96274)"
+                   style="font-style:italic;font-variant:normal;font-weight:bold;font-size:11.69999981px;font-family:Arial;-inkscape-font-specification:Arial-BoldItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text136"><tspan
+                     x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan134">Déjeuner</tspan></text>
 <text
-   id="text136"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,215.24512)"><tspan
-     id="tspan134"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">13:00 - 13:30</tspan></text>
-
+                   transform="translate(16,236.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text140"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan138">13:00 - 13:30</tspan></text>
 <text
-   id="text140"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,236.24512)"><tspan
-     id="tspan138"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">13:30 - 14:00</tspan></text>
-
+                   transform="translate(16,257.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text144"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan142">13:30 - 14:00</tspan></text>
 <text
-   id="text144"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,270.24512)"><tspan
-     id="tspan142"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">14:00 - 14:30</tspan></text>
-
+                   transform="translate(16,280.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text148"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan146">14:00 - 14:30</tspan></text>
 <text
-   id="text148"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(125,303.96274)"><tspan
-     id="tspan146"
-     y="0"
-     x="0 3.2409 9.7461004 12.987 16.883101 23.3883 29.893499 36.398701 42.248699 45.489601 48.087002 54.592201 61.097401 64.338303 70.843498 77.348701">Introduction au </tspan></text>
-
+                   transform="translate(125,295.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text152"><tspan
+                     x="0 3.2409 9.7461004 12.987 16.883101 23.3883 29.893499 36.398701 42.248699 45.489601 48.087002 54.592201 61.097401 64.338303 70.843498 77.348701"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan150">Introduction au </tspan></text>
 <text
-   id="text152"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(114,317.40222)"><tspan
-     id="tspan150"
-     y="0"
-     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499 36.398701 39.639599 46.144798 49.3857 52.626598 59.131802 61.729198 67.579201 70.820099 77.325302 83.175301 86.416199 92.921402 99.426598">Python et Listes en </tspan></text>
-
+                   transform="translate(114,309.40222)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text156"><tspan
+                     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499 36.398701 39.639599 46.144798 49.3857 52.626598 59.131802 61.729198 67.579201 70.820099 77.325302 83.175301 86.416199 92.921402 99.426598"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan154">Python et Listes en </tspan></text>
 <text
-   id="text156"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(147,330.8417)"><tspan
-     id="tspan154"
-     y="0"
-     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499">Python</tspan></text>
-
+                   transform="translate(147,322.8417)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text160"><tspan
+                     x="0 7.7922001 13.6422 16.883101 23.3883 29.893499"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan158">Python</tspan></text>
 <text
-   id="text160"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(230,324.96274)"><tspan
-     id="tspan158"
-     y="0"
-     x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 33.777901 39.627899 46.133099 52.638302 58.4883 61.729198 67.579201 70.176598 76.681801 83.186996 89.6922">Projet Jeux video </tspan></text>
-
+                   transform="translate(239,330.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text164"><tspan
+                     x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 33.777901 43.523998 46.121399 51.971401 55.8675 62.3727 68.877899 71.475304"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan162">Projet microbit</tspan></text>
 <text
-   id="text164"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(248,338.40222)"><tspan
-     id="tspan162"
-     y="0"
-     x="0 6.5051999 13.0104 16.251301 25.9974 28.594801 34.444801 38.3409 44.8461 51.351299 53.9487">ou microbit</tspan></text>
-
+                   transform="translate(16,302.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text168"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan166">14:30 - 15:00</tspan></text>
 <text
-   id="text168"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,297.24512)"><tspan
-     id="tspan166"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">14:30 - 15:00</tspan></text>
-
+                   transform="translate(16,323.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text172"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan170">15:00 - 15:30</tspan></text>
 <text
-   id="text172"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,318.24512)"><tspan
-     id="tspan170"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">15:00 - 15:30</tspan></text>
-
+                   transform="translate(16,344.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text176"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan174">15:30 - 16:00</tspan></text>
 <text
-   id="text176"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,339.24512)"><tspan
-     id="tspan174"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">15:30 - 16:00</tspan></text>
-
+                   transform="translate(16,365.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text180"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan178">16:00 - 16:30</tspan></text>
 <text
-   id="text180"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,360.24512)"><tspan
-     id="tspan178"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">16:00 - 16:30</tspan></text>
-
+                   transform="translate(120,373.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text184"><tspan
+                     x="0 8.4474001 14.9526 21.4578 27.962999 31.203899 34.444801 40.950001 47.4552 53.305199 56.546101 63.0513 66.947403 73.452599 76.050003 82.555199 85.796097"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan182">Debut des projets</tspan></text>
 <text
-   id="text184"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,381.24512)"><tspan
-     id="tspan182"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">16:30 - 17:00</tspan></text>
-
+                   transform="translate(16,386.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text188"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan186">16:30 - 17:00</tspan></text>
 <text
-   id="text188"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,402.24512)"><tspan
-     id="tspan186"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">17:00 - 17:30</tspan></text>
-
+                   transform="translate(16,407.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text192"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan190">17:00 - 17:30</tspan></text>
 <text
-   id="text192"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(120,410.96274)"><tspan
-     id="tspan190"
-     y="0"
-     x="0 8.4474001 14.9526 21.4578 27.962999 31.203899 34.444801 40.950001 47.4552 53.305199 56.546101 63.0513 66.947403 73.452599 76.050003 82.555199 85.796097">Debut des projets</tspan></text>
-
+                   transform="translate(123,409.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text196"><tspan
+                     x="0 7.1370001 9.7343998 16.239599 19.480499 25.985701 32.490898 35.7318 38.329201 44.8344 51.3396 55.235699 61.740898 68.246101 74.751297 77.992203 81.888298"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan194">Fin de journée - </tspan></text>
 <text
-   id="text196"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,423.24512)"><tspan
-     id="tspan194"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">17:30 - 18:00</tspan></text>
-
+                   transform="translate(134,423.40222)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text200"><tspan
+                     x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan198">Jeux du soir</tspan></text>
 <text
-   id="text200"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,444.24512)"><tspan
-     id="tspan198"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">18:00 - 18:30</tspan></text>
-
+                   transform="translate(234,409.96274)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text204"><tspan
+                     x="0 7.1370001 9.7343998 16.239599 19.480499 25.985701 32.490898 35.7318 38.329201 44.8344 51.3396 55.235699 61.740898 68.246101 74.751297 77.992203 81.888298"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan202">Fin de journée - </tspan></text>
 <text
-   id="text204"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(123,446.96274)"><tspan
-     id="tspan202"
-     y="0"
-     x="0 7.1370001 9.7343998 16.239599 19.480499 25.985701 32.490898 35.7318 38.329201 44.8344 51.3396 55.235699 61.740898 68.246101 74.751297 77.992203 81.888298">Fin de journée - </tspan></text>
-
+                   transform="translate(245,423.40222)"
+                   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text208"><tspan
+                     x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan206">Jeux du soir</tspan></text>
 <text
-   id="text208"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(134,460.40222)"><tspan
-     id="tspan206"
-     y="0"
-     x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201">Jeux du soir</tspan></text>
-
-<text
-   id="text212"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(232,446.96274)"><tspan
-     id="tspan210"
-     y="0"
-     x="0 7.1370001 9.7343998 16.239599 19.480499 25.985701 32.490898 35.7318 38.329201 44.8344 51.3396 55.235699 61.740898 68.246101 74.751297 81.2565 84.497398">Fin de journnée -</tspan></text>
-
-<text
-   id="text216"
-   style="font-variant:normal;font-weight:normal;font-size:11.69999981px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(245,460.40222)"><tspan
-     id="tspan214"
-     y="0"
-     x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201">Jeux du soir</tspan></text>
-
-<text
-   id="text220"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,465.24512)"><tspan
-     id="tspan218"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">18:30 - 19:00</tspan></text>
-
-<text
-   id="text224"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,486.24512)"><tspan
-     id="tspan222"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">19:00 - 19:30</tspan></text>
-
-<text
-   id="text228"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,507.24512)"><tspan
-     id="tspan226"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">19:30 - 20:00</tspan></text>
-
-<text
-   id="text232"
-   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   transform="translate(16,528.2451)"><tspan
-     id="tspan230"
-     y="0"
-     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002">20:00 - 20:30</tspan></text>
-
-</g></g></g></g></svg>
+                   transform="translate(16,428.24512)"
+                   style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="text212"><tspan
+                     x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
+                     y="0"
+                     sodipodi:role="line"
+                     id="tspan210">17:30 - 18:00</tspan></text>
+</g></g></g></g></g></g></g></svg>
