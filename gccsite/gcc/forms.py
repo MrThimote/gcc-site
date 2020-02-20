@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 from collections import OrderedDict
-from datetime import date
+from django.utils import timezone
 from django import forms
 from django.contrib.auth import get_user_model
 from django.db.models import Q
@@ -248,8 +248,8 @@ class ApplicationWishesForm(forms.Form):
         tried_for = set(wish.event for wish in tried_for)
 
         events = Event.objects.filter(
-            signup_start__lt=date.today(),
-            signup_end__gt=date.today(),
+            signup_start__lt=timezone.now(),
+            signup_end__gt=timezone.now(),
             edition=edition,
         ).order_by('event_start')
         events = [event for event in events if event not in tried_for]

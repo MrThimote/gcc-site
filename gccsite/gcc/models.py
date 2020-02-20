@@ -13,6 +13,7 @@ from django.db import models
 from django.db.models import Q
 from django.urls import reverse
 from django.utils.formats import date_format
+from django.utils import timezone
 from django.utils.functional import cached_property
 from django.utils.translation import ugettext_noop
 
@@ -61,8 +62,8 @@ class Edition(models.Model):
         """Is there still one event open for subscription"""
         current_events = Event.objects.filter(
             edition=self,
-            signup_start__lt=date.today(),
-            signup_end__gte=date.today(),
+            signup_start__lt=timezone.now(),
+            signup_end__gte=timezone.now(),
         )
         return current_events.exists()
 

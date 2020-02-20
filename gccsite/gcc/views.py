@@ -9,6 +9,7 @@ from django.contrib import auth, messages
 from django.http import Http404, HttpResponseRedirect
 from django.shortcuts import get_object_or_404
 from django.urls import reverse, reverse_lazy
+from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 from django.views.generic import RedirectView, TemplateView
 from django.views.generic.detail import DetailView
@@ -90,8 +91,8 @@ class IndexView(FormView):
             }
         )
         context['events'] = Event.objects.filter(
-            signup_start__lt=datetime.now(),
-            signup_end__gt=datetime.now(),
+            signup_start__lt=timezone.now(),
+            signup_end__gt=timezone.now(),
             edition=context['last_edition'],
         ).order_by('event_start')
         random.shuffle(context['sponsors'])
@@ -117,8 +118,8 @@ class LearnMoreView(TemplateView):
             }
         )
         context['events'] = Event.objects.filter(
-            signup_start__lt=datetime.now(),
-            signup_end__gt=datetime.now(),
+            signup_start__lt=timezone.now(),
+            signup_end__gt=timezone.now(),
             edition=context['last_edition'],
         ).order_by('event_start')
         return context
@@ -367,8 +368,8 @@ class ApplicationWishesView(FormView, PermissionRequiredMixin):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['events'] = Event.objects.filter(
-            signup_start__lt=datetime.now(),
-            signup_end__gt=datetime.now(),
+            signup_start__lt=timezone.now(),
+            signup_end__gt=timezone.now(),
             edition=self.kwargs['edition'],
         ).order_by('event_start')
         return context
