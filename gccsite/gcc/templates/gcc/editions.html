@@ -10,62 +10,97 @@
 
 {% block content %}
 <div id="edition-history" class="container">
-  <div class="row">
+    <div class="row">
+        <div class="col-sm-2 edition-header">
+            <h1>2020</h1>
+            <a href="{% static 'archives/gcc/2020/poster.full.jpg' %}">
+                <img src="{% static 'archives/gcc/2020/poster.full.jpg' %}" alt="affiche GCC 2020"/>
+            </a>
+        </div>
+        <div class="col-sm-10 edition-description">
+            <p>
+            {% blocktrans %}
+            <br />
+            In 2020, Prologin exceptionnaly organized a training course during the <strong>International Day of Women and Girls in Science</strong> in partnership with EPITA for <strong>14 young girls</strong>.<br />
+            Subscriptions will open soon for this year's summer camps.<br />Stay tuned by subscribing to our newsletter !
+            {% endblocktrans %}
+            </p>
+            <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photo2020" aria-expanded="false" aria-controls="photo2020">
+                1 photo
+            </button>
+            <div class="collapse" id="photo2020">
+                <div class="photos-view">
+                    <img src="{% static 'archives/gcc/2020/photos/01.jpg' %}" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
     <div class="col-sm-2 edition-header">
       <h1>2019</h1>
-      <img src="{% static 'archives/gcc/2019/poster.full.jpg' %}" />
+      <a href="{% static 'archives/gcc/2019/poster.full.jpg' %}">
+          <img src="{% static 'archives/gcc/2019/poster.full.jpg' %}" />
+      </a>
     </div>
     <div class="col-sm-10 edition-description">
       <p>
         {% blocktrans %}
-        Subscriptions are still open for this edition.
+        The one week summer camps are still as iconic and <strong>80 girls</strong> attended throught the summer. This year was also created a new type of training camp : one or two days long, organized on Googles' premises in <strong>Montperllier</strong>, <strong>Nancy</strong> and <strong>Rennes</strong>. They brought together <strong>28</strong> junior high school and high school girls.<br />
+        Get all the photos for the July summer camp <a href="https://www.flickr.com/photos/prologin/albums/72157709807830322">here</a>.<br />
+        And the photos for the August camp <a href="https://www.flickr.com/photos/prologin/albums/72157710724424633">here</a>.
         {% endblocktrans %}
       </p>
-      {% if user.is_authenticated %}
-        <a href="/application/form/2019" class="btn btn-primary btn-lg">
-          {% trans 'Apply' %}
-        </a>
-      {% else %}
-        <a href="{% url 'proloauth_client:autologin' %}?next=/application/form/2019" class="btn btn-primary btn-lg">
-          {% trans 'Sign in and apply' %}
-        </a>
-      {% endif %}
+      <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photo2019" aria-expanded="false" aria-controls="photo2019">
+        2 photos
+      </button>
+      <div class="collapse" id="photo2019">
+          <div class="photos-view">
+              <img src="{% static 'archives/gcc/2019/photos/01.jpg' %}" />
+              <img src="{% static 'archives/gcc/2019/photos/02.jpg' %}" />
+          </div>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-2 edition-header">
       <h1>2018</h1>
-      <img src="{% static 'archives/gcc/2018/poster.full.jpg' %}" />
+      <a href="{% static 'archives/gcc/2018/poster.full.jpg' %}">
+        <img src="{% static 'archives/gcc/2018/poster.full.jpg' %}" />
+      </a>
     </div>
     <div class="col-sm-10 edition-description">
       <p>
         {% blocktrans %}
-        This year, the organization of a Girls Can Code! at <strong>Nantes</strong> was delegated to the organization Adn-ouest Atlantic 2020. Meanwhile, Prologin  organizes the summer camps at <strong>Paris</strong> and <strong>Lyon</strong>.<br />
-        Those summer camps had a total of <strong>70 girls</strong> and a new practice on <strong>microcontrolers microbit</strong> is created. With the video games tutorial and some activities with the Lego robots it's a great way to practice the skills learned during the week with creativity and fun !
+        This year, the organization of a Girls Can Code! at <strong>Nantes</strong> was delegated to the organization Adn-ouest Atlantic 2020. Meanwhile, Prologin  organizes the summer camps in <strong>Paris</strong> and <strong>Lyon</strong>.<br />
+        Those summer camps had a total of <strong>70 girls</strong> and a new practice on <strong>microcontrolers microbit</strong> is created. With the video games tutorial and some activities with the Lego robots it's a great way to practice the skills learned during the week with creativity and fun !<br />
+        Find the album for this year's events <a href="https://www.flickr.com/photos/prologin/albums/72157695163456110">here</a>.
         {% endblocktrans %}
       </p>
       <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photos2018" aria-expanded="false" aria-controls="photos2018">
         4 photos
       </button>
       <div class="collapse" id="photos2018">
-        <div class="photos-view">
-          <img src="{% static 'archives/gcc/2018/photos/01.jpg' %}" />
-          <img src="{% static 'archives/gcc/2018/photos/02.jpg' %}" />
-          <img src="{% static 'archives/gcc/2018/photos/03.jpg' %}" />
-          <img src="{% static 'archives/gcc/2018/photos/04.jpg' %}" />
-        </div>
+          <div class="photos-view">
+              <img src="{% static 'archives/gcc/2018/photos/01.jpg' %}" />
+              <img src="{% static 'archives/gcc/2018/photos/02.jpg' %}" />
+              <img src="{% static 'archives/gcc/2018/photos/03.jpg' %}" />
+              <img src="{% static 'archives/gcc/2018/photos/04.jpg' %}" />
+              </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-2 edition-header">
       <h1>2017</h1>
-      <img src="{% static 'archives/gcc/2017/poster.full.jpg' %}" />
+      <a href="{% static 'archives/gcc/2017/poster.full.jpg' %}">
+        <img src="{% static 'archives/gcc/2017/poster.full.jpg' %}" />
+      </a>
     </div>
     <div class="col-sm-10 edition-description">
       <p>
         {% blocktrans %}
-        In 2017, Prologin challenges itself to organize 3 Girls Can Code summer camps! One at <strong>Bordeaux</strong> in July and two others at <strong>Paris</strong> and <strong>Lyon</strong> at the same time at the end of august. They received a total of <strong>52 participants</strong> !
+        In 2017, Prologin challenges itself to organize 3 Girls Can Code summer camps! One at <strong>Bordeaux</strong> in July and two others at <strong>Paris</strong> and <strong>Lyon</strong> at the same time at the end of august. They received a total of <strong>52 participants</strong> !<br />
+        This year's photos are available <a href="https://www.flickr.com/photos/prologin/albums/72157713290224968">here</a>.
         {% endblocktrans %}
       </p>
       <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photos2017" aria-expanded="false" aria-controls="photos2017">
@@ -87,8 +122,9 @@
     <div class="col-sm-10 edition-description">
       <p>
         {% blocktrans %}
-        In 2016,the  <strong>18 girls</strong> had very different levels, so the camp was split in small groups.
+        In 2016, the <strong>18 girls</strong> had very different levels, so the camp was split in small groups.
         This year a new tutorial was created on <strong>Networks</strong>, where each girls creates it's own chat client !
+        The photos are available <a href="https://www.flickr.com/photos/prologin/albums/72157669902774343">here</a>.
         {% endblocktrans %}
       </p>
       <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photos2016" aria-expanded="false" aria-controls="photos2016">
@@ -108,7 +144,8 @@
     <div class="col-sm-10 edition-description">
       <p>
         {% blocktrans %}
-        In 2015, there was <strong>12 girls</strong> taking part to the summer camps which for the first time as tutorials on <strong>web programming</strong>, and a small tutorial on <strong>video game creation</strong> with the Pygame library and even an introduction to  <strong>Linux</strong>.
+        In 2015, there was <strong>12 girls</strong> taking part to the summer camps which for the first time as tutorials on <strong>web programming</strong>, and a small tutorial on <strong>video game creation</strong> with the Pygame library and even an introduction to  <strong>Linux</strong>.<br />
+        The 2015 photos can be found <a href="https://www.flickr.com/photos/prologin/albums/72157658107628891">here</a>.
         {% endblocktrans %}
       </p>
       <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photos2015" aria-expanded="false" aria-controls="photos2015">

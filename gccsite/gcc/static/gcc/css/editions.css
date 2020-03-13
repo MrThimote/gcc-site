@@ -84,3 +84,23 @@
     margin: 5px;
     max-height: 200px;
 }
+
+.photos-view button {
+    border: none;
+    background: transparent;
+}
+
+.photos-view button:focus {
+    border: none;
+    background: transparent;
+}
+
+.photos-view button:active {
+    border: none !important;
+    background: transparent !important;
+}
+
+.photos-view button:hover {
+    border: none !important;
+    background: transparent !important;
+}
