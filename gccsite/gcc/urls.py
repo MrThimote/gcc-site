@@ -3,11 +3,18 @@
 
 from django.contrib import admin
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponse
 from django.urls import include, path
 
 from gcc import staff_views, views
 
 app_name = 'gcc'
+
+
+def crash_test(request):
+    if request.user.is_authenticated:
+        1 / 0
+    return HttpResponse(status=204)
 
 NEWSLETTER_PATTERNS = [
     path(
@@ -85,6 +92,7 @@ APPLICATION_PATTERNS = [
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
+    path('crashtest/', crash_test),
     path('application/', include(APPLICATION_PATTERNS)),
     path('newsletter/', include(NEWSLETTER_PATTERNS)),
     path('learn/', views.LearnMoreView.as_view(), name='learn_more'),
