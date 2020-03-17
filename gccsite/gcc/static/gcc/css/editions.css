@@ -104,3 +104,11 @@
     border: none !important;
     background: transparent !important;
 }
+
+/*
+ *  Modal windows
+ */
+
+.modal-body img {
+    max-height: none;
+}
