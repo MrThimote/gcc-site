@@ -39,6 +39,13 @@ from zinnia.models import Entry
 class EditionsView(TemplateView):
     template_name = "gcc/editions.html"
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        context['editions'] = Edition.get_all_editions()
+ 
+        return context
+
 
 # Privacy
 

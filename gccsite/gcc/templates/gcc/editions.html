@@ -10,31 +10,35 @@
 
 {% block content %}
 <div id="edition-history" class="container">
+    {% for edition in editions %}
     <div class="row">
         <div class="col-sm-2 edition-header">
-            <h1>2020</h1>
-            <a href="{% static 'archives/gcc/2020/poster.full.jpg' %}">
-                <img src="{% static 'archives/gcc/2020/poster.full.jpg' %}" alt="affiche GCC 2020"/>
+            <h1>{{ edition.year }}</h1>
+            <a href="{{ edition.poster_url }}">
+                <img src="{{ edition.poster_url }}" alt="affiche GCC {{ edition.year }}"/>
             </a>
         </div>
         <div class="col-sm-10 edition-description">
             <p>
-            {% blocktrans %}
-            <br />
-            In 2020, Prologin exceptionnaly organized a training course during the <strong>International Day of Women and Girls in Science</strong> in partnership with EPITA for <strong>14 young girls</strong>.<br />
-            Subscriptions will open soon for this year's summer camps.<br />Stay tuned by subscribing to our newsletter !
+            {{ edition.poster_url }} test!<br />
+            {{ edition.image_count }} test2! <br />
+            {% blocktrans with description=edition.long_description|safe %}
+              {{ description }}
             {% endblocktrans %}
             </p>
-            <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photo2020" aria-expanded="false" aria-controls="photo2020">
-                1 photo
+            <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photo{{ edition.year }}" aria-expanded="false" aria-controls="photo{{ edition.year }}">
+                {{ edition.get_all_images|length }} photo
             </button>
-            <div class="collapse" id="photo2020">
+            <div class="collapse" id="photo{{ edition.year }}">
                 <div class="photos-view">
-                    <img src="{% static 'archives/gcc/2020/photos/01.jpg' %}" />
+                  {% for image in edition.get_all_images %}
+                    <img src="{{ image }}"/>
+                  {% endfor %}
                 </div>
             </div>
         </div>
     </div>
+    {% endfor %}
     <div class="row">
     <div class="col-sm-2 edition-header">
       <h1>2019</h1>

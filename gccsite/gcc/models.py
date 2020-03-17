@@ -22,16 +22,21 @@ from centers.models import Center
 from prologin.models import AddressableModel, ContactModel, EnumField
 from prologin.utils import ChoiceEnum, upload_path
 
-
 class Edition(models.Model):
     year = models.PositiveIntegerField(primary_key=True, unique=True)
     signup_form = models.ForeignKey('Form', on_delete=models.CASCADE)
+    long_description = models.TextField(default="")
 
-    @cached_property
     def poster_url(self):
         """Gets poster's URL if it exists else return None"""
         name = 'poster.full.jpg'
-        path = self.file_path(name)
+        path = os.path.abspath(
+            os.path.join(settings.ARCHIVES_REPOSITORY_PATH,
+            'gcc',
+            str(self.year),
+            name,
+            )
+        )
 
         if not os.path.exists(path):
             return None
@@ -56,7 +61,9 @@ class Edition(models.Model):
     @staticmethod
     def current():
         """Gets current edition"""
-        return Edition.objects.latest()
+        return Edition.objects.filter(
+            year=int(settings.GCC_EDITION)
+        )
 
     def subscription_is_open(self):
         """Is there still one event open for subscription"""
@@ -70,6 +77,23 @@ class Edition(models.Model):
     def user_has_applied(self, user):
         """Check whether a user has applied for this edition"""
         return Applicant.objects.filter(user=user, edition=self).exists()
+
+    @staticmethod
+    def get_all_editions():
+        return Edition.objects.all()
+
+    def get_all_images(self):
+        path = os.path.abspath(
+            os.path.join(settings.ARCHIVES_REPOSITORY_PATH,
+            'gcc',
+            str(self.year),
+            'photos',
+            )
+        )
+
+        url = self.file_url('photos')
+
+        return [os.path.join(url, name) for name in os.listdir(path) if os.path.isfile(os.path.join(path, name))]
 
     def __str__(self):
         return str(self.year)

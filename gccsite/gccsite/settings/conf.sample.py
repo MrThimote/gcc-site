@@ -17,8 +17,14 @@ INTERNAL_IPS = ALLOWED_HOSTS
 
 SITE_HOST = "localhost:8001"
 
+# Current Girls Can Code! Edition
+GCC_EDITION = 2020
+
 # Repository paths
 ARCHIVES_REPOSITORY_PATH = os.path.join(PROJECT_ROOT_DIR, '..', 'archives')
+GCC_REPOSITORY_PATH = os.path.join(ARCHIVES_REPOSITORY_PATH, '..', 'gcc')
+GCC_REPOSITORY_STATIC_PREFIX = "archives/gcc"
+
 
 # OAuth client
 OAUTH_ENDPOINT = 'http://localhost:8000/user/auth'
