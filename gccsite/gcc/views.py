@@ -43,7 +43,7 @@ class EditionsView(TemplateView):
         context = super().get_context_data(**kwargs)
 
         context['editions'] = Edition.get_all_editions()
- 
+
         return context
 
 
