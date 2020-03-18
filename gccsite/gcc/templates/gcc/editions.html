@@ -9,6 +9,31 @@
 {% endblock %}
 
 {% block content %}
+<!--
+<div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="01"></li>
+                <li data-target="#carousel" data-slide-to="02"></li>
+                <li data-target="#carousel" data-slide-to="03"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="{% static 'archives/gcc/2020/photos/01.jpg' %}" alt="Slide 1">
+                </div>
+                <div class="item">
+                    <img src="{% static 'archives/gcc/2019/photos/02.jpg' %}" alt="Slide 2">
+                </div>
+                <div class="item">
+                    <img src="{% static 'archives/gcc/2019/photos/01.jpg' %}"alt="Slide 3">
+                </div>
+            </div>
+            <a href="#carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+</div> -->
 <div id="edition-history" class="container">
     {% for edition in editions %}
     <div class="row">
@@ -20,40 +45,60 @@
         </div>
         <div class="col-sm-10 edition-description">
             <p>
-            {{ edition.poster_url }} test!<br />
-            {{ edition.image_count }} test2! <br />
             {% blocktrans with description=edition.long_description|safe %}
               {{ description }}
             {% endblocktrans %}
             </p>
-            <button class="btn btn-lg btn-default btn-block" type="button" data-toggle="collapse" data-target="#photo{{ edition.year }}" aria-expanded="false" aria-controls="photo{{ edition.year }}">
-                {{ edition.get_all_images|length }} photo
-            </button>
-            <div class="collapse" id="photo{{ edition.year }}">
-                <div class="photos-view">
-                  {% for image in edition.get_all_images %}
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target='#photo-modal{{ edition.year }}-{{ image|slice:"-6:-4" }}'>
-                    <img src="{{ image }}"/>
-                  </button>
-                  <!-- Modal -->
-                  <div class="modal fade" id='photo-modal{{ edition.year }}-{{ image|slice:"-6:-4" }}' tabindex="-1" role="dialog" aria-labelledby="photo-modal-label" aria-hidden="true" data-show="false" data-focus="false">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                  <!-- Carousel -->
+                  <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    {% for image in edition.get_all_images %}
+                        {% if forloop.first %}
+                        <li data-target="#carousel" data-slide-to="{{ forloop.counter0 }}" class="active"></li>
+                        {% else %}
+                        <li data-target="#carousel" data-slide-to="{{ forloop.counter0 }}"></li>
+                        {% endif %}
+                    {% endfor %}
+                    </ol>
+                    <div class="carousel-inner">
+                        {% for image in edition.get_all_images %}
+                            {% if forloop.first %}
+                            <div class="item active">
+                            {% else %}
+                            <div class="item">
+                            {% endif %}
+                                <img class="d-block w-100" src="{{ image }}">
                             </div>
-                            <div class="modal-body">
-                                <img src="{{ image }}" />
+                        {% endfor %}
+                    </div>
+                    <a href="#carousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#carousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                  </div>
+                  <!-- Carousel -->
+                  {% for image in edition.get_all_images %}
+                    <!-- Modal -->
+                    <div class="modal fade" id='photo-modal{{ edition.year }}-{{ forloop.counter0 }}' tabindex="-1" role="dialog" aria-labelledby="photo-modal-label" aria-hidden="true" data-show="false" data-focus="false">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="{{ image }}" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                  </div>
-                  <!-- Modal -->
+                    <!-- Modal -->
                   {% endfor %}
-                </div>
-            </div>
+                <!--</div>
+            </div>-->
         </div>
     </div>
     {% endfor %}

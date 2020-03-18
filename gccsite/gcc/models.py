@@ -28,6 +28,7 @@ class Edition(models.Model):
     signup_form = models.ForeignKey('Form', on_delete=models.CASCADE)
     long_description = models.TextField(default="")
 
+    @cached_property
     def poster_url(self):
         """Gets poster's URL if it exists else return None"""
         name = 'poster.full.jpg'
