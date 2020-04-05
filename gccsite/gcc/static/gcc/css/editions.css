@@ -80,6 +80,10 @@
 }
 
 .carousel-inner > .item {
-    object-fit: scale-down;
-    height: 250px;
+    object-fit: cover;
+    height: 400px;
+ }
+
+ #carousel-2018 {
+     width: 65%;
  }
