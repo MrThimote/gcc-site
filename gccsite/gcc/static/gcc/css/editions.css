@@ -78,3 +78,8 @@
     margin-right: auto;
     width: 75%;
 }
+
+.carousel-inner > .item {
+    object-fit: scale-down;
+    height: 250px;
+ }
