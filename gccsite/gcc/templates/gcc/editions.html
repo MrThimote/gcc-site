@@ -26,21 +26,13 @@
             <div id="carousel-{{ edition.year }}" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     {% for image in edition.get_all_images %}
-                        {% if forloop.first %}
-                            <li data-target="#carousel-{{ edition.year }}" data-slide-to="{{ forloop.counter0 }}" class="active"></li>
-                        {% else %}
-                            <li data-target="#carousel-{{ edition.year }}" data-slide-to="{{ forloop.counter0 }}"></li>
-                        {% endif %}
+                        <li data-target="#carousel-{{ edition.year }}" data-slide-to="{{ forloop.counter0 }}"{% if forloop.first %} class="active"{% endif %}></li>
                     {% endfor %}
                 </ol>
                 <div class="carousel-inner">
                     {% for image in edition.get_all_images %}
-                        {% if forloop.first %}
-                            <div class="item active">
-                        {% else %}
-                            <div class="item">
-                        {% endif %}
-                        <img class="d-block" src="{{ image }}">
+                        <div class="item{% if forloop.first %} active{% endif %}">
+                            <img class="d-block" src="{{ image }}">
                         </div>
                     {% endfor %}
                 </div>
