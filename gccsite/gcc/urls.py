@@ -16,6 +16,7 @@ def crash_test(request):
         1 / 0
     return HttpResponse(status=204)
 
+
 NEWSLETTER_PATTERNS = [
     path(
         'unsubscribe/<str:email>/<str:token>/',
