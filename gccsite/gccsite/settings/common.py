@@ -59,6 +59,7 @@ INSTALLED_APPS = (
     'gcc',
     'news',
     # Django and vendor, at the bottom for template overriding
+    'modeltranslation',
     'django.contrib.admin',
     'zinnia',
     'massmailer',
@@ -193,9 +194,7 @@ CELERY_ENABLE_UTC = True
 CELERY_RESULT_BACKEND = BROKER_URL  # also use redis to store the results
 CELERY_RESULT_PERSISTENT = True  # keep results on broker restart
 CELERY_TASK_RESULT_EXPIRES = 3600 * 12  # 12 hours
-CELERY_ROUTES = {
-    '*': {'queue': 'gccsite'},
-}
+CELERY_ROUTES = {'*': {'queue': 'gccsite'}}
 
 
 # Debug toolbar

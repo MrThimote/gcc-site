@@ -9,6 +9,7 @@ django-debug-toolbar
 django-npm
 django-statictemplate
 django-timezone-field>=2.0rc1
+django-modeltranslation
 django<3
 djmail>=0.10.0
 geopy
