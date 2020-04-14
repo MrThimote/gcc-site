@@ -14,8 +14,9 @@
     <div class="row">
         <div class="col-sm-2 edition-header">
             <h1>{{ edition.year }}</h1>
-            <a href="{{ edition.poster_url }}">
-                <img src="{{ edition.poster_url }}" alt="affiche GCC {{ edition.year }}"/>
+            {% firstof edition.poster_url "poster_not_found" as poster %}
+            <a href="{{ poster }}">
+                <img src="{{ poster }}" alt="affiche GCC {{ edition.year }}"/>
             </a>
         </div>
         <div class="col-sm-10 edition-description">
