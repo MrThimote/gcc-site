@@ -108,22 +108,7 @@
         <ul class="clearfix nav text-center"><li><a href="{% url 'zinnia:entry_archive_index' %}"><i class="fa fa-newspaper-o"></i> {% trans "Browse all news" %}</a></li></ul>
 
         <h2>{% trans 'Get updated!' %}</h2>
-        <p>
-          {% blocktrans %}
-            Subscribe to the newsletter to get updated with the latest news.
-          {% endblocktrans %}
-        </p>
-        <form action="" method="POST" class="form-horizontal">
-          {% csrf_token %}
-          {{ form|bootstrap_horizontal:'col-sm-3' }}
-          <div class="form-group">
-            <div class="col-sm-offset-3 col-sm-9">
-              <button class="btn btn-primary" type="submit">
-                <i class="fa fa-newspaper-o"></i> {% trans "Subscribe" %}
-              </button>
-            </div>
-          </div>
-        </form>
+        {% include 'gcc/newsletter_widget.html' %}
 
         <h2>{% trans 'History behind Girls Can Code!' %}</h2>
          <div class="row uniform-row">

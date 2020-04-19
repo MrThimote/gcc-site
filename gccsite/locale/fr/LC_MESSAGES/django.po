@@ -9,15 +9,17 @@
 # Thibault Allançon <tallancon@gmail.com>, 2019
 # Garance Gourdel <garance.gourdel@prologin.org>, 2019
 # Rémi Dupré <remim.dupre@gmail.com>, 2019
+# Valentin Seux <valentin.seux@prologin.org>, 2020
+# Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-30 12:22+0200\n"
+"POT-Creation-Date: 2020-04-05 15:07+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
-"Last-Translator: Rémi Dupré <remim.dupre@gmail.com>, 2019\n"
+"Last-Translator: Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -174,19 +176,19 @@ msgstr "Deuxième choix"
 msgid "3rd choice"
 msgstr "Troisième choix"
 
-#: gcc/staff_views.py:269 gcc/staff_views.py:302
+#: gcc/staff_views.py:268 gcc/staff_views.py:301
 msgid "applicant does not exist"
 msgstr "le candidat n'existe pas"
 
-#: gcc/staff_views.py:273 gcc/staff_views.py:306
+#: gcc/staff_views.py:272 gcc/staff_views.py:305
 msgid "label does not exist"
 msgstr "le label n'existe pas"
 
-#: gcc/staff_views.py:278 gcc/staff_views.py:311 gcc/staff_views.py:340
+#: gcc/staff_views.py:277 gcc/staff_views.py:310 gcc/staff_views.py:339
 msgid "not allowed"
 msgstr "non autorisé"
 
-#: gcc/staff_views.py:335
+#: gcc/staff_views.py:334
 msgid "wish does not exist"
 msgstr "le vœux n’existe pas"
 
@@ -213,13 +215,13 @@ msgstr[1] ""
 
 #: gcc/templates/gcc/application/accept.html:17
 msgid ""
-"As soon as you accepted the candidates, they will receive\n"
-"        an email to notify them that they are selected for the event, and asking\n"
-"        them to confirm their venue."
+"Make sure you <strong>already</strong> sent an email to\n"
+"      all the candidates to notify that they are selected for the event, and\n"
+"      asking them to confirm their venue."
 msgstr ""
-"Dès que vous accepterez les candidates, elles recevront\n"
-"un email pour les informer qu'elles ont été sélectionnées pour l’événement, et leur\n"
-"demandant de confirmer leur participation."
+"Assurez-vous d'avoir <strong>déjà</strong> envoyé un email à\n"
+"toutes les candidates pour les prévenir de leur sélections à cet événement, et\n"
+"leur demandant de confirmer leur présence."
 
 #: gcc/templates/gcc/application/accept.html:22
 msgid "Go On"
@@ -457,8 +459,8 @@ msgstr ""
 "année..."
 
 #: gcc/templates/gcc/application/summary.html:72
-#: gcc/templates/gcc/editions.html:26 gcc/templates/gcc/main-footer.html:45
-#: gcc/templates/gcc/registration_widget.html:23
+#: gcc/templates/gcc/main-footer.html:45
+#: gcc/templates/gcc/registration_widget.html:25
 msgid "Apply"
 msgstr "Candidater"
 
@@ -476,7 +478,7 @@ msgid "My informations"
 msgstr "Mes informations"
 
 #: gcc/templates/gcc/application/summary.html:128
-#: gcc/templates/gcc/main-menu.html:27
+#: gcc/templates/gcc/main-menu.html:30
 msgid "My applications"
 msgstr "Mes candidatures"
 
@@ -563,61 +565,59 @@ msgstr "L'inscription se termine le %(signup_end)s "
 msgid "Past Editions"
 msgstr "Éditions Passées"
 
-#: gcc/templates/gcc/editions.html:20
+#: gcc/templates/gcc/editions.html:22
 msgid ""
 "\n"
-"        Subscriptions are still open for this edition.\n"
+"            <br />\n"
+"            In 2020, Prologin exceptionnaly organized a training course during the <strong>International Day of Women and Girls in Science</strong> in partnership with EPITA for <strong>14 young girls</strong>.<br />\n"
+"            Subscriptions will open soon for this year's summer camps.<br />Stay tuned by subscribing to our newsletter !\n"
+"            "
+msgstr ""
+
+#: gcc/templates/gcc/editions.html:47
+msgid ""
+"\n"
+"        The one week summer camps are still as iconic and <strong>80 girls</strong> attended throught the summer. This year was also created a new type of training camp : one or two days long, organized on Googles' premises in <strong>Montperllier</strong>, <strong>Nancy</strong> and <strong>Rennes</strong>. They brought together <strong>28</strong> junior high school and high school girls.<br />\n"
+"        Get all the photos for the July summer camp <a href=\"https://www.flickr.com/photos/prologin/albums/72157709807830322\">here</a>.<br />\n"
+"        And the photos for the August camp <a href=\"https://www.flickr.com/photos/prologin/albums/72157710724424633\">here</a>.\n"
 "        "
 msgstr ""
-"\n"
-"Les inscriptions sont encore ouvertes pour cette édition."
 
-#: gcc/templates/gcc/editions.html:30
-#: gcc/templates/gcc/registration_widget.html:25
-msgid "Sign in and apply"
-msgstr "Me connecter et candidater"
-
-#: gcc/templates/gcc/editions.html:42
+#: gcc/templates/gcc/editions.html:73
 msgid ""
 "\n"
-"        This year, the organization of a Girls Can Code! at <strong>Nantes</strong> was delegated to the organization Adn-ouest Atlantic 2020. Meanwhile, Prologin  organizes the summer camps at <strong>Paris</strong> and <strong>Lyon</strong>.<br />\n"
-"        Those summer camps had a total of <strong>70 girls</strong> and a new practice on <strong>microcontrolers microbit</strong> is created. With the video games tutorial and some activities with the Lego robots it's a great way to practice the skills learned during the week with creativity and fun !\n"
+"        This year, the organization of a Girls Can Code! at <strong>Nantes</strong> was delegated to the organization Adn-ouest Atlantic 2020. Meanwhile, Prologin  organizes the summer camps in <strong>Paris</strong> and <strong>Lyon</strong>.<br />\n"
+"        Those summer camps had a total of <strong>70 girls</strong> and a new practice on <strong>microcontrolers microbit</strong> is created. With the video games tutorial and some activities with the Lego robots it's a great way to practice the skills learned during the week with creativity and fun !<br />\n"
+"        Find the album for this year's events <a href=\"https://www.flickr.com/photos/prologin/albums/72157695163456110\">here</a>.\n"
 "        "
 msgstr ""
-"\n"
-"Cette année, l'organisation d’un stage Girls Can Code! à <strong>Nantes</strong> est délégué à l’association Adn-ouest Atlantic 2020. Prologin quant à elle organise à nouveau les stages de <strong>Paris</strong> et <strong>Lyon</strong>.<br />\n"
-"Ces stages qui accueillent au total <strong>70 participantes</strong> voient l’arrivée d’un TP sur les <strong>microcontrôleurs microbit</strong> qui, avec le TP jeux vidéo, donnent la possibilité d’exprimer sa créativité."
 
-#: gcc/templates/gcc/editions.html:67
+#: gcc/templates/gcc/editions.html:101
 msgid ""
 "\n"
-"        In 2017, Prologin challenges itself to organize 3 Girls Can Code summer camps! One at <strong>Bordeaux</strong> in July and two others at <strong>Paris</strong> and <strong>Lyon</strong> at the same time at the end of august. They received a total of <strong>52 participants</strong> !\n"
+"        In 2017, Prologin challenges itself to organize 3 Girls Can Code summer camps! One at <strong>Bordeaux</strong> in July and two others at <strong>Paris</strong> and <strong>Lyon</strong> at the same time at the end of august. They received a total of <strong>52 participants</strong> !<br />\n"
+"        This year's photos are available <a href=\"https://www.flickr.com/photos/prologin/albums/72157713290224968\">here</a>.\n"
 "        "
 msgstr ""
-"\n"
-"En 2017, Prologin se lance un grand défi, l’organisation de 3 stages Girls Can Code!, un à <strong>Bordeaux</strong> en juillet et deux autres à <strong>Paris</strong> et <strong>Lyon</strong> en parallèle pendant la dernière semaine d'août. Ils ont réuni un total de <strong>52 participantes</strong> !"
 
-#: gcc/templates/gcc/editions.html:89
+#: gcc/templates/gcc/editions.html:124
 msgid ""
 "\n"
-"        In 2016,the  <strong>18 girls</strong> had very different levels, so the camp was split in small groups.\n"
+"        In 2016, the <strong>18 girls</strong> had very different levels, so the camp was split in small groups.\n"
 "        This year a new tutorial was created on <strong>Networks</strong>, where each girls creates it's own chat client !\n"
+"        The photos are available <a href=\"https://www.flickr.com/photos/prologin/albums/72157669902774343\">here</a>.\n"
 "        "
 msgstr ""
-"\n"
-"En 2016, les <strong>18 participantes</strong> avaient des niveaux très hétéroclytes, le stage s’est donc organisé par groupes de niveaux.\n"
-"Le stage a vu l’arrivée d’un <strong>TP réseau</strong> qui consiste en la création d'un petit client de messagerie."
 
-#: gcc/templates/gcc/editions.html:110
+#: gcc/templates/gcc/editions.html:146
 msgid ""
 "\n"
-"        In 2015, there was <strong>12 girls</strong> taking part to the summer camps which for the first time as tutorials on <strong>web programming</strong>, and a small tutorial on <strong>video game creation</strong> with the Pygame library and even an introduction to  <strong>Linux</strong>.\n"
+"        In 2015, there was <strong>12 girls</strong> taking part to the summer camps which for the first time as tutorials on <strong>web programming</strong>, and a small tutorial on <strong>video game creation</strong> with the Pygame library and even an introduction to  <strong>Linux</strong>.<br />\n"
+"        The 2015 photos can be found <a href=\"https://www.flickr.com/photos/prologin/albums/72157658107628891\">here</a>.\n"
 "        "
 msgstr ""
-"\n"
-"En 2015, c’est 12 filles qui ont pris part à un stage qui initie pour la première fois à des sujets sur le <strong>web</strong>, la création d’un petit <strong>jeu vidéo</strong> avec la<strong></strong> bibliothèque pygame ou encore sur l’os <strong>linux</strong>."
 
-#: gcc/templates/gcc/editions.html:130
+#: gcc/templates/gcc/editions.html:167
 msgid ""
 "\n"
 "        This first summer camp hosted <strong>10 participants</strong> for 5 days to introduce to them to programming.\n"
@@ -625,9 +625,6 @@ msgid ""
 "        Among all the participants, two in particular continue to study IT and became organizers as well.\n"
 "        "
 msgstr ""
-"\n"
-"Ce premier stage a accueilli <strong>10 participantes</strong> pendant 5 jours d'initiation à la programmation.\n"
-"Parmi les participantes, deux en particulier ont poursuivi leurs études dans l'informatique et sont devenues organisatrices des stages !"
 
 #: gcc/templates/gcc/index.html:6 gcc/templates/gcc/main-footer.html:9
 #: gcc/templates/gcc/main-menu.html:5
@@ -686,28 +683,15 @@ msgstr "Écrit le"
 msgid "Get updated!"
 msgstr "Rester informée !"
 
-#: gcc/templates/gcc/index.html:112
-msgid ""
-"\n"
-"            Subscribe to the newsletter to get updated with the latest news.\n"
-"          "
-msgstr ""
-"\n"
-"S'inscrire à la newsletter pour être informée des nouveautés."
-
-#: gcc/templates/gcc/index.html:122
-msgid "Subscribe"
-msgstr "S'inscrire"
-
-#: gcc/templates/gcc/index.html:128
+#: gcc/templates/gcc/index.html:113
 msgid "History behind Girls Can Code!"
 msgstr "Petit historique de Girls Can Code!"
 
-#: gcc/templates/gcc/index.html:134
+#: gcc/templates/gcc/index.html:119
 msgid "Parity in IT"
 msgstr "Parité en informatique"
 
-#: gcc/templates/gcc/index.html:136
+#: gcc/templates/gcc/index.html:121
 msgid ""
 "\n"
 "                    Girls Can Code! was created to promote girls to take a place in this masculine field despite stereotypes.\n"
@@ -716,16 +700,16 @@ msgstr ""
 "\n"
 "Girls Can Code! a été créé dans le but d'encourager des filles à s'essayer à l'informatique malgré le manque de femmes et les stéréotypes dans le domaine."
 
-#: gcc/templates/gcc/index.html:140 gcc/templates/gcc/index.html:153
-#: gcc/templates/gcc/index.html:165
+#: gcc/templates/gcc/index.html:125 gcc/templates/gcc/index.html:138
+#: gcc/templates/gcc/index.html:150
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: gcc/templates/gcc/index.html:147
+#: gcc/templates/gcc/index.html:132
 msgid "Girls Can Code past editions!"
 msgstr "Les dernières éditions de Girls Can Code!"
 
-#: gcc/templates/gcc/index.html:149
+#: gcc/templates/gcc/index.html:134
 msgid ""
 "\n"
 "                    The first ever Girls Can Code! edition was in 2014, therefore the 2019<sup>th</sup> edition will be the 6<sup>th</sup>.\n"
@@ -734,11 +718,11 @@ msgstr ""
 "\n"
 "La toute première édition de Girls Can Code! a eu lieu en 2014, donc l'édition de 2019 sera la 6<sup>ème</sup>."
 
-#: gcc/templates/gcc/index.html:159
+#: gcc/templates/gcc/index.html:144
 msgid "Prologin, an association since in 1991"
 msgstr "Prologin, une association créée en 1991"
 
-#: gcc/templates/gcc/index.html:161
+#: gcc/templates/gcc/index.html:146
 msgid ""
 "\n"
 "                    The Prologin association organizes the national computer contest since 1991, and runs since 2014 the Girls Can Code! summer camps.\n"
@@ -1001,19 +985,24 @@ msgstr "Administration de Django"
 msgid "Review Candidates"
 msgstr "Review des candidatures"
 
-#: gcc/templates/gcc/main-menu.html:20
+#: gcc/templates/gcc/main-menu.html:16
+#: gccsite/templates/massmailer/base.html:6
+msgid "Mailing"
+msgstr "Mailing"
+
+#: gcc/templates/gcc/main-menu.html:23
 msgid "Sign in with Prologin"
 msgstr "Se connecter via Prologin"
 
-#: gcc/templates/gcc/main-menu.html:25
+#: gcc/templates/gcc/main-menu.html:28
 msgid "My profile"
 msgstr "Mon profil"
 
-#: gcc/templates/gcc/main-menu.html:26
+#: gcc/templates/gcc/main-menu.html:29
 msgid "Profile & options"
 msgstr "Profil &amp; options"
 
-#: gcc/templates/gcc/main-menu.html:31
+#: gcc/templates/gcc/main-menu.html:34
 msgid "Sign out"
 msgstr "Déconnexion"
 
@@ -1021,6 +1010,19 @@ msgstr "Déconnexion"
 #: gccsite/templates/prologin/messages.html:13
 msgid "Close"
 msgstr "Fermer"
+
+#: gcc/templates/gcc/newsletter_widget.html:5
+msgid ""
+"\n"
+"    Subscribe to the newsletter to get updated with the latest news.\n"
+"  "
+msgstr ""
+"\n"
+"S'inscrire à la newsletter pour être informée des nouveautés."
+
+#: gcc/templates/gcc/newsletter_widget.html:15
+msgid "Subscribe"
+msgstr "S'inscrire"
 
 #: gcc/templates/gcc/privacy.html:5
 msgid "privacy"
@@ -1248,11 +1250,11 @@ msgstr ""
 "</div>\n"
 "</section>\n"
 
-#: gcc/templates/gcc/registration_widget.html:5
+#: gcc/templates/gcc/registration_widget.html:7
 msgid "Summer camps open for registration"
 msgstr "Stages ayant leurs inscriptions ouvertes"
 
-#: gcc/templates/gcc/registration_widget.html:12
+#: gcc/templates/gcc/registration_widget.html:14
 #, python-format
 msgid ""
 "\n"
@@ -1261,6 +1263,14 @@ msgid ""
 msgstr ""
 "\n"
 "du %(start)s au %(end)s"
+
+#: gcc/templates/gcc/registration_widget.html:27
+msgid "Sign in and apply"
+msgstr "Me connecter et candidater"
+
+#: gcc/templates/gcc/registration_widget.html:31
+msgid "No summer camps currently open for registration"
+msgstr "Pas de stage ouvert à la candidature pour le moment"
 
 #: gcc/templates/gcc/resources.html:5
 msgid "Resources"
@@ -1373,35 +1383,35 @@ msgstr ""
 "Sur son site, tu peux trouver les archives des exercices des années précédentes.\n"
 "Ce sont des petits problèmes qui donnent une entrée et demandent une réponse précise, c’est à toi d’écrire le programme qui trouve la réponse !"
 
-#: gcc/views.py:64
+#: gcc/views.py:65 gcc/views.py:121
 msgid "Subscription succeeded"
 msgstr "Inscription réussie"
 
-#: gcc/views.py:75
+#: gcc/views.py:76 gcc/views.py:132
 msgid "Subscription failed: already subscribed"
 msgstr "L'inscription a échoué: vous êtes déjà inscrit"
 
-#: gcc/views.py:143
+#: gcc/views.py:169
 msgid "Successfully unsubscribed from newsletter."
 msgstr "Désinscription de la newsletter réussie."
 
-#: gcc/views.py:149
+#: gcc/views.py:175
 msgid "Failed to unsubscribe: wrong token."
 msgstr "La désinscription a échoué: mauvais token."
 
-#: gcc/views.py:155
+#: gcc/views.py:181
 msgid "Failed to unsubscribe: unregistered address"
 msgstr "La désinscription a échoué: adresse non enregistrée."
 
-#: gcc/views.py:232
+#: gcc/views.py:260
 msgid "Failed to validate your application, your profile is incomplete."
 msgstr "Impossible de valider votre inscription, votre profil est incomplet."
 
-#: gcc/views.py:241
+#: gcc/views.py:269
 msgid "Successfully validated your application."
 msgstr "Inscription validée avec succès."
 
-#: gcc/views.py:271
+#: gcc/views.py:299
 msgid ""
 "Your application has already been validated, if you really want to change "
 "something contact us by email."
@@ -1409,15 +1419,15 @@ msgstr ""
 "Votre inscription est déjà validée, veuillez nous contacter par mail si vous"
 " devez changer quelque-chose."
 
-#: gcc/views.py:404
+#: gcc/views.py:432
 msgid "Confirmation completed, thank you for your help!"
 msgstr "Candidature confirmée, merci de votre aide !"
 
-#: gccsite/settings/common.py:111
+#: gccsite/settings/common.py:113
 msgid "English"
 msgstr "Anglais"
 
-#: gccsite/settings/common.py:111
+#: gccsite/settings/common.py:113
 msgid "French"
 msgstr "Français"
 
@@ -2443,7 +2453,7 @@ msgid ""
 "  from Prologin."
 msgstr "a été désinscrit et ne recevra plus d'e-mails de Prologin."
 
-#: users/views.py:82
+#: users/views.py:83
 msgid "Changes saved."
 msgstr "Modifications enregistrées."
 

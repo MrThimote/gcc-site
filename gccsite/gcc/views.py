@@ -106,8 +106,33 @@ class RessourcesView(TemplateView):
     template_name = "gcc/resources.html"
 
 
-class LearnMoreView(TemplateView):
+class LearnMoreView(FormView):
     template_name = "gcc/learn_more.html"
+    form_class = EmailForm
+    success_url = reverse_lazy("gcc:learn_more")
+
+    def form_valid(self, form):
+        instance, created = SubscriberEmail.objects.get_or_create(
+            email=form.cleaned_data['email']
+        )
+
+        if created:
+            messages.add_message(
+                self.request, messages.SUCCESS, _('Subscription succeeded')
+            )
+            send_email(
+                'gcc/mails/subscribe',
+                instance.email,
+                {'unsubscribe_url': instance.unsubscribe_url},
+            )
+        else:
+            messages.add_message(
+                self.request,
+                messages.WARNING,
+                _('Subscription failed: already subscribed'),
+            )
+
+        return super().form_valid(form)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
