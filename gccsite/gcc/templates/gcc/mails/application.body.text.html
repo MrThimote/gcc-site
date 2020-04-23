@@ -1,0 +1,29 @@
+{% spaceless %}
+{% autoescape off %}
+{% load i18n utils %}
+
+{% get_setting 'PROLOGIN_CONTACT_MAIL' as contactmail %}
+{% get_setting 'SITE_BASE_URL' as baseurl %}
+
+{% trans "Hi" %} {{ applicant.user.first_name }},
+
+{% trans "We confirm your application for :" %}
+{% for wish in applicant.assignation_wishes.all %}
+  {{ wish }}
+{% endfor %}
+{% blocktrans %}We will soon update you on your application. In the meantime you can get
+started with the ressources we recommend:
+https://gcc.prologin.org/resources/
+
+If you want to learn more about Prologin and Girls Can Code!, be sure to
+follow us on our social media and subscribe to our newsletter !
+
+Should you have any question, please contact us by sending an email at
+{{ contactmail }}.
+
+Best regards,
+
+-- 
+The Prologin staff{% endblocktrans %}
+{% endautoescape %}
+{% endspaceless %}

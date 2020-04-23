@@ -10,10 +10,13 @@ from django.http import Http404, HttpResponseRedirect
 from django.shortcuts import get_object_or_404
 from django.urls import reverse, reverse_lazy
 from django.utils import timezone
+from django.utils.text import format_lazy
 from django.utils.translation import ugettext_lazy as _
 from django.views.generic import RedirectView, TemplateView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import FormView
+from django.template.loader import get_template
+from django.core.mail import send_mail
 
 from gcc.forms import (
     ApplicationWishesForm,
@@ -266,7 +269,23 @@ class ApplicationValidationView(PermissionRequiredMixin, DetailView):
             messages.add_message(
                 request,
                 messages.SUCCESS,
-                _('Successfully validated your application.'),
+                _(
+                    'Successfully validated your application. '
+                    'You should receive a confirmation email soon.'
+                ),
+            )
+            send_mail(
+                format_lazy(
+                    "[Girls Can Code!][{}] {}",
+                    Edition.current().year,
+                    _("Application confirmation"),
+                ),
+                get_template('gcc/mails/application.body.text.html').render(
+                    {'applicant': applicant}
+                ),
+                settings.EMAIL_HOST,
+                [self.request.user.email]
+                # TODO Change this when settings.GCC_EDITION is up
             )
 
         if not self.object.is_active and not self.request.user.is_staff:
