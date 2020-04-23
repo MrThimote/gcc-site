@@ -12,13 +12,12 @@
 # Valentin Seux <valentin.seux@prologin.org>, 2020
 # Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 16:48+0200\n"
-"PO-Revision-Date: 2020-04-21 17:22+0200\n"
+"POT-Creation-Date: 2020-04-23 18:53+0200\n"
+"PO-Revision-Date: 2020-04-23 17:52+0200\n"
 "Last-Translator: Rémi Dupré <remim.dupre@gmail.com>, 2019\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
 "Language: fr\n"
@@ -622,15 +621,6 @@ msgid ""
 msgstr ""
 
 #: gcc/templates/gcc/editions.html:101
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "        In 2017, Prologin challenges itself to organize 3 Girls Can Code "
-#| "summer camps! One at <strong>Bordeaux</strong> in July and two others at "
-#| "<strong>Paris</strong> and <strong>Lyon</strong> at the same time at the "
-#| "end of august. They received a total of <strong>52 participants</"
-#| "strong> !\n"
-#| "        "
 msgid ""
 "\n"
 "        In 2017, Prologin challenges itself to organize 3 Girls Can Code "
@@ -650,14 +640,6 @@ msgstr ""
 "strong> !"
 
 #: gcc/templates/gcc/editions.html:124
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "        In 2016,the  <strong>18 girls</strong> had very different levels, "
-#| "so the camp was split in small groups.\n"
-#| "        This year a new tutorial was created on <strong>Networks</"
-#| "strong>, where each girls creates it's own chat client !\n"
-#| "        "
 msgid ""
 "\n"
 "        In 2016, the <strong>18 girls</strong> had very different levels, so "
@@ -675,15 +657,6 @@ msgstr ""
 "création d'un petit client de messagerie."
 
 #: gcc/templates/gcc/editions.html:146
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "        In 2015, there was <strong>12 girls</strong> taking part to the "
-#| "summer camps which for the first time as tutorials on <strong>web "
-#| "programming</strong>, and a small tutorial on <strong>video game "
-#| "creation</strong> with the Pygame library and even an introduction to  "
-#| "<strong>Linux</strong>.\n"
-#| "        "
 msgid ""
 "\n"
 "        In 2015, there was <strong>12 girls</strong> taking part to the "
@@ -983,20 +956,34 @@ msgstr ""
 "transport et/ou l’hébergement. Les réservations restent à la charge des "
 "participantes."
 
-#: gcc/templates/gcc/learn_more.html:69
+#: gcc/templates/gcc/learn_more.html:70
 msgid ""
-"To candidate for a grant you need to send an email to bourse2019@prologin."
-"org and\n"
-"  specify the following informations:"
+"If you expect a positive response from our grant program, please wait for a "
+"confirmation on our \n"
+"    end before paying for anything. We cannot garantee the reimbursement of "
+"commited money unless we \n"
+"    have sent you a confirmation."
 msgstr ""
-"Pour candidater à une bourse pour un des stages, il vous faut envoyer un "
-"mail à l’adresse bourse2019@prologin.org en précisant :"
+"Si vous attendez une réponse positive de notre programme de bourses, nous "
+"vous prions \n"
+"d'attendre une confirmation de notre part avant d'engager des frais. Nous ne "
+"pouvons garantir le remboursement \n"
+"de frais avant de vous avoir confirmé que votre demande a été acceptée."
 
-#: gcc/templates/gcc/learn_more.html:72
+#: gcc/templates/gcc/learn_more.html:75
+msgid ""
+"To candidate for a grant you need to send an email to gcc-"
+"bourses-2020@prologin.org and\n"
+"  specify the following information:"
+msgstr ""
+"Pour candidater à une bourse, il vous faut envoyer un mail à l’adresse gcc-"
+"bourses-2020@prologin.org en précisant :"
+
+#: gcc/templates/gcc/learn_more.html:78
 msgid "first and last name of the participant"
 msgstr "les nom et prénom de la participante,"
 
-#: gcc/templates/gcc/learn_more.html:73
+#: gcc/templates/gcc/learn_more.html:79
 msgid ""
 "whether you need this grant for the travel, the housing or both\n"
 "      "
@@ -1004,15 +991,25 @@ msgstr ""
 "si vous souhaitez une bourse pour le déplacement seulement, pour "
 "l’hébergement seulement ou pour les deux,"
 
-#: gcc/templates/gcc/learn_more.html:75
+#: gcc/templates/gcc/learn_more.html:81
 msgid "a proof of address"
 msgstr "joindre un justificatif de domicile,"
 
-#: gcc/templates/gcc/learn_more.html:76
+#: gcc/templates/gcc/learn_more.html:82
 msgid "a your last tax notice"
 msgstr "joindre également votre dernier avis d’imposition."
 
-#: gcc/templates/gcc/learn_more.html:83
+#: gcc/templates/gcc/learn_more.html:86
+msgid ""
+"Please note that we will send you an email as soon as we receive your "
+"application to\n"
+"  confirm it has been taken into account."
+msgstr ""
+"Nous vous enverrons un email pour confirmer la prise en compte de votre "
+"candidature dès \n"
+"réception de votre email."
+
+#: gcc/templates/gcc/learn_more.html:94
 #, python-format
 msgid ""
 "Please take some time reading our article about privacy:\n"
