@@ -5,15 +5,39 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
    xml:space="preserve"
    width="673.73193"
    height="456.37112"
-   viewBox="0 0 673.73193 456.37112"><metadata
+   viewBox="0 0 673.73193 456.37112"
+   sodipodi:docname="schedule.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1023"
+     id="namedview232"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="1.4626447"
+     inkscape:cx="312.86694"
+     inkscape:cy="281.47792"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g16" /><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath20"><path
@@ -29,95 +53,125 @@
            clip-path="url(#clipPath20)"><path
    d="M 0,21 H 111 V 526 H 0 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path22" /><path
+   id="path22"
+   inkscape:connector-curvature="0" /><path
    d="M -1,-1 H 777 V 21 H -1 Z"
    style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path24" /><path
+   id="path24"
+   inkscape:connector-curvature="0" /><path
    d="M 110,20 H 222 V 74 H 110 Z"
    style="fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path26" /><path
+   id="path26"
+   inkscape:connector-curvature="0" /><path
    d="M 221,20 H 777 V 53 H 221 Z"
    style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path28" /><path
+   id="path28"
+   inkscape:connector-curvature="0" /><path
    d="M 221,52 H 777 V 74 H 221 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path30" /><path
-   d="m 110,73 h 112 v 33 H 110 Z"
-   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path32" /><path
+   id="path30"
+   inkscape:connector-curvature="0" /><path
+   d="m 109,52.5 h 112 v 51.94806 H 109 Z"
+   style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.2546649"
+   id="path32"
+   inkscape:connector-curvature="0" /><path
    d="m 221,73 h 556 v 33 H 221 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path34" /><path
+   id="path34"
+   inkscape:connector-curvature="0" /><path
    d="m 110,105 h 112 v 85 H 110 Z"
    style="fill:#38761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path36" /><path
+   id="path36"
+   inkscape:connector-curvature="0" /><path
    d="m 221,105 h 556 v 43 H 221 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path38" /><path
+   id="path38"
+   inkscape:connector-curvature="0" /><path
    d="m 221,147 h 334 v 43 H 221 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path40" /><path
+   id="path40"
+   inkscape:connector-curvature="0" /><path
    d="m 554,147 h 223 v 43 H 554 Z"
    style="fill:#674ea7;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path42" /><path
+   id="path42"
+   inkscape:connector-curvature="0" /><path
    d="m 110,189 h 667 v 64 H 110 Z"
    style="fill:#d9d9d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path44" /><path
+   id="path44"
+   inkscape:connector-curvature="0" /><path
    d="M 110,252 H 333 V 421 H 110 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path46" /><path
+   id="path46"
+   inkscape:connector-curvature="0" /><path
    d="M 332,252 H 444 V 421 H 332 Z"
    style="fill:#38761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path48" /><path
+   id="path48"
+   inkscape:connector-curvature="0" /><path
    d="M 443,252 H 555 V 421 H 443 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path50" /><path
+   id="path50"
+   inkscape:connector-curvature="0" /><path
    d="m 554,252 h 112 v 43 H 554 Z"
    style="fill:#674ea7;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path52" /><path
+   id="path52"
+   inkscape:connector-curvature="0" /><path
    d="m 665,252 h 112 v 43 H 665 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path54" /><path
+   id="path54"
+   inkscape:connector-curvature="0" /><path
    d="M 554,294 H 666 V 421 H 554 Z"
    style="fill:#4a86e8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path56" /><path
+   id="path56"
+   inkscape:connector-curvature="0" /><path
    d="M 665,294 H 777 V 421 H 665 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path58" /><path
+   id="path58"
+   inkscape:connector-curvature="0" /><path
    d="m 110,420 h 556 v 22 H 110 Z"
    style="fill:#980000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path60" /><path
+   id="path60"
+   inkscape:connector-curvature="0" /><path
    d="m 665,420 h 112 v 22 H 665 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path62" /><path
+   id="path62"
+   inkscape:connector-curvature="0" /><path
    d="m 110,441 h 556 v 22 H 110 Z"
    style="fill:#38761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path64" /><path
+   id="path64"
+   inkscape:connector-curvature="0" /><path
    d="m 665,441 h 112 v 22 H 665 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path66" /><path
+   id="path66"
+   inkscape:connector-curvature="0" /><path
    d="m 110,462 h 445 v 64 H 110 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path68" /><path
+   id="path68"
+   inkscape:connector-curvature="0" /><path
    d="m 554,462 h 112 v 64 H 554 Z"
    style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path70" /><path
+   id="path70"
+   inkscape:connector-curvature="0" /><path
    d="m 665,462 h 112 v 64 H 665 Z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path72" /><g
+   id="path72"
+   inkscape:connector-curvature="0" /><g
    id="g74"><path
      d="m 555,147 v 0 h 110 v 1 H 555 Z m 0,42 v 0 h 110 v 1 H 555 Z m 111,-42 v 0 h 110 v 1 H 666 Z m 0,42 v 0 h 110 v 1 H 666 Z m 0,336 v 0 h 110 v 1 H 666 Z"
      style="fill:#000000;fill-opacity:0.14901961;fill-rule:nonzero;stroke:none"
-     id="path76" /></g><path
-   d="M -0.5,-1 V 526 M -1,52.5 h 112 m -112,74 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 h 112 m -112,21 h 112 m -112,42 h 112 m -112,42 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,84 h 112 m -112,21 H 111 M 110.5,-1 V 526 M -1,73.5 h 223 m -223,32 H 222 M -1,294.5 H 222 M 221.5,-1 V 526 M 332.5,-1 V 526 M 443.5,-1 V 526 M -1,189.5 H 555 M 554.5,-1 V 526 M 554,294.5 h 112 m -667,126 h 667 m -667,21 h 667 m -667,21 h 667 m -667,63 H 666 M 665.5,-1 V 526 M -1,-0.5 h 778 m -778,21 h 778 m -556,32 H 777 M -1,252.5 H 777 M 776.5,-1 v 527"
+     id="path76"
+     inkscape:connector-curvature="0" /></g><path
+   d="M -0.5,-1 V 526 M -1,52.5 h 112 m -112,74 h 112 m -112,21 h 112 m -112,21 h 112 m -112,42 h 112 m -112,21 h 112 m -112,42 h 112 m -112,42 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,21 h 112 m -112,84 h 112 m -112,21 H 111 M 110.5,-1 V 526 M -1,73.5 c 74.385499,0.0075 39.983322,0.973808 111,0.5 M -1,105.5 H 222 M -1,294.5 H 222 M 221.5,-1 V 526 M 332.5,-1 V 526 M 443.5,-1 V 526 M -1,189.5 H 555 M 554.5,-1 V 526 M 554,294.5 h 112 m -667,126 h 667 m -667,21 h 667 m -667,21 h 667 m -667,63 H 666 M 665.5,-1 V 526 M -1,-0.5 h 778 m -778,21 h 778 m -556,32 H 777 M -1,252.5 H 777 M 776.5,-1 v 527"
    style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-   id="path78" /><text
+   id="path78"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" /><text
    transform="translate(32,15.245117)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
    id="text82"><tspan
      x="0 9.3859997 17.316 22.372999 29.601 33.202 38.258999"
      y="0"
      id="tspan80">Horaire</tspan></text>
+
 
 
 <text
@@ -130,6 +184,7 @@
      id="tspan84">Lundi</tspan></text>
 
 
+
 <text
    y="15.245117"
    x="259.2619"
@@ -138,6 +193,7 @@
      x="259.2619 270.09091 277.31891 282.37592 290.30591"
      y="15.245117"
      id="tspan88">Mardi</tspan></text>
+
 
 
 <text
@@ -150,12 +206,14 @@
      id="tspan92">Mercredi</tspan></text>
 
 
+
 <text
    y="15.245117"
    x="485.85706"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
    id="text98"><tspan
      id="tspan96">Jeudi</tspan></text>
+
 
 
 <text
@@ -168,6 +226,7 @@
      id="tspan100">Vendredi</tspan></text>
 
 
+
 <text
    y="15.245117"
    x="698.92853"
@@ -176,6 +235,7 @@
      x="698.92853 707.58655 714.81451 726.37152 733.59955 741.52954"
      y="15.245117"
      id="tspan104">Samedi</tspan></text>
+
 
 
 <text
@@ -187,6 +247,7 @@
      id="tspan108">09:00 - 09:30</tspan></text>
 
 
+
 <text
    transform="translate(233,34.08377)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -194,6 +255,7 @@
      x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
      y="0"
      id="tspan112">Accueil et petit-</tspan></text>
+
 
 
 <text
@@ -205,6 +267,7 @@
      id="tspan116">déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(344,34.08377)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -212,6 +275,7 @@
      x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
      y="0"
      id="tspan120">Accueil et petit-</tspan></text>
+
 
 
 <text
@@ -223,6 +287,7 @@
      id="tspan124">déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(455,34.08377)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -230,6 +295,7 @@
      x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
      y="0"
      id="tspan128">Accueil et petit-</tspan></text>
+
 
 
 <text
@@ -241,6 +307,7 @@
      id="tspan132">déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(566,34.08377)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -248,6 +315,7 @@
      x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
      y="0"
      id="tspan136">Accueil et petit-</tspan></text>
+
 
 
 <text
@@ -259,6 +327,7 @@
      id="tspan140">déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(677,34.08377)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -266,6 +335,7 @@
      x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
      y="0"
      id="tspan144">Accueil et petit-</tspan></text>
+
 
 
 <text
@@ -277,6 +347,7 @@
      id="tspan148">déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(16,68.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -284,6 +355,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan152">09:30 - 10:00</tspan></text>
+
 
 
 <text
@@ -295,6 +367,7 @@
      id="tspan156">Exercice de </tspan></text>
 
 
+
 <text
    transform="translate(227,118.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -302,6 +375,7 @@
      x="0 6.5051999 10.4013 16.9065 23.411699 27.3078 33.813 43.559101 53.305199 59.810398 63.0513 65.648697 72.1539 78.659103 81.900002 88.405197 94.9104"
      y="0"
      id="tspan160">programmation en </tspan></text>
+
 
 
 <text
@@ -313,6 +387,7 @@
      id="tspan164">Python</tspan></text>
 
 
+
 <text
    transform="translate(337,117.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -320,6 +395,7 @@
      x="0 3.2409 9.7461004 12.3435 15.5844 18.181801 24.687 27.9279 30.525299 37.030499 43.535702 46.7766 53.281799 59.786999 63.027901 71.475304 77.980499 84.485703 87.726601 94.231796 97.472702"
      y="0"
      id="tspan168">Initiation au web et </tspan></text>
+
 
 
 <text
@@ -331,6 +407,7 @@
      id="tspan172">réseau</tspan></text>
 
 
+
 <text
    transform="translate(447,110.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -338,6 +415,7 @@
      x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 36.387001 39.627899 43.523998 49.374001 55.8792 62.384399 65.625298 71.475304 74.072701 80.577904 87.083099 93.588303 96.829201 100.7253"
      y="0"
      id="tspan176">Projets (Jeu vidéo - </tspan></text>
+
 
 
 <text
@@ -349,6 +427,7 @@
      id="tspan180">Robots - Micro-</tspan></text>
 
 
+
 <text
    transform="translate(471,137.8417)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -356,6 +435,7 @@
      x="0 5.8499999 12.3552 18.860399 22.101299 25.9974 32.502602 35.099998 41.605202 48.110401 52.0065"
      y="0"
      id="tspan184">controleur)</tspan></text>
+
 
 
 <text
@@ -367,6 +447,7 @@
      id="tspan188">Projets (Jeu vidéo - </tspan></text>
 
 
+
 <text
    transform="translate(570,103.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -374,6 +455,7 @@
      x="0 8.4474001 14.9526 21.4578 27.962999 31.203899 37.053902 40.2948 44.190899 47.431801 57.177898 59.775299 65.625298 69.5214 76.026604"
      y="0"
      id="tspan192">Robots - Micro-</tspan></text>
+
 
 
 <text
@@ -385,6 +467,7 @@
      id="tspan196">controleur)</tspan></text>
 
 
+
 <text
    transform="translate(669,89.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -392,6 +475,7 @@
      x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 36.387001 39.627899 43.523998 49.374001 55.8792 62.384399 65.625298 71.475304 74.072701 80.577904 87.083099 93.588303 96.829201 100.7253"
      y="0"
      id="tspan200">Projets (Jeu vidéo - </tspan></text>
+
 
 
 <text
@@ -403,6 +487,7 @@
      id="tspan204">Robots - Micro-</tspan></text>
 
 
+
 <text
    transform="translate(693,116.84171)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -410,6 +495,7 @@
      x="0 5.8499999 12.3552 18.860399 22.101299 25.9974 32.502602 35.099998 41.605202 48.110401 52.0065"
      y="0"
      id="tspan208">controleur)</tspan></text>
+
 
 
 <text
@@ -421,22 +507,27 @@
      id="tspan212">10:00 - 10:30</tspan></text>
 
 
+
 <text
-   transform="translate(122,86.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="text218"><tspan
-     x="0 8.4474001 14.9526 21.4578 28.594801 35.099998 38.3409 41.581799 44.822701 51.3279 55.223999 58.464901 65.601898 72.107101 76.003197 79.244102 83.140198"
-     y="0"
+   id="text218"
+   x="122"
+   y="76.914009"><tspan
+     x="122 130.4474 136.95261 143.45779 150.5948 157.10001 160.3409 163.5818 166.82269 173.3279 177.224 180.4649 187.6019 194.1071 198.0032 201.24411 205.1402"
+     y="76.914009"
      id="tspan216">Accueil et petit-</tspan></text>
 
 
+
 <text
-   transform="translate(141,100.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="text222"><tspan
-     x="0 7.1370001 13.6422 16.883101 23.3883 30.525299 37.6623 44.1675"
-     y="0"
+   id="text222"
+   x="141"
+   y="90.353493"><tspan
+     x="141 148.13699 154.6422 157.8831 164.38831 171.5253 178.66229 185.1675"
+     y="90.353493"
      id="tspan220">déjeuner</tspan></text>
+
 
 
 <text
@@ -448,6 +539,7 @@
      id="tspan224">10:30 - 11:00</tspan></text>
 
 
+
 <text
    transform="translate(123,137.19385)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -455,6 +547,7 @@
      x="0 3.6010001 10.829 14.43 18.759001 25.987 33.215 40.443001 46.943001 50.543999 53.43 60.658001 67.886002 71.487 78.714996 82.316002"
      y="0"
      id="tspan228">Introduction et </tspan></text>
+
 
 
 <text
@@ -466,6 +559,7 @@
      id="tspan232">presentaion du </tspan></text>
 
 
+
 <text
    transform="translate(150,167.09131)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -473,6 +567,7 @@
      x="0 6.5 10.101 17.329 24.556999"
      y="0"
      id="tspan236">stage</tspan></text>
+
 
 
 <text
@@ -484,6 +579,7 @@
      id="tspan240">11:00 - 11:30</tspan></text>
 
 
+
 <text
    transform="translate(16,163.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -491,6 +587,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan244">11:30 - 12:00</tspan></text>
+
 
 
 <text
@@ -502,6 +599,7 @@
      id="tspan248">Conférencière</tspan></text>
 
 
+
 <text
    transform="translate(684,165.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -509,6 +607,7 @@
      x="0 8.4474001 14.9526 21.4578 24.6987 31.203899 35.099998 41.605202 48.110401 53.9604 56.5578 63.063 66.959099"
      y="0"
      id="tspan252">Conférencière</tspan></text>
+
 
 
 <text
@@ -520,6 +619,7 @@
      id="tspan256">12:00 - 12:30</tspan></text>
 
 
+
 <text
    transform="translate(16,205.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -527,6 +627,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan260">12:30 - 13:00</tspan></text>
+
 
 
 <text
@@ -538,6 +639,7 @@
      id="tspan264">Déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(251,224.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -545,6 +647,7 @@
      x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901"
      y="0"
      id="tspan268">Déjeuner</tspan></text>
+
 
 
 <text
@@ -556,6 +659,7 @@
      id="tspan272">Déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(473,224.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -563,6 +667,7 @@
      x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901"
      y="0"
      id="tspan276">Déjeuner</tspan></text>
+
 
 
 <text
@@ -574,6 +679,7 @@
      id="tspan280">Déjeuner</tspan></text>
 
 
+
 <text
    transform="translate(695,224.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -581,6 +687,7 @@
      x="0 8.4474001 14.9526 18.193501 24.6987 31.835699 38.972698 45.477901"
      y="0"
      id="tspan284">Déjeuner</tspan></text>
+
 
 
 <text
@@ -592,6 +699,7 @@
      id="tspan288">13:00 - 13:30</tspan></text>
 
 
+
 <text
    transform="translate(16,247.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -599,6 +707,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan292">13:30 - 14:00</tspan></text>
+
 
 
 <text
@@ -610,6 +719,7 @@
      id="tspan296">14:00 - 14:30</tspan></text>
 
 
+
 <text
    transform="translate(120,263.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -617,6 +727,7 @@
      x="0 7.7922001 11.6883 14.2857 20.1357 26.6409 29.8818 36.387001 42.8922 46.133099 55.8792 62.384399 64.981796 71.487 74.727898 81.233101 87.738297"
      y="0"
      id="tspan300">Prise en main de </tspan></text>
+
 
 
 <text
@@ -628,6 +739,7 @@
      id="tspan304">l'environnement de </tspan></text>
 
 
+
 <text
    transform="translate(150,290.8417)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -635,6 +747,7 @@
      x="0 3.2409 7.1370001 13.6422 19.492201 25.9974 28.594801"
      y="0"
      id="tspan308">travail</tspan></text>
+
 
 
 <text
@@ -646,6 +759,7 @@
      id="tspan312">Exercice de </tspan></text>
 
 
+
 <text
    transform="translate(227,333.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -653,6 +767,7 @@
      x="0 6.5051999 10.4013 16.9065 23.411699 27.3078 33.813 43.559101 53.305199 59.810398 63.0513 65.648697 72.1539 78.659103 81.900002 88.405197 94.9104"
      y="0"
      id="tspan316">programmation en </tspan></text>
+
 
 
 <text
@@ -664,6 +779,7 @@
      id="tspan320">Python</tspan></text>
 
 
+
 <text
    transform="translate(351,339.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -671,6 +787,7 @@
      x="0 7.7922001 13.6422 16.883101 19.480499 25.3305 27.9279 31.1688 37.674 40.914902 44.811001 51.3162 57.8214 64.326599 70.176598"
      y="0"
      id="tspan324">Activité repos </tspan></text>
+
 
 
 <text
@@ -682,6 +799,7 @@
      id="tspan328">Projets (Jeu vidéo - </tspan></text>
 
 
+
 <text
    transform="translate(459,340.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -689,6 +807,7 @@
      x="0 8.4474001 14.9526 21.4578 27.962999 31.203899 37.053902 40.2948 44.190899 47.431801 57.177898 59.775299 65.625298 69.5214 76.026604"
      y="0"
      id="tspan332">Robots - Micro-</tspan></text>
+
 
 
 <text
@@ -700,6 +819,7 @@
      id="tspan336">controleur)</tspan></text>
 
 
+
 <text
    transform="translate(573,270.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -707,6 +827,7 @@
      x="0 8.4474001 14.9526 21.4578 24.6987 31.203899 35.099998 41.605202 48.110401 53.9604 56.5578 63.063 66.959099"
      y="0"
      id="tspan340">Conférencière</tspan></text>
+
 
 
 <text
@@ -718,6 +839,7 @@
      id="tspan344">14:30 - 15:00</tspan></text>
 
 
+
 <text
    transform="translate(16,310.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -725,6 +847,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan348">15:00 - 15:30</tspan></text>
+
 
 
 <text
@@ -736,6 +859,7 @@
      id="tspan352">Initiation ou </tspan></text>
 
 
+
 <text
    transform="translate(119,361.40222)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -743,6 +867,7 @@
      x="0 6.5051999 13.0104 16.9065 20.1474 26.652599 32.502602 35.7435 38.3409 44.8461 51.351299 57.856499 64.361702 74.107803 80.612999 87.118202 90.3591"
      y="0"
      id="tspan356">perfectionnement </tspan></text>
+
 
 
 <text
@@ -754,6 +879,7 @@
      id="tspan360">en Python</tspan></text>
 
 
+
 <text
    transform="translate(558,347.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -761,6 +887,7 @@
      x="0 7.7922001 11.6883 18.193501 20.790899 27.296101 30.537001 36.387001 39.627899 43.523998 49.374001 55.8792 62.384399 65.625298 71.475304 74.072701 80.577904 87.083099 93.588303 96.829201 100.7253"
      y="0"
      id="tspan364">Projets (Jeu vidéo - </tspan></text>
+
 
 
 <text
@@ -772,6 +899,7 @@
      id="tspan368">Robots - Micro-</tspan></text>
 
 
+
 <text
    transform="translate(582,374.8417)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -779,6 +907,7 @@
      x="0 5.8499999 12.3552 18.860399 22.101299 25.9974 32.502602 35.099998 41.605202 48.110401 52.0065"
      y="0"
      id="tspan372">controleur)</tspan></text>
+
 
 
 <text
@@ -790,6 +919,7 @@
      id="tspan376">15:30 - 16:00</tspan></text>
 
 
+
 <text
    transform="translate(16,352.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -797,6 +927,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan380">16:00 - 16:30</tspan></text>
+
 
 
 <text
@@ -808,6 +939,7 @@
      id="tspan384">16:30 - 17:00</tspan></text>
 
 
+
 <text
    transform="translate(16,394.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -815,6 +947,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan388">17:00 - 17:30</tspan></text>
+
 
 
 <text
@@ -826,6 +959,7 @@
      id="tspan392">17:30 - 18:00</tspan></text>
 
 
+
 <text
    transform="translate(16,436.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -833,6 +967,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan396">18:00 - 18:30</tspan></text>
+
 
 
 <text
@@ -844,6 +979,7 @@
      id="tspan400">Fin de la journée</tspan></text>
 
 
+
 <text
    transform="translate(230,434.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -851,6 +987,7 @@
      x="0 7.1370001 10.3779 17.5149 20.7558 27.892799 34.397999 37.638901 40.879799 47.384998 50.6259 53.866798 61.003799 68.1408 72.692101 79.829102 86.334297"
      y="0"
      id="tspan404">Fin de la journée</tspan></text>
+
 
 
 <text
@@ -862,6 +999,7 @@
      id="tspan408">Fin de la journée</tspan></text>
 
 
+
 <text
    transform="translate(452,434.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -869,6 +1007,7 @@
      x="0 7.1370001 10.3779 17.5149 20.7558 27.892799 34.397999 37.638901 40.879799 47.384998 50.6259 53.866798 61.003799 68.1408 72.692101 79.829102 86.334297"
      y="0"
      id="tspan412">Fin de la journée</tspan></text>
+
 
 
 <text
@@ -880,6 +1019,7 @@
      id="tspan416">Fin de la journée</tspan></text>
 
 
+
 <text
    transform="translate(16,457.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -887,6 +1027,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan420">18:30 - 19:00</tspan></text>
+
 
 
 <text
@@ -898,6 +1039,7 @@
      id="tspan424">Jeux du soir</tspan></text>
 
 
+
 <text
    transform="translate(245,455.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -907,6 +1049,7 @@
      id="tspan428">Jeux du soir</tspan></text>
 
 
+
 <text
    transform="translate(356,455.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -914,6 +1057,7 @@
      x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201"
      y="0"
      id="tspan432">Jeux du soir</tspan></text>
+
 
 
 <text
@@ -926,6 +1070,7 @@
      y="0">Jeux du soir</tspan></text>
 
 
+
 <text
    transform="translate(578,455.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -933,6 +1078,7 @@
      x="0 5.8499999 12.3552 18.860399 24.7104 27.9513 34.456501 40.9617 44.202599 50.052601 56.5578 59.155201"
      y="0"
      id="tspan440">Jeux du soir</tspan></text>
+
 
 
 <text
@@ -944,6 +1090,7 @@
      id="tspan444">19:00 - 19:30</tspan></text>
 
 
+
 <text
    transform="translate(567,490.96274)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.69999981px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -951,6 +1098,7 @@
      x="0 8.4474001 11.6883 18.8253 25.3305 29.8818 33.1227 40.259701 46.7649 50.005798 53.901901 57.142799 64.2798 67.520699 74.6577 81.162903"
      y="0"
      id="tspan448">Dîner de fin de </tspan></text>
+
 
 
 <text
@@ -962,6 +1110,7 @@
      id="tspan452">stage</tspan></text>
 
 
+
 <text
    transform="translate(16,499.24512)"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -969,6 +1118,7 @@
      x="0 7.2280002 14.456 18.056999 25.285 32.513 36.113998 40.443001 44.043999 51.271999 58.5 62.101002 69.329002"
      y="0"
      id="tspan456">19:30 - 20:00</tspan></text>
+
 
 
 <text
@@ -980,4 +1130,9 @@
      id="tspan460">20:00 - 20:30</tspan></text>
 
 
-</g></g></g></g></svg>
+
+<path
+   style="fill:none;stroke:#000000;stroke-width:1.15476191px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 111,52.499999 110,-0.5"
+   id="path3937"
+   inkscape:connector-curvature="0" /></g></g></g></g></svg>
