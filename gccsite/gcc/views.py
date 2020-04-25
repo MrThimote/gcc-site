@@ -70,7 +70,7 @@ class IndexView(FormView):
             send_email(
                 'gcc/mails/subscribe',
                 instance.email,
-                {'unsubscribe_url': instance.unsubscribe_url},
+                {'unsubscribe_url': instance.get_unsubscribe_url},
             )
         else:
             messages.add_message(
@@ -126,7 +126,7 @@ class LearnMoreView(FormView):
             send_email(
                 'gcc/mails/subscribe',
                 instance.email,
-                {'unsubscribe_url': instance.unsubscribe_url},
+                {'unsubscribe_url': instance.get_unsubscribe_url},
             )
         else:
             messages.add_message(

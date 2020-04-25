@@ -490,7 +490,7 @@ class SubscriberEmail(models.Model):
         return hashlib.sha256(subscriber_id + secret).hexdigest()[:32]
 
     @property
-    def unsubscribe_url(self):
+    def get_unsubscribe_url(self):
         return reverse(
             'gcc:news_unsubscribe',
             kwargs={'email': self.email, 'token': self.unsubscribe_token},
