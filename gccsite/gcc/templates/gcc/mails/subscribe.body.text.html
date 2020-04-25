@@ -3,7 +3,6 @@
 {% load i18n utils %}
 
 {% get_setting 'PROLOGIN_CONTACT_MAIL' as contactmail %}
-{% get_setting 'SITE_BASE_URL' as baseurl %}
 
 {% blocktrans %}
 Hi!
@@ -13,7 +12,7 @@ Your subscription to the mailing list of GCC! has been completed.
 If you wish to unsubscribe from this mailing list you can use the following
 link:
 
-{{ baseurl }}{{ unsubscribe_url }}
+{{ unsubscribe_url }}
 
 Should you have any question, please contact us by sending an email at
 {{ contactmail }}.
@@ -24,4 +23,3 @@ The Prologin staff
 {% endblocktrans %}
 {% endautoescape %}
 {% endspaceless %}
-
