@@ -7,6 +7,7 @@
     <h3>{% trans "Girls Can Code!" %}</h3>
     <ul class="nav">
         <li><a href="{% url 'gcc:index' %}">{% trans 'Home' %}</a></li>
+        <li class="{% active '^/gcc/learn/' %}"><a href="{% url 'gcc:learn_more' %}">{% trans 'The summer camps' %}</a></li>
         <li class="{% active '^/gcc/resources/' %}"><a href="{% url 'gcc:resources' %}">{% trans 'Ressources' %}</a></li>
         <li class="{% active '^/gcc/editions/' %}"><a href="{% url 'gcc:editions' %}">{% trans 'Past editions' %}</a></li>
         <li class="{% active '^/gcc/privacy/' %}"><a href="{% url 'gcc:privacy' %}">{% trans 'Privacy' %}</a></li>
