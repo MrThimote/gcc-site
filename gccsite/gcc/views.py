@@ -283,7 +283,7 @@ class ApplicationValidationView(PermissionRequiredMixin, DetailView):
                 get_template('gcc/mails/application.body.text.html').render(
                     {'applicant': applicant}
                 ),
-                settings.EMAIL_HOST,
+                settings.DEFAULT_FROM_EMAIL,
                 [self.request.user.email]
                 # TODO Change this when settings.GCC_EDITION is up
             )

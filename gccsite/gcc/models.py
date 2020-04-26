@@ -95,7 +95,7 @@ class Event(models.Model):
         return (
             self.event_start.strftime('%Y-%m-%d')
             + ' - '
-            + self.event_start.strftime('%Y-%m-%d')
+            + self.event_end.strftime('%Y-%m-%d')
             + ' '
             + str(self.center)
         )
@@ -491,7 +491,7 @@ class SubscriberEmail(models.Model):
 
     @property
     def get_unsubscribe_url(self):
-        return settings.SITE_BASE_URL+reverse(
+        return settings.SITE_BASE_URL + reverse(
             'gcc:news_unsubscribe',
             kwargs={'email': self.email, 'token': self.unsubscribe_token},
         )
