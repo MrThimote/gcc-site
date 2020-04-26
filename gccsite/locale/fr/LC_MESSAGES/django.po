@@ -8,17 +8,17 @@
 # marcerisson <marc.schmitt@prologin.org>, 2019
 # Thibault Allançon <tallancon@gmail.com>, 2019
 # Rémi Dupré <remim.dupre@gmail.com>, 2019
-# Valentin Seux <valentin.seux@prologin.org>, 2020
 # Garance Gourdel <garance.gourdel@prologin.org>, 2020
+# Valentin Seux <valentin.seux@prologin.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-25 16:36+0200\n"
+"POT-Creation-Date: 2020-04-26 17:43+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
-"Last-Translator: Garance Gourdel <garance.gourdel@prologin.org>, 2020\n"
+"Last-Translator: Valentin Seux <valentin.seux@prologin.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -458,7 +458,7 @@ msgstr ""
 "année..."
 
 #: gcc/templates/gcc/application/summary.html:72
-#: gcc/templates/gcc/main-footer.html:45
+#: gcc/templates/gcc/main-footer.html:46
 #: gcc/templates/gcc/registration_widget.html:25
 msgid "Apply"
 msgstr "Candidater"
@@ -599,7 +599,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Cette année, l'organisation d’un stage Girls Can Code! à <strong>Nantes</strong> est délégué à l’association Adn-ouest Atlantic 2020. Prologin quant à elle organise à nouveau les stages de <strong>Paris</strong> et <strong>Lyon</strong>.<br />\\n\n"
+"Cette année, l'organisation d’un stage Girls Can Code! à <strong>Nantes</strong> est délégué à l’association Adn-ouest Atlantic 2020. Prologin quant à elle organise à nouveau les stages de <strong>Paris</strong> et <strong>Lyon</strong>.<br />\n"
 "Ces stages qui accueillent au total <strong>70 participantes</strong> voient l’arrivée d’un TP sur les <strong>microcontrôleurs microbit</strong> qui, avec le TP jeux vidéo, donnent la possibilité d’exprimer sa créativité.<br />\n"
 "Retrouvez l'album photo de cette année <a href=\"https://www.flickr.com/photos/prologin/albums/72157695163456110\">ici</a>."
 
@@ -611,7 +611,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"En 2017, Prologin se lance un grand défi, l’organisation de 3 stages Girls Can Code!, un à <strong>Bordeaux</strong> en juillet et deux autres à <strong>Paris</strong> et <strong>Lyon</strong> en parallèle pendant la dernière semaine d'août. Ils ont réuni un total de <strong>52 participantes</strong> !"
+"En 2017, Prologin se lance un grand défi, l’organisation de 3 stages Girls Can Code!, un à <strong>Bordeaux</strong> en juillet et deux autres à <strong>Paris</strong> et <strong>Lyon</strong> en parallèle pendant la dernière semaine d'août. Ils ont réuni un total de <strong>52 participantes</strong> !\n"
+"Les photos de cette année sont disponibles <a href=\"https://www.flickr.com/photos/prologin/albums/72157713290224968\">ici</a>."
 
 #: gcc/templates/gcc/editions.html:124
 msgid ""
@@ -623,7 +624,8 @@ msgid ""
 msgstr ""
 "\n"
 "En 2016, les <strong>18 participantes</strong> avaient des niveaux très hétéroclytes, le stage s’est donc organisé par groupes de niveaux.\n"
-"Le stage a vu l’arrivée d’un <strong>TP réseau</strong> qui consiste en la création d'un petit client de messagerie."
+"Le stage a vu l’arrivée d’un <strong>TP réseau</strong> qui consiste en la création d'un petit client de messagerie.\n"
+"Les photos sont disponibles <a href=\"https://www.flickr.com/photos/prologin/albums/72157669902774343\">ici</a>."
 
 #: gcc/templates/gcc/editions.html:146
 msgid ""
@@ -633,7 +635,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"En 2015, c’est 12 filles qui ont pris part à un stage qui initie pour la première fois à des sujets sur le <strong>web</strong>, la création d’un petit <strong>jeu vidéo</strong> avec la<strong></strong> bibliothèque pygame ou encore sur l’os <strong>linux</strong>."
+"En 2015, c’est 12 filles qui ont pris part à un stage qui initie pour la première fois à des sujets sur le <strong>web</strong>, la création d’un petit <strong>jeu vidéo</strong> avec la<strong></strong> bibliothèque pygame ou encore sur l’os <strong>linux</strong>.<br />Les photos de 2015 peuvent être trouvées <a href=\"https://www.flickr.com/photos/prologin/albums/72157658107628891\">ici</a>."
 
 #: gcc/templates/gcc/editions.html:167
 msgid ""
@@ -850,11 +852,10 @@ msgstr ""
 #: gcc/templates/gcc/learn_more.html:49
 msgid ""
 "Here is a typical schedule of a GCC! week. Notice that the attendees can arrive\n"
-"    between 9 am and 9:30 am and can leave at between 18 pm and 19 am."
+"    between 9 am and 9:30 am and can leave at between 5 pm and 6 pm."
 msgstr ""
-"Voici un programme type, en particulier, remarquez que les participantes "
-"peuvent arriver entre 9h et 9h30 puis être récupérées le soir entre 18h à "
-"19h."
+"Voici un programme type, en particulier, remarquez que les participantes \n"
+"peuvent arriver entre 9h et 9h30 puis être récupérées le soir entre 17h et 18h."
 
 #: gcc/templates/gcc/learn_more.html:56
 msgid "Academic Level"
@@ -868,69 +869,7 @@ msgstr ""
 "Nous acceptons les participantes à partir de la 6<sup>ème</sup> et le stage "
 "est adapté au niveau de chacune."
 
-#: gcc/templates/gcc/learn_more.html:62
-msgid "Grants"
-msgstr "Les bourses"
-
 #: gcc/templates/gcc/learn_more.html:64
-msgid ""
-"Prologin can attribute grants for some of the participants. Specifically,\n"
-"    Prologin can pay back the costs of the transport and housing for participants, thus they need\n"
-"    to keep their receipts."
-msgstr ""
-"L’association Prologin peut attribuer, sous condition de ressources, des "
-"bourses à des participantes. Concrètement, Prologin remboursera, sur "
-"présentation de factures, les frais engagés par la participante pour le "
-"transport et/ou l’hébergement. Les réservations restent à la charge des "
-"participantes."
-
-#: gcc/templates/gcc/learn_more.html:70
-msgid ""
-"If you expect a positive response from our grant program, please wait for a confirmation on our \n"
-"    end before paying for anything. We cannot garantee the reimbursement of commited money unless we \n"
-"    have sent you a confirmation."
-msgstr ""
-"Si vous attendez une réponse positive de notre programme de bourses, nous vous prions \n"
-"d'attendre une confirmation de notre part avant d'engager des frais. Nous ne pouvons garantir le remboursement \n"
-"de frais avant de vous avoir confirmé que votre demande a été acceptée."
-
-#: gcc/templates/gcc/learn_more.html:75
-msgid ""
-"To candidate for a grant you need to send an email to gcc-bourses-2020@prologin.org and\n"
-"  specify the following information:"
-msgstr ""
-"Pour candidater à une bourse, il vous faut envoyer un mail à l’adresse gcc-"
-"bourses-2020@prologin.org en précisant :"
-
-#: gcc/templates/gcc/learn_more.html:78
-msgid "first and last name of the participant"
-msgstr "les nom et prénom de la participante,"
-
-#: gcc/templates/gcc/learn_more.html:79
-msgid ""
-"whether you need this grant for the travel, the housing or both\n"
-"      "
-msgstr ""
-"si vous souhaitez une bourse pour le déplacement seulement, pour "
-"l’hébergement seulement ou pour les deux,"
-
-#: gcc/templates/gcc/learn_more.html:81
-msgid "a proof of address"
-msgstr "joindre un justificatif de domicile,"
-
-#: gcc/templates/gcc/learn_more.html:82
-msgid "a your last tax notice"
-msgstr "joindre également votre dernier avis d’imposition."
-
-#: gcc/templates/gcc/learn_more.html:86
-msgid ""
-"Please note that we will send you an email as soon as we receive your application to\n"
-"  confirm it has been taken into account."
-msgstr ""
-"Nous vous enverrons un email pour confirmer la prise en compte de votre candidature dès \n"
-"réception de votre email."
-
-#: gcc/templates/gcc/learn_more.html:94
 #, python-format
 msgid ""
 "Please take some time reading our article about privacy:\n"
@@ -1027,31 +966,35 @@ msgstr "Inscription à la newsletter de GCC!"
 msgid "Girls Can Code!"
 msgstr "Girls Can Code!"
 
-#: gcc/templates/gcc/main-footer.html:10 gcc/templates/gcc/main-menu.html:6
+#: gcc/templates/gcc/main-footer.html:10 gcc/templates/gcc/main-menu.html:5
+msgid "The summer camps"
+msgstr "Les stages"
+
+#: gcc/templates/gcc/main-footer.html:11 gcc/templates/gcc/main-menu.html:6
 msgid "Ressources"
 msgstr "Ressources"
 
-#: gcc/templates/gcc/main-footer.html:11 gcc/templates/gcc/main-menu.html:7
+#: gcc/templates/gcc/main-footer.html:12 gcc/templates/gcc/main-menu.html:7
 msgid "Past editions"
 msgstr "Éditions passées"
 
-#: gcc/templates/gcc/main-footer.html:12
+#: gcc/templates/gcc/main-footer.html:13
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: gcc/templates/gcc/main-footer.html:18
+#: gcc/templates/gcc/main-footer.html:19
 msgid "Girls Can Code! on Facebook"
 msgstr "Girls Can Code! sur Facebook"
 
-#: gcc/templates/gcc/main-footer.html:24
+#: gcc/templates/gcc/main-footer.html:25
 msgid "Prologin on Twitter"
 msgstr "Prologin sur Twitter"
 
-#: gcc/templates/gcc/main-footer.html:32
+#: gcc/templates/gcc/main-footer.html:33
 msgid "Change locale"
 msgstr "Changer la langue"
 
-#: gcc/templates/gcc/main-footer.html:48
+#: gcc/templates/gcc/main-footer.html:49
 #, python-format
 msgid ""
 "Save your\n"
@@ -1059,10 +1002,6 @@ msgid ""
 msgstr ""
 "Sauvegardez votre langue préférée dans vos <a "
 "href=\"%(url)s#id_preferred_locale\">paramètres</a>."
-
-#: gcc/templates/gcc/main-menu.html:5
-msgid "The summer camps"
-msgstr "Les stages"
 
 #: gcc/templates/gcc/main-menu.html:12
 msgid "Django administration"
