@@ -14,7 +14,7 @@
    viewBox="0 0 1600 900"
    version="1.1"
    id="svg4645"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="stat_editions.svg">
   <defs
      id="defs4639" />
@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="1710.2008"
+     inkscape:cx="1726.3632"
      inkscape:cy="1474.6526"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1364"
-     inkscape:window-height="746"
+     inkscape:window-width="1596"
+     inkscape:window-height="861"
      inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-y="18"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4642">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,18 +63,18 @@
          id="tspan4647"
          x="117.59859"
          y="631.76294"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:881.94445801px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
-       x="64.144691"
-       y="151.60538"
+       style="font-style:normal;font-weight:normal;font-size:881.94445801px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="55.592068"
+       y="190.09219"
        id="text4653"><tspan
          sodipodi:role="line"
          id="tspan4651"
-         x="64.144691"
-         y="151.60538"
-         style="font-size:881.94445801px;fill:#000000;stroke-width:0.26458332;">6</tspan></text>
+         x="55.592068"
+         y="190.09219"
+         style="font-size:881.94445801px;fill:#000000;stroke-width:0.26458332">7</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:141.11109924px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
