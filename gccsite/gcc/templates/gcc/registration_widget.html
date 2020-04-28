@@ -24,7 +24,7 @@
     {% if user.is_authenticated %}
       <a href="/application/form/{{last_edition}}" class="btn btn-primary btn-lg btn-block">{% trans 'Apply' %}</a>
     {% else %}
-      <a href="{% url 'proloauth_client:autologin' %}?next={{ request.path }}" class="btn btn-primary btn-lg btn-block">{% trans 'Sign in and apply' %}</a>
+      <a href="{% url 'proloauth_client:autologin' %}?next={% url 'gcc:application_form' last_edition.year %}" class="btn btn-primary btn-lg btn-block">{% trans 'Sign in and apply' %}</a>
     {% endif %}
   </p>
   {% else %}
