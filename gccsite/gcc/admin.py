@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 import csv
+import datetime
 
 from adminsortable.admin import SortableTabularInline, NonSortableParentAdmin
 from django.http import HttpResponse
@@ -28,7 +29,7 @@ The model must implement get_export_data methods
 
 
 class ExportCsvMixin:
-    def export_as_csv(self, request, queryset):
+    def export_as_csv(self, request, queryset, filename=None):
 
         mod = self.model
         meta = mod._meta
@@ -51,7 +52,7 @@ class ExportCsvMixin:
         # create the response
         response = HttpResponse(content_type='text/csv')
         response['Content-Disposition'] = 'attachment; filename={}.csv'.format(
-            meta
+            meta if filename is None else filename
         )
         writer = csv.DictWriter(response, fieldnames=fieldnames)
         writer.writeheader()
@@ -268,5 +269,17 @@ class SponsorAdmin(admin.ModelAdmin):
 
 
 @admin.register(models.SubscriberEmail)
-class SubscriberEmailAdmin(admin.ModelAdmin):
+class SubscriberEmailAdmin(admin.ModelAdmin, ExportCsvMixin):
     search_fields = ['email']
+    actions = ['export_emails_as_csv']
+
+    def export_emails_as_csv(self, request, queryset):
+        return self.export_as_csv(
+            request,
+            queryset,
+            f'gccsite_newsletter_emails_{datetime.date.today()}',
+        )
+
+    export_emails_as_csv.short_description = (
+        'Export Newsletter Subscribers as CSV'
+    )

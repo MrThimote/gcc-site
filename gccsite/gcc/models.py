@@ -496,6 +496,13 @@ class SubscriberEmail(models.Model):
             kwargs={'email': self.email, 'token': self.unsubscribe_token},
         )
 
+    def get_export_data(self):
+        data = OrderedDict()
+        data["Email"] = self.email
+        data["Date Added"] = self.date.strftime('%Y-%m-%d %H:%M:%S')
+        data["Unsubscribe URL"] = self.get_unsubscribe_url
+        return data
+
     def __str__(self):
         return self.email
 
