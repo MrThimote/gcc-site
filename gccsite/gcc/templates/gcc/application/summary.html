@@ -116,7 +116,7 @@
                   </div>
                 {% endif %}
                 <ul class="nav nav-stacked fa-ul">
-                  {% for answer in applicant.answers.all %}
+                  {% for answer in applicant.get_ordered_answers %}
                     {% if applicant.edition == answer.applicant.edition %}
                       <li> <strong> {{answer.question}} </strong> </li>
                       <li>{{ answer }}</li>

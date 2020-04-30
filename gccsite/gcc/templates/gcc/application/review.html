@@ -136,7 +136,7 @@
                   <div>
                     <h3>Form</h3>
                     <dl class="dl-vertical">
-                      {% for answer in applicant.answers.all %}
+                      {% for answer in applicant.get_ordered_answers %}
                        <dt>{{answer.question}}</dd>
                        <dd>{{answer}}</dt>
                       {% endfor %}

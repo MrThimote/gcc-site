@@ -242,6 +242,25 @@ class Applicant(models.Model):
 
         return export_datas
 
+    def get_ordered_answers(self):
+        """
+        Returns an ordered list of gcc.models.Answer for a given applicant
+        """
+        questions = self.edition.signup_form.question_list.all().order_by(
+            'questionforform__order'
+        )
+        answers = []
+
+        for question in questions:
+            try:
+                answer = Answer.objects.get(applicant=self, question=question)
+                answers.append(answer)
+            except Answer.DoesNotExist:
+                # we don't append optional questions that were not filled
+                pass
+
+        return answers
+
     def get_status_display(self):
         return ApplicantStatusTypes(self.status).name
 
