@@ -13,7 +13,7 @@
           <li class="divider"></li>
           <li><a href="{% url 'gcc:application_review_index' %}"><i class="fa fa-fw fa-wrench"></i> {% trans "Review Candidates" %}</a></li>
           {% has_perm 'massmailer.admin' request.user as can_do_mailing %}
-          {% if can_do_mailing %}<li><a href="{% url 'massmailer:dashboard' %}"><i class="fa fa-fw fa-envelope-o"></i> {% trans "Mailing" %}</a></li>{% endif %}
+          {% if can_do_mailing %}<li><a href="{% url 'massmailer:dashboard' %}"><i class="far fa-envelope"></i> {% trans "Mailing" %}</a></li>{% endif %}
 
         </ul>
       </li>
@@ -23,15 +23,15 @@
       <li><a href="{% url 'proloauth_client:autologin' %}?next={{ request.path }}">{% trans 'Sign in with Prologin' %}</a></li>
     {% else %}
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user"></i> {{ user.username }} <span class="caret"></span></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user"></i> &nbsp;{{ user.username }} <span class="caret"></span></a>
         <ul class="dropdown-menu dropdown-menu-right" role="menu">
-          <li><a href="{% url 'users:profile' user.id %}"><i class="fa fa-user"></i> {% trans 'My profile' %}</a></li>
-          <li><a href="{% url 'users:edit' user.id %}"><i class="fa fa-cog"></i> {% trans 'Profile & options' %}</a></li>
-          <li><a href="{% url 'gcc:application_summary' user.id %}"><i class="fa fa-pencil-alt"></i>{% trans 'My applications' %}</a></li>
+          <li><a href="{% url 'users:profile' user.id %}"><i class="fa fa-user"></i> &nbsp;{% trans 'My profile' %}</a></li>
+          <li><a href="{% url 'users:edit' user.id %}"><i class="fa fa-cog"></i> &nbsp;{% trans 'Profile & options' %}</a></li>
+          <li><a href="{% url 'gcc:application_summary' user.id %}"><i class="fa fa-pencil-alt"></i> &nbsp;{% trans 'My applications' %}</a></li>
           <li>
               <form method="post" action="{% url 'users:logout' %}">
               {% csrf_token %}
-              <button type="submit">{% trans 'Sign out' %}</button>
+              <button type="submit"><i class="fas fa-sign-out-alt"></i> &nbsp;{% trans 'Sign out' %}</button>
             </form>
           </li>
         </ul>

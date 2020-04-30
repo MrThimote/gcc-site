@@ -6,27 +6,22 @@
   <div class="col-md-4">
     <h3>{% trans "Girls Can Code!" %}</h3>
     <ul class="nav">
-        <li><a href="{% url 'gcc:index' %}">{% trans 'Home' %}</a></li>
-        <li class="{% active '^/gcc/learn/' %}"><a href="{% url 'gcc:learn_more' %}">{% trans 'The summer camps' %}</a></li>
-        <li class="{% active '^/gcc/resources/' %}"><a href="{% url 'gcc:resources' %}">{% trans 'Ressources' %}</a></li>
-        <li class="{% active '^/gcc/editions/' %}"><a href="{% url 'gcc:editions' %}">{% trans 'Past editions' %}</a></li>
-        <li class="{% active '^/gcc/privacy/' %}"><a href="{% url 'gcc:privacy' %}">{% trans 'Privacy' %}</a></li>
+        <li><a href="{% url 'gcc:index' %}"><i class="fa fa-home fa-centered"></i>&nbsp;&nbsp;{% trans 'Home' %}</a></li>
+        <li class="{% active '^/gcc/learn/' %}"><a href="{% url 'gcc:learn_more' %}"><i class="fa fa-chalkboard fa-centered"></i>&nbsp;&nbsp;{% trans 'The summer camps' %}</a></li>
+        <li class="{% active '^/gcc/resources/' %}"><a href="{% url 'gcc:resources' %}"><i class="fa fa-book fa-centered"></i>&nbsp;&nbsp;{% trans 'Ressources' %}</a></li>
+        <li class="{% active '^/gcc/editions/' %}"><a href="{% url 'gcc:editions' %}"><i class="fa fa-archive fa-centered"></i>&nbsp;&nbsp;{% trans 'Past editions' %}</a></li>
+        <li class="{% active '^/gcc/privacy/' %}"><a href="{% url 'gcc:privacy' %}"><i class="fa fa-lock fa-centered"></i>&nbsp;&nbsp;{% trans 'Privacy' %}</a></li>
     </ul>
+    <br>
 
   </div>
   <div class="col-md-4">
     {# social shit #}
     <a href="https://www.facebook.com/stagegirlscancode" title="{% trans "Girls Can Code! on Facebook" %}" class="social">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square-o fa-stack-2x fa-inverse"></i>
-        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-      </span>
+      <i class="fab fa-facebook-square social-button"></i>
     </a>
     <a href="https://www.twitter.com/prologin" title="{% trans "Prologin on Twitter" %}" class="social">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square-o fa-stack-2x fa-inverse"></i>
-        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-      </span>
+      <i class="fab fa-twitter-square social-button"></i>
     </a>
   </div>
   <div class="col-md-4">

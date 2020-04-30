@@ -38,7 +38,7 @@
           <td>
             {% has_perm 'gcc.can_review_event' request.user event as can_review %}
             {% if can_review %}
-            <a href="{% url 'gcc:application_review' edition=event.edition.year event=event.pk %}" class="btn btn-default btn-xs"><i class="fa fa-list-alt"></i> {% trans "Browse" %}</a>
+            <a href="{% url 'gcc:application_review' edition=event.edition.year event=event.pk %}" class="btn btn-default btn-xs"><i class="far fa-list-alt"></i> {% trans "Browse" %}</a>
             {% endif %}
           </td>
         </tr>

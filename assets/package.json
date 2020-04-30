@@ -11,7 +11,9 @@
   "private": true,
   "devDependencies": {
     "bootstrap": "3.4.x",
-    "font-awesome": "4.x.x",
     "jquery": "3.x.x"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
   }
 }

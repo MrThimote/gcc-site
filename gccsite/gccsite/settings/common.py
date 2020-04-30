@@ -234,7 +234,7 @@ NPM_ROOT_PATH = os.path.join(PROJECT_ROOT_DIR, 'assets')
 NPM_STATIC_FILES_PREFIX = 'vendor'
 NPM_FILE_PATTERNS = {
     'bootstrap': ['dist/css/*.css', 'dist/js/*.js'],
-    'font-awesome': ['css/*.css', 'fonts/*'],
+    '@fortawesome': ['fontawesome-free/css/*.css', 'fontawesome-free/fonts/*'],
     'jquery': ['dist/*.js'],
 }
 

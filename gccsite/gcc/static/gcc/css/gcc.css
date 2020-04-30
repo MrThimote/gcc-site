@@ -1376,3 +1376,9 @@ table.table-align-middle > tbody > tr > td {
 .badge.badge-danger {
     background-color: #d9534f !important;
 }
+
+.social-button {
+  color: #ccc;
+  font-size: 2.5em;
+  margin-right: 10px;
+}
