@@ -115,7 +115,7 @@
              <div class="col-sm-4">
                <div class="highlight">
                 {% with url="https://www.lemonde.fr/campus/article/2017/12/11/femmes-et-informatique-vingt-ans-de-desamour_5227726_4401467.html" %}
-                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_femmes.svg' %}" alt="" /> </div>
+                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_femmes_' %}{{request.LANGUAGE_CODE}}.svg" alt="" /> </div>
                 <h4><a href="{{url}}">{% trans 'Parity in IT' %}</a></h4>
                 <p>
                     {% blocktrans %}
@@ -128,7 +128,7 @@
             </div>
             <div class="col-sm-4">
               <div class="highlight">
-                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_editions.svg' %}" alt="" /> </div>
+                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_editions_' %}{{request.LANGUAGE_CODE}}.svg" alt="" /> </div>
                 <h4><a href="{% url 'gcc:editions' %}">{% trans 'Girls Can Code past editions!' %}</a></h4>
                 <p>
                     {% blocktrans %}
@@ -140,7 +140,7 @@
             </div>
             <div class="col-sm-4">
               <div class="highlight">
-                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_prologin.svg' %}" alt="" /> </div>
+                <div class="thumbnail"> <img src="{% static 'gcc/img/stat_prologin_' %}{{request.LANGUAGE_CODE}}.svg" alt="" /> </div>
                 <h4><a href="//prologin.org/">{% trans 'Prologin, an association since in 1991' %}</a></h4>
                 <p>
                     {% blocktrans %}
