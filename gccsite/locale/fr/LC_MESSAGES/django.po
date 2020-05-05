@@ -6,19 +6,19 @@
 # Translators:
 # Antoine Pietri <antoine.pietri1@gmail.com>, 2019
 # marcerisson <marc.schmitt@prologin.org>, 2019
-# Thibault Allançon <tallancon@gmail.com>, 2019
 # Rémi Dupré <remim.dupre@gmail.com>, 2019
 # Garance Gourdel <garance.gourdel@prologin.org>, 2020
 # Valentin Seux <valentin.seux@prologin.org>, 2020
+# Thibault Allançon <tallancon@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 11:37+0200\n"
+"POT-Creation-Date: 2020-05-05 23:07+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
-"Last-Translator: Valentin Seux <valentin.seux@prologin.org>, 2020\n"
+"Last-Translator: Thibault Allançon <tallancon@gmail.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,15 +82,15 @@ msgstr "Montrer"
 msgid "Full map"
 msgstr "Plein format"
 
-#: gcc/admin.py:98 gcc/admin.py:121
+#: gcc/admin.py:99 gcc/admin.py:122
 msgid "status"
 msgstr "status"
 
-#: gcc/admin.py:139 gcc/templates/gcc/application/review_index.html:3
+#: gcc/admin.py:140 gcc/templates/gcc/application/review_index.html:3
 msgid "Review"
 msgstr "Sélection"
 
-#: gcc/admin.py:263
+#: gcc/admin.py:264
 msgid "Active"
 msgstr "Actif"
 
@@ -249,16 +249,26 @@ msgstr ""
 msgid "Application Form"
 msgstr "Formulaire d'Inscription"
 
-#: gcc/templates/gcc/application/form.html:21
+#: gcc/templates/gcc/application/form.html:18
+msgid ""
+" The legal aspect of the form has to be filled in by the\n"
+"    legal representative, however the informative part and the motivational\n"
+"    questions have to be filled in by the participant! "
+msgstr ""
+"L'aspect juridique du formulaire doit être rempli par le représentant légal,"
+" mais les questions de motivation doivent être remplies par la participante "
+"!"
+
+#: gcc/templates/gcc/application/form.html:26
 msgid "I consent to the processing of my data by Prologin."
 msgstr ""
 "Je consens au traitement de mes données personnelles ci-dessus par Prologin."
 
-#: gcc/templates/gcc/application/form.html:23
+#: gcc/templates/gcc/application/form.html:28
 msgid "Validate and select my wishes"
 msgstr "Valider et classer mes choix"
 
-#: gcc/templates/gcc/application/form.html:28
+#: gcc/templates/gcc/application/form.html:33
 #, python-format
 msgid ""
 " The GCC! summer camps are\n"
@@ -271,7 +281,7 @@ msgstr ""
 "Les stages GCC! sont organisés par l'association Prologin, qui agit en tant que contrôleur de données. Les réponses collectées dans ce formulaire nous permettent de préparer les stages: personnalisation du contenu, restrictions alimentaires, etc...<br>\n"
 "Pour en apprendre plus à propos de notre gestion des données et de vos droits, <a href=\"%(url)s\">consultez notre page dédiée</a>."
 
-#: gcc/templates/gcc/application/form.html:37
+#: gcc/templates/gcc/application/form.html:42
 msgid ""
 " (*) This field will be required to validate your\n"
 "      application. "
