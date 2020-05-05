@@ -14,6 +14,11 @@
     </div>
     {% endif %}
     <h2>{% trans "Application Form" %}</h2>
+
+    {% blocktrans %} The legal aspect of the form has to be filled in by the
+    legal representative, however the informative part and the motivational
+    questions have to be filled in by the participant! {% endblocktrans %}
+
     <form method="post" class="form-horizontal">
       {% csrf_token %}
       {{ form|bootstrap_horizontal:'col-sm-3' }}
