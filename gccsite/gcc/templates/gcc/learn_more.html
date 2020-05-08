@@ -20,6 +20,22 @@
         </ul>
     {% endblocktrans %}</p>
 
+  <h2>{% trans 'Content and schedule of the week-long Summer Camps' %}</h2>
+  <p>
+    {% blocktrans %}The summer camps lasts for one week and mainly consist of practical exercises.
+    The week starts with an initiation to the Python programming language, and then some
+    introductive tutorials about several subdomains of informatics like network or web design.
+    Finally, the week ends with a personal project, that can be chosen among several main topics:
+    video game, robotics or microcontroller.{% endblocktrans %}
+  </p>
+  <p>
+    {% blocktrans %}Here is a typical schedule of a GCC! week. Notice that the attendees can arrive
+    between 9 am and 9:30 am and can leave at between 5 pm and 6 pm.{% endblocktrans %}
+  </p>
+  <a href="{% static 'gcc/img/schedule.svg'%}">
+    <img alt="Typical Schedule of a GCC! Week" src="{% static 'gcc/img/schedule.svg' %}" />
+  </a>
+
   <h2>{% trans 'Content and schedule of the week-end Summer Camps' %}</h2>
   <p>{% blocktrans %}
       They are shorter thus give less time to discover the variety of computer science but can be
@@ -36,22 +52,6 @@
     <a href="{% static 'gcc/img/schedule_short.svg'%}">
       <img  style="width: 50%;" alt="Typical Schedule of a GCC! Week-end" src="{% static 'gcc/img/schedule_short.svg' %}" />
     </a>
-
-  <h2>{% trans 'Content and schedule of the week-long Summer Camps' %}</h2>
-  <p>
-    {% blocktrans %}The summer camps lasts for one week and mainly consist of practical exercises.
-    The week starts with an initiation to the Python programming language, and then some
-    introductive tutorials about several subdomains of informatics like network or web design.
-    Finally, the week ends with a personal project, that can be chosen among several main topics:
-    video game, robotics or microcontroller.{% endblocktrans %}
-  </p>
-  <p>
-    {% blocktrans %}Here is a typical schedule of a GCC! week. Notice that the attendees can arrive
-    between 9 am and 9:30 am and can leave at between 5 pm and 6 pm.{% endblocktrans %}
-  </p>
-  <a href="{% static 'gcc/img/schedule.svg'%}">
-    <img alt="Typical Schedule of a GCC! Week" src="{% static 'gcc/img/schedule.svg' %}" />
-  </a>
 
   <h2>{% trans 'Academic Level' %}</h2>
   <p>
