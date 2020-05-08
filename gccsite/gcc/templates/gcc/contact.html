@@ -1,0 +1,94 @@
+{% extends "gcc/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'Contact' %}{% endblock %}
+
+{% block content %}
+
+  <h1>{% trans "About Girls Can Code!" %}</h1>
+
+  <p>{% blocktrans %}Girls Can Code! are camps organized by the
+  <a href="https://prologin.org">Prologin association</a> for girls under 18 to help them discover computer
+  science.{% endblocktrans %}</p>
+
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h4 id="contact">{% trans "Contact info" %}</h4></div>
+        <div class="panel-body">
+          <dl class="dl-horizontal dl-narrow">
+            <dt>{% trans "Address" %}</dt>
+            <dd>
+              <address>Association Prologin<br>
+                14-16 Rue Voltaire<br>
+                94270 Le Kremlin Bicêtre
+              </address>
+            </dd>
+            <dt>{% trans "Phone" %}</dt>
+            <dd><a href="tel:+33144080190">+331 44 08 01 90</a></dd>
+            <dt>{% trans "Mail" %}</dt>
+            <dd><code>info@prologin.org</code></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h4 id="legal">{% trans "Legal status" %}</h4></div>
+        <div class="panel-body">
+          <p>{% blocktrans %}Prologin is a French “law 1901” organization registered under the sub-prefecture of
+<em>L'Hay-les-Roses</em> on 2000-08-04.{% endblocktrans %}</p>
+          <p>{% trans "CNIL registration number:" %} <code>830039</code>.</p>
+          <p><small>{% blocktrans %}In accordance with Article 34 of the “Informatique et Liberté” law, you have
+the right to access, modify and delete data concerning you.
+To exercise this right, please contact Prologin using one of the methods listed in
+the “Contact info” box.{% endblocktrans %}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h2 id="gcc">{% trans "Girls Can Code!" %}</h2>
+<p class="text-justify">{% blocktrans %}Prologin is an association whose original purpose was to organize a computer science 
+contest. In 2014, Prologin started to organize the Girls Can Code! summer camps.
+These training camps are the perfect occasion for young girls who are still in middle school or in high school 
+to discover multiple computer science subjects throughout the week. They will learn how to solve problems with 
+algorithms, explore various computer science topics such as network, web development, robotics, microcontrollers, video games 
+and more through practical exercises.{% endblocktrans %}</p>
+
+<p class="text-justify">{% blocktrans %}Conferences from exterior speakers are organized for every camp. It enables the attendees 
+to exchange with women working in the computer science industry or in academia. The young girls are sometimes 
+unsure as to what they want to do, this is a golden occasion for them to discuss their education with the speaker, 
+thus helping them for future orientation choices.{% endblocktrans %}</p>
+
+<p class="text-justify">{% blocktrans %}Prologin staff is present during the camp to help them debug their programs and pass on 
+knowledge in computer science and programming.{% endblocktrans %}</p>
+
+  <h2 id="organization">{% trans "Prologin : a computer enthusiasts organization" %}</h2>
+  {% blocktrans %}<p class="text-justify">The purpose of Prologin's contest is to enable young computer enthusiasts to meet and compete with one another. Indeed,
+computer science is still largely under represented in French schools. Therefore, those who practice it are
+often self-taught and have an individual practice of it. However, any large project requires teamwork. This is
+why, even though candidates seat the exam individually, the competition should facilitate the exchange of ideas
+between candidates. To promote these exchanges, the Prologin team tries to design the contest topics so they
+put forward playful aspects. Meanwhile, everything is done so that participants can and should exchange ideas
+within a cheerful atmosphere. Combining work and pleasure is therefore a key objective of Prologin.</p>
+
+<p class="text-justify">We want to allow the candidates to take advantage of the competition to enhance their skills. We try to cover as
+many areas of computer science: artificial intelligence algorithms, general culture, various programming
+languages…</p>
+
+<p class="text-justify">For the organizers, the competition is an opportunity to manage a team and to organize a event. We must also
+learn how to communicate effectively in order to make it known to a wider public. Managing relations with
+sponsors, creating statements and solving both technological and logistic issues are also an enriching
+experiences for our staff members.</p>
+
+<p class="text-justify">Finally, for all the survivors who reach the final, it is also the opportunity to spend a super crazy weekend
+with us!</p>
+{% endblocktrans %}
+
+<p class="text-justify">{% blocktrans %}More information can be found on <a href="https://prologin.org">Prologin's website</a>. For any 
+inquiries, please <a href="{{ about_organization }}#contact">contact us</a>.{% endblocktrans %}</p>
+
+
+{% endblock %}

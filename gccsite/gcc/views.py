@@ -102,14 +102,18 @@ class IndexView(FormView):
         return context
 
 
-# Ressources, Learn More
+# Ressources, Contact, Learn More
 
 
 class RessourcesView(TemplateView):
     template_name = "gcc/resources.html"
 
 
-class LearnMoreView(FormView):
+class ContactView(TemplateView):
+    template_name = "gcc/contact.html"
+
+
+class LearnMoreView(TemplateView):
     template_name = "gcc/learn_more.html"
     form_class = EmailForm
     success_url = reverse_lazy("gcc:learn_more")

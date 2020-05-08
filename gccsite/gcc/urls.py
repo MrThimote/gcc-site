@@ -98,6 +98,7 @@ urlpatterns = [
     path('newsletter/', include(NEWSLETTER_PATTERNS)),
     path('learn/', views.LearnMoreView.as_view(), name='learn_more'),
     path('resources/', views.RessourcesView.as_view(), name='resources'),
+    path('contact/', views.ContactView.as_view(), name='contact'),
     path('privacy/', views.PrivacyView.as_view(), name='privacy'),
     path('editions/', views.EditionsView.as_view(), name='editions'),
     path(
