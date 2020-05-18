@@ -104,6 +104,7 @@ urlpatterns = [
     path(
         'editions/<int:year>/', views.EditionsView.as_view(), name='editions'
     ),
+    path('tutorials/', views.TutorialsView.as_view(), name='tutorials'),
     # Remove after february 2020: candidates received a wrong url
     path(
         'confirm/<int:wish>/',

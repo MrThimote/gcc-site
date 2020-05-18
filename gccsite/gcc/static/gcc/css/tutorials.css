@@ -1,0 +1,85 @@
+/* Copyright (C) <2019> Association Prologin <association@prologin.org>
+ * SPDX-License-Identifier: GPL-3.0+
+ */
+#tp-inventory img {
+    max-width: 100%;
+}
+
+#tp-inventory .presentation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #1d655e;
+    text-align: center;
+}
+
+#tp-inventory .tp-header {
+    padding-bottom: 40px;
+}
+
+#tp-inventory .tp-header:after {
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    background-color: #1d655e;
+}
+
+#tp-inventory h1 {
+    padding-top: 40px;
+    text-align: right;
+    font-size: 1.8em;
+}
+
+#tp-inventory h1::after {
+    content: "";
+    position: absolute;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    background: #1d655e;
+    border-radius: 20px;
+    top: 66px;
+}
+
+#tp-inventory h2 {
+    text-align: right;
+    font-size: 1.4em;
+}
+
+.tp-description {
+    font-size: 1em;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.tp-description::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1d655e;
+}
+
+@media(max-width: 768px) {
+
+    #tp-inventory h1::after {
+        left: -7px;
+    }
+
+    #tp-inventory h1 {
+        text-align: left;
+    }
+
+    #tp-inventory .tp-header:after {
+        left: 0;
+    }
+
+}

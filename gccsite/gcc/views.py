@@ -43,6 +43,10 @@ class EditionsView(TemplateView):
     template_name = "gcc/editions.html"
 
 
+class TutorialsView(TemplateView):
+    template_name = "gcc/tutorials.html"
+
+
 # Privacy
 
 

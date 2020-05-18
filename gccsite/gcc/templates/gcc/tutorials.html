@@ -1,0 +1,131 @@
+{% extends "gcc/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'Tutorials' %}{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'gcc/css/tutorials.css' %}" />
+{% endblock %}
+
+{% block content %}
+<div id="tp-inventory" class="container">
+    <div class="row presentation">
+    {% url 'gcc:contact' as contact_page %}
+    {% blocktrans %}This page lists the tutorials used during the Girls Can Code! summer camps.<br />Do not hesitate to contact us <a href="{{ contact_page }}#contact">here</a> 
+    should you have any questions regarding the tutorials.{% endblocktrans %}
+    </div>
+    <div class="row">
+        <div class="col-sm-2 tp-header">
+            <h1 id="editor">{% trans 'Tutorial 0' %}</h1>
+            <h2>{% trans 'What to use to code in Python' %}</h2>
+        </div>
+        <div class="col-sm-10 tp-description">
+            <p>
+            {% blocktrans %}Learn how to use <a href="https://codewith.mu">Mu Editor</a> in order to code in Python.<br />
+            We will walk you through Mu Editor's core features and with these you will be able to run and debug your code in no time !{% endblocktrans %}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2 tp-header">
+            <h1 id="intro">{% trans 'Tutorial 1' %}</h1>
+            <h2>{% trans 'Introduction to Python programming' %}</h2>
+        </div>
+        <div class="col-sm-10 tp-description">
+            <p>
+            {% blocktrans %}This tutorial will teach you <strong>some basic things</strong> you need to know when programming in Python:
+            <ul>
+              <li>print text,</li>
+              <li>read from the input,</li>
+              <li>variable manipulation,</li>
+              <li>conditions,</li>
+              <li>loops (for loops and while loops),</li>
+              <li>functions.</li>
+            </ul>
+            You will achieve a basic program that counts a sports tournament's points.<br />
+            You will only need to use one of the editor you learnt to use in the very first tutorial.{% endblocktrans %}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 tp-header">
+          <h1 id="lists">{% trans 'Tutorial 2' %}</h1>
+          <h2>{% trans 'Lists and strings' %}</h2>
+      </div>
+      <div class="col-sm-10 tp-description">
+        <p>
+          {% blocktrans %}You will learn about <strong>lists</strong> and <strong>strings</strong> and practice what you learnt 
+          in Tutorial 1.<br />Through the exercices, you will design functions that will:
+          <ul>
+            <li>traverse a list,</li>
+            <li>find and return elements in a list,</li>
+            <li>apply an operation on all the elements of a list,</li>
+            <li>slice lists or strings,</li>
+            <li>concatenate strings,</li>
+            <li>detect palindromes,</li>
+            <li>and more !</li>
+          </ul>{% endblocktrans %}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 tp-header">
+        <h1 id="object">{% trans 'Tutorial 3' %}</h1>
+        <h2>{% trans 'Object' %}</h2>
+      </div>
+      <div class="col-sm-10 tp-description">
+        <p>
+          {% blocktrans %}This tutorial introduces the <strong>Object-Oriented Programming</strong> (OOP) paradigm.<br />You will learn 
+          how to build <strong>classes in Python</strong>. The first part will teach you:
+          <ul>
+            <li>what are classes and why we need them,</li>
+            <li>the relationship between objects and classes,</li>
+            <li>what are attributes and methods of a class.</li>
+          </ul>
+          The second part uses a Pokemon themed exercise for you to practice this notion.{% endblocktrans %}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 tp-header">
+        <h1 id="web">{% trans 'Tutorial 4' %}</h1>
+        <h2>{% trans 'Web' %}</h2>
+      </div>
+      <div class="col-sm-10 tp-description">
+      {% static 'gcc/attachments/practicals/04_web_boni.pdf' as web_bonus %}
+        <p>
+          {% blocktrans %}You will, in this tutorial, build your own <strong>website</strong> using <strong>HTML</strong> and 
+          <strong>CSS</strong>.<br />With only an text editor and your web browser you will learn:
+          <ul>
+            <li>the hierarchy of a website with HTML5,</li>
+            <li>how to add titles, paragraphs and even images to your webpage,</li>
+            <li>how to modify the style of your page with CSS3,</li>
+            <li>and much more.</li>
+          </ul>{% endblocktrans %}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 tp-header">
+        <h1 id="game">{% trans 'Tutorial 5' %}</h1>
+        <h2>{% trans 'Game' %}</h2>
+      </div>
+      <div class="col-sm-10 tp-description">
+        <p>
+          {% blocktrans %}For this tutorial, we recommend using <a href="#editor">Mu editor</a> because the 
+          <strong>pygame</strong> library is already installed.<br />You will revise all the notions you learnt so far in order 
+          to create your <strong>very own video game</strong>:
+          <ul>
+            <li>design the visual aspects of your game,</li>
+            <li>handle the events occuring during the game,</li>
+            <li>use pygame functions in order to modify the look and the behavior of your game,</li>
+            <li>have fun !</li>
+          </ul>
+          This tutorial gives you the tools to create your own video game, but the only limitation is your creativity !{% endblocktrans %}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
