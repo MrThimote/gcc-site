@@ -117,7 +117,7 @@ class ContactView(TemplateView):
     template_name = "gcc/contact.html"
 
 
-class LearnMoreView(TemplateView):
+class LearnMoreView(FormView):
     template_name = "gcc/learn_more.html"
     form_class = EmailForm
     success_url = reverse_lazy("gcc:learn_more")
