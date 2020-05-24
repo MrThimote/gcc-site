@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-18 17:17+0200\n"
+"POT-Creation-Date: 2020-05-24 15:37+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
 "Last-Translator: Valentin Seux <valentin.seux@prologin.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
@@ -1183,19 +1183,19 @@ msgstr "Coder en Python"
 msgid "Python Introduction"
 msgstr "Introduction au Python"
 
-#: gcc/templates/gcc/main-menu.html:16 gcc/templates/gcc/tutorials.html:54
+#: gcc/templates/gcc/main-menu.html:16 gcc/templates/gcc/tutorials.html:61
 msgid "Lists and strings"
 msgstr "Listes et chaînes de caractères"
 
-#: gcc/templates/gcc/main-menu.html:17 gcc/templates/gcc/tutorials.html:75
+#: gcc/templates/gcc/main-menu.html:17 gcc/templates/gcc/tutorials.html:84
 msgid "Object"
 msgstr "Objets"
 
-#: gcc/templates/gcc/main-menu.html:18 gcc/templates/gcc/tutorials.html:93
+#: gcc/templates/gcc/main-menu.html:18 gcc/templates/gcc/tutorials.html:104
 msgid "Web"
 msgstr "Web"
 
-#: gcc/templates/gcc/main-menu.html:19 gcc/templates/gcc/tutorials.html:112
+#: gcc/templates/gcc/main-menu.html:19 gcc/templates/gcc/tutorials.html:126
 msgid "Game"
 msgstr "Jeu"
 
@@ -1613,23 +1613,23 @@ msgstr "Travaux pratiques"
 #: gcc/templates/gcc/tutorials.html:15
 #, python-format
 msgid ""
-"This page lists the tutorials used during the Girls Can Code! summer camps.<br />Do not hesitate to contact us <a href=\"%(contact_page)s#contact\">here</a> \n"
+"This page lists the tutorials used during the Girls Can Code! summer camps.<br />You can download the tutorials' \n"
+"    PDFs by clicking on 'Tutorial 0' on the left.<br />Do not hesitate to contact us <a href=\"%(contact_page)s#contact\">here</a> \n"
 "    should you have any questions regarding the tutorials."
 msgstr ""
-"Cette page liste les travaux pratiques utilisés lors des stages Girls Can "
-"Code!.<br />N'hésitez pas à nous contacter <a "
-"href=\"%(contact_page)s#contact\">ici</a> si vous avez des questions sur les"
-" exercices."
+"Cette page liste les travaux pratiques utilisés lors des stages Girls Can Code!.<br />Vous pouvez télécharger les PDFs \n"
+"des travaux pratiques en cliquant sur 'TP 0' sur la gauche.<br />N'hésitez pas à nous contacter <a href=\"%(contact_page)s#contact\">ici</a> \n"
+"si vous avez des questions sur les exercices."
 
-#: gcc/templates/gcc/tutorials.html:20
+#: gcc/templates/gcc/tutorials.html:22
 msgid "Tutorial 0"
 msgstr "TP 0"
 
-#: gcc/templates/gcc/tutorials.html:21
+#: gcc/templates/gcc/tutorials.html:24
 msgid "What to use to code in Python"
 msgstr "Quoi utiliser pour coder en Python"
 
-#: gcc/templates/gcc/tutorials.html:25
+#: gcc/templates/gcc/tutorials.html:28
 msgid ""
 "Learn how to use <a href=\"https://codewith.mu\">Mu Editor</a> in order to code in Python.<br />\n"
 "            We will walk you through Mu Editor's core features and with these you will be able to run and debug your code in no time !"
@@ -1637,15 +1637,15 @@ msgstr ""
 "Apprenez à utiliser <a href=\"https://codewith.mu\">Mu Editor</a> pour coder en Python.<br />\n"
 "\tNous apprendrons à utiliser les fonctionnalités de base de Mu Editor pour pouvoir lancer et debug notre code !"
 
-#: gcc/templates/gcc/tutorials.html:32
+#: gcc/templates/gcc/tutorials.html:36
 msgid "Tutorial 1"
 msgstr "TP 1"
 
-#: gcc/templates/gcc/tutorials.html:33
+#: gcc/templates/gcc/tutorials.html:38
 msgid "Introduction to Python programming"
 msgstr "Introduction à la programmation en Python"
 
-#: gcc/templates/gcc/tutorials.html:37
+#: gcc/templates/gcc/tutorials.html:42
 msgid ""
 "This tutorial will teach you <strong>some basic things</strong> you need to know when programming in Python:\n"
 "            <ul>\n"
@@ -1671,11 +1671,11 @@ msgstr ""
 "Vous réussirez à faire un programme simple qui compte les points d'un tournoi de sport.<br />\n"
 "Vous n'aurez besoin que d'un éditeur et d'un interpréteur Python, que vous avez vu dans le tout premier TP."
 
-#: gcc/templates/gcc/tutorials.html:53
+#: gcc/templates/gcc/tutorials.html:59
 msgid "Tutorial 2"
 msgstr "TP 2"
 
-#: gcc/templates/gcc/tutorials.html:58
+#: gcc/templates/gcc/tutorials.html:65
 msgid ""
 "You will learn about <strong>lists</strong> and <strong>strings</strong> and practice what you learnt \n"
 "          in Tutorial 1.<br />Through the exercices, you will design functions that will:\n"
@@ -1700,11 +1700,11 @@ msgstr ""
 "<li>et plus encore !</li>\n"
 "</ul>"
 
-#: gcc/templates/gcc/tutorials.html:74
+#: gcc/templates/gcc/tutorials.html:82
 msgid "Tutorial 3"
 msgstr "TP 3"
 
-#: gcc/templates/gcc/tutorials.html:79
+#: gcc/templates/gcc/tutorials.html:88
 msgid ""
 "This tutorial introduces the <strong>Object-Oriented Programming</strong> (OOP) paradigm.<br />You will learn \n"
 "          how to build <strong>classes in Python</strong>. The first part will teach you:\n"
@@ -1723,11 +1723,11 @@ msgstr ""
 "</ul>\n"
 "La seconde partie se sert d'un exercice sur le thème des Pokémons pour vous entraîner sur ces notions."
 
-#: gcc/templates/gcc/tutorials.html:92
+#: gcc/templates/gcc/tutorials.html:102
 msgid "Tutorial 4"
 msgstr "TP 4"
 
-#: gcc/templates/gcc/tutorials.html:98
+#: gcc/templates/gcc/tutorials.html:108
 msgid ""
 "You will, in this tutorial, build your own <strong>website</strong> using <strong>HTML</strong> and \n"
 "          <strong>CSS</strong>.<br />With only an text editor and your web browser you will learn:\n"
@@ -1736,7 +1736,9 @@ msgid ""
 "            <li>how to add titles, paragraphs and even images to your webpage,</li>\n"
 "            <li>how to modify the style of your page with CSS3,</li>\n"
 "            <li>and much more.</li>\n"
-"          </ul>"
+"          </ul>\n"
+"          You can also find the bonus part for this tutorial \n"
+"          <a href=\"https://github.com/prologin/gcc-resources/blob/gh-pages/04_web_boni.pdf\">here</a>."
 msgstr ""
 "Vous pourrez, dans ce TP, faire votre propre <strong>site web</strong> en utilisant le <strong>HTML</strong> et le <strong>CSS</strong>.<br />Avec seulement un éditeur de texte et un navigateur internet vous apprendrez :\n"
 "<ul>\n"
@@ -1744,13 +1746,15 @@ msgstr ""
 "<li>comment ajouter des titres, des paragraphes ou encore des images à votre site,</li>\n"
 "<li>comment modifier le style de votre page avec CSS3,</li>\n"
 "<li>et bien plus encore !</li>\n"
-"</ul>"
+"</ul>\n"
+"Vous trouverez la partie bonus de ce TP \n"
+"<a href=\"https://github.com/prologin/gcc-resources/blob/gh-pages/04_web_boni.pdf\">ici</a>."
 
-#: gcc/templates/gcc/tutorials.html:111
+#: gcc/templates/gcc/tutorials.html:124
 msgid "Tutorial 5"
 msgstr "TP 5"
 
-#: gcc/templates/gcc/tutorials.html:116
+#: gcc/templates/gcc/tutorials.html:130
 msgid ""
 "For this tutorial, we recommend using <a href=\"#editor\">Mu editor</a> because the \n"
 "          <strong>pygame</strong> library is already installed.<br />You will revise all the notions you learnt so far in order \n"
