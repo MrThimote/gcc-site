@@ -12,12 +12,15 @@
 <div id="tp-inventory" class="container">
     <div class="row presentation">
     {% url 'gcc:contact' as contact_page %}
-    {% blocktrans %}This page lists the tutorials used during the Girls Can Code! summer camps.<br />Do not hesitate to contact us <a href="{{ contact_page }}#contact">here</a> 
+    {% blocktrans %}This page lists the tutorials used during the Girls Can Code! summer camps.<br />You can download the tutorials' 
+    PDFs by clicking on 'Tutorial 0' on the left.<br />Do not hesitate to contact us <a href="{{ contact_page }}#contact">here</a> 
     should you have any questions regarding the tutorials.{% endblocktrans %}
     </div>
     <div class="row">
         <div class="col-sm-2 tp-header">
+          <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/00_mu-tutoriel.pdf">
             <h1 id="editor">{% trans 'Tutorial 0' %}</h1>
+          </a>
             <h2>{% trans 'What to use to code in Python' %}</h2>
         </div>
         <div class="col-sm-10 tp-description">
@@ -29,7 +32,9 @@
     </div>
     <div class="row">
         <div class="col-sm-2 tp-header">
+          <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/01_decouverte.pdf">
             <h1 id="intro">{% trans 'Tutorial 1' %}</h1>
+          </a>
             <h2>{% trans 'Introduction to Python programming' %}</h2>
         </div>
         <div class="col-sm-10 tp-description">
@@ -50,7 +55,9 @@
     </div>
     <div class="row">
       <div class="col-sm-2 tp-header">
+        <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/02_listes_et_string.pdf">
           <h1 id="lists">{% trans 'Tutorial 2' %}</h1>
+        </a>
           <h2>{% trans 'Lists and strings' %}</h2>
       </div>
       <div class="col-sm-10 tp-description">
@@ -71,7 +78,9 @@
     </div>
     <div class="row">
       <div class="col-sm-2 tp-header">
-        <h1 id="object">{% trans 'Tutorial 3' %}</h1>
+        <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/04_objet.pdf">
+          <h1 id="object">{% trans 'Tutorial 3' %}</h1>
+        </a>
         <h2>{% trans 'Object' %}</h2>
       </div>
       <div class="col-sm-10 tp-description">
@@ -89,11 +98,12 @@
     </div>
     <div class="row">
       <div class="col-sm-2 tp-header">
-        <h1 id="web">{% trans 'Tutorial 4' %}</h1>
+        <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/04_web.pdf">
+          <h1 id="web">{% trans 'Tutorial 4' %}</h1>
+        </a>
         <h2>{% trans 'Web' %}</h2>
       </div>
       <div class="col-sm-10 tp-description">
-      {% static 'gcc/attachments/practicals/04_web_boni.pdf' as web_bonus %}
         <p>
           {% blocktrans %}You will, in this tutorial, build your own <strong>website</strong> using <strong>HTML</strong> and 
           <strong>CSS</strong>.<br />With only an text editor and your web browser you will learn:
@@ -102,13 +112,17 @@
             <li>how to add titles, paragraphs and even images to your webpage,</li>
             <li>how to modify the style of your page with CSS3,</li>
             <li>and much more.</li>
-          </ul>{% endblocktrans %}
+          </ul>
+          You can also find the bonus part for this tutorial 
+          <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/04_web_boni.pdf">here</a>.{% endblocktrans %}
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-2 tp-header">
-        <h1 id="game">{% trans 'Tutorial 5' %}</h1>
+        <a href="https://github.com/prologin/gcc-resources/blob/gh-pages/05_projet_jeu.pdf">
+          <h1 id="game">{% trans 'Tutorial 5' %}</h1>
+        </a>
         <h2>{% trans 'Game' %}</h2>
       </div>
       <div class="col-sm-10 tp-description">
