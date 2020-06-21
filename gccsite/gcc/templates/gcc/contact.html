@@ -1,6 +1,12 @@
 {% extends "gcc/base.html" %}
 {% load static %}
 {% load i18n %}
+{% load django_bootstrap_breadcrumbs utils %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "gcc:contact" %}{% trans "Contact" %}{% endbreadcrumb_for %}
+{% endblock breadcrumbs %}
 
 {% block title %}{% trans 'Contact' %}{% endblock %}
 

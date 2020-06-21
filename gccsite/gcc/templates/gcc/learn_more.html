@@ -2,6 +2,12 @@
 
 {% load static %}
 {% load i18n %}
+{% load django_bootstrap_breadcrumbs utils %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "gcc:learn_more" %}{% trans "Learn more" %}{% endbreadcrumb_for %}
+{% endblock breadcrumbs %}
 
 {% block title %}{% trans 'Main Informations' %}{% endblock %}
 

@@ -51,7 +51,8 @@
   {# Content #}
     <div class="container">
         {% block breadcrumbs %}
-          {% clear_breadcrumbs %}
+        {% clear_breadcrumbs %}
+        {% breadcrumb_for "gcc:index" %}{% trans "Home" %}{% endbreadcrumb_for %}
         {% endblock %}
         {% render_breadcrumbs "django_bootstrap_breadcrumbs/bootstrap3.html" %}
       {% include 'prologin/messages.html' %}

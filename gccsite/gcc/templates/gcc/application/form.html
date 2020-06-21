@@ -2,6 +2,12 @@
 {% load bootstrap %}
 {% load static %}
 {% load i18n %}
+{% load django_bootstrap_breadcrumbs utils %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "gcc:application" %}{% trans "Application" %}{% endbreadcrumb_for %}
+{% endblock breadcrumbs %}
 
 {% block title %}{% trans "GCC! − Application" %}{% endblock %}
 
