@@ -10,15 +10,16 @@
 # Garance Gourdel <garance.gourdel@prologin.org>, 2020
 # Thibault Allançon <tallancon@gmail.com>, 2020
 # Valentin Seux <valentin.seux@prologin.org>, 2020
+# Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-24 15:37+0200\n"
+"POT-Creation-Date: 2020-06-21 15:30+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
-"Last-Translator: Valentin Seux <valentin.seux@prologin.org>, 2020\n"
+"Last-Translator: Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,8 +59,8 @@ msgstr "Autre"
 msgid "Manager"
 msgstr "Responsable"
 
-#: centers/models.py:103 gcc/templates/gcc/contact.html:5
-#: gcc/templates/gcc/main-footer.html:13
+#: centers/models.py:103 gcc/templates/gcc/contact.html:8
+#: gcc/templates/gcc/contact.html:11 gcc/templates/gcc/main-footer.html:13
 msgid "Contact"
 msgstr "Contact"
 
@@ -231,12 +232,16 @@ msgstr "C'est parti !"
 msgid "Concerned candidates"
 msgstr "Candidates concernées"
 
-#: gcc/templates/gcc/application/form.html:6
+#: gcc/templates/gcc/application/form.html:9
+msgid "Application"
+msgstr "Application"
+
+#: gcc/templates/gcc/application/form.html:12
 #: gcc/templates/gcc/application/wishes.html:6
 msgid "GCC! − Application"
 msgstr "GCC! - Candidature"
 
-#: gcc/templates/gcc/application/form.html:13
+#: gcc/templates/gcc/application/form.html:19
 #: gcc/templates/gcc/application/summary.html:115
 #: gcc/templates/gcc/application/validation.html:14
 msgid ""
@@ -246,11 +251,11 @@ msgstr ""
 "Il manque plusieurs informations nécessaires, vous ne pourrez pas valider "
 "votre candidature !"
 
-#: gcc/templates/gcc/application/form.html:16
+#: gcc/templates/gcc/application/form.html:22
 msgid "Application Form"
 msgstr "Formulaire d'Inscription"
 
-#: gcc/templates/gcc/application/form.html:18
+#: gcc/templates/gcc/application/form.html:24
 msgid ""
 " The legal aspect of the form has to be filled in by the\n"
 "    legal representative, however the informative part and the motivational\n"
@@ -260,16 +265,16 @@ msgstr ""
 " mais les questions de motivation doivent être remplies par la participante "
 "!"
 
-#: gcc/templates/gcc/application/form.html:26
+#: gcc/templates/gcc/application/form.html:32
 msgid "I consent to the processing of my data by Prologin."
 msgstr ""
 "Je consens au traitement de mes données personnelles ci-dessus par Prologin."
 
-#: gcc/templates/gcc/application/form.html:28
+#: gcc/templates/gcc/application/form.html:34
 msgid "Validate and select my wishes"
 msgstr "Valider et classer mes choix"
 
-#: gcc/templates/gcc/application/form.html:33
+#: gcc/templates/gcc/application/form.html:39
 #, python-format
 msgid ""
 " The GCC! summer camps are\n"
@@ -282,7 +287,7 @@ msgstr ""
 "Les stages GCC! sont organisés par l'association Prologin, qui agit en tant que contrôleur de données. Les réponses collectées dans ce formulaire nous permettent de préparer les stages: personnalisation du contenu, restrictions alimentaires, etc...<br>\n"
 "Pour en apprendre plus à propos de notre gestion des données et de vos droits, <a href=\"%(url)s\">consultez notre page dédiée</a>."
 
-#: gcc/templates/gcc/application/form.html:42
+#: gcc/templates/gcc/application/form.html:48
 msgid ""
 " (*) This field will be required to validate your\n"
 "      application. "
@@ -571,11 +576,16 @@ msgstr ""
 msgid "Inscription close the %(signup_end)s "
 msgstr "L'inscription se termine le %(signup_end)s "
 
-#: gcc/templates/gcc/contact.html:9
+#: gcc/templates/gcc/base.html:55 gcc/templates/gcc/index.html:6
+#: gcc/templates/gcc/main-footer.html:9
+msgid "Home"
+msgstr "Accueil"
+
+#: gcc/templates/gcc/contact.html:15
 msgid "About Girls Can Code!"
 msgstr "À propos de Girls Can Code!"
 
-#: gcc/templates/gcc/contact.html:11
+#: gcc/templates/gcc/contact.html:17
 msgid ""
 "Girls Can Code! are camps organized by the\n"
 "  <a href=\"https://prologin.org\">Prologin association</a> for girls under 18 to help them discover computer\n"
@@ -585,27 +595,27 @@ msgstr ""
 "href=\"https://prologin.org\">l'association Prologin</a> pour les jeunes "
 "collégiennes et lycéennes pour leur faire découvrir l'informatique."
 
-#: gcc/templates/gcc/contact.html:18
+#: gcc/templates/gcc/contact.html:24
 msgid "Contact info"
 msgstr "Informations de contact"
 
-#: gcc/templates/gcc/contact.html:21 prologin/models.py:67
+#: gcc/templates/gcc/contact.html:27 prologin/models.py:67
 msgid "Address"
 msgstr "Adresse"
 
-#: gcc/templates/gcc/contact.html:28 users/models.py:63
+#: gcc/templates/gcc/contact.html:34 users/models.py:63
 msgid "Phone"
 msgstr "Téléphone"
 
-#: gcc/templates/gcc/contact.html:30
+#: gcc/templates/gcc/contact.html:36
 msgid "Mail"
 msgstr "E-mail"
 
-#: gcc/templates/gcc/contact.html:38
+#: gcc/templates/gcc/contact.html:44
 msgid "Legal status"
 msgstr "Statut légal"
 
-#: gcc/templates/gcc/contact.html:40
+#: gcc/templates/gcc/contact.html:46
 msgid ""
 "Prologin is a French “law 1901” organization registered under the sub-prefecture of\n"
 "<em>L'Hay-les-Roses</em> on 2000-08-04."
@@ -613,11 +623,11 @@ msgstr ""
 "Prologin est une association loi de 1901, déclarée à la sous-préfecture de "
 "<em>L'Hay-les-Roses</em> le 04-08-2000."
 
-#: gcc/templates/gcc/contact.html:42
+#: gcc/templates/gcc/contact.html:48
 msgid "CNIL registration number:"
 msgstr "Numéro de déclaration CNIL :"
 
-#: gcc/templates/gcc/contact.html:43
+#: gcc/templates/gcc/contact.html:49
 msgid ""
 "In accordance with Article 34 of the “Informatique et Liberté” law, you have\n"
 "the right to access, modify and delete data concerning you.\n"
@@ -630,11 +640,11 @@ msgstr ""
 "contacter Prologin en utilisant l'une des méthodes listées dans l'encart « "
 "Informations de contact. »"
 
-#: gcc/templates/gcc/contact.html:52 gcc/templates/gcc/main-footer.html:7
+#: gcc/templates/gcc/contact.html:58 gcc/templates/gcc/main-footer.html:7
 msgid "Girls Can Code!"
 msgstr "Girls Can Code!"
 
-#: gcc/templates/gcc/contact.html:53
+#: gcc/templates/gcc/contact.html:59
 msgid ""
 "Prologin is an association whose original purpose was to organize a computer science \n"
 "contest. In 2014, Prologin started to organize the Girls Can Code! summer camps.\n"
@@ -652,7 +662,7 @@ msgstr ""
 " réseau, le développement web, la robotique, les microcontrôleurs, les jeux "
 "vidéos et plus encore, tout cela à travers des travaux pratiques."
 
-#: gcc/templates/gcc/contact.html:60
+#: gcc/templates/gcc/contact.html:66
 msgid ""
 "Conferences from exterior speakers are organized for every camp. It enables the attendees \n"
 "to exchange with women working in the computer science industry or in academia. The young girls are sometimes \n"
@@ -666,7 +676,7 @@ msgstr ""
 "change pour elles de pouvoir discuter du parcours scolaire des "
 "conférencières qui peuvent les aides pour leurs choix futurs."
 
-#: gcc/templates/gcc/contact.html:65
+#: gcc/templates/gcc/contact.html:71
 msgid ""
 "Prologin staff is present during the camp to help them debug their programs and pass on \n"
 "knowledge in computer science and programming."
@@ -675,11 +685,11 @@ msgstr ""
 "participantes à debug leurs programmes et pour leur transmettre des "
 "connaissances en informatique."
 
-#: gcc/templates/gcc/contact.html:68
+#: gcc/templates/gcc/contact.html:74
 msgid "Prologin : a computer enthusiasts organization"
 msgstr "Un association de passionnés d'informatique"
 
-#: gcc/templates/gcc/contact.html:69
+#: gcc/templates/gcc/contact.html:75
 msgid ""
 "<p class=\"text-justify\">The purpose of Prologin's contest is to enable young computer enthusiasts to meet and compete with one another. Indeed,\n"
 "computer science is still largely under represented in French schools. Therefore, those who practice it are\n"
@@ -718,7 +728,7 @@ msgstr ""
 "\n"
 "<p class=\"text-justify\">Finalement, pour tous les survivants qui atteignent la finale, c'est aussi l'occasion de passer un super weekend avec nous&nbsp;!</p>\n"
 
-#: gcc/templates/gcc/contact.html:90
+#: gcc/templates/gcc/contact.html:96
 #, python-format
 msgid ""
 "More information can be found on <a href=\"https://prologin.org\">Prologin's website</a>. For any \n"
@@ -728,11 +738,15 @@ msgstr ""
 "href=\"https://prologin.org\">le site de Prologin</a>. Pour toute demande, "
 "veuillez <a href=\"%(about_organization)s#contact\">nous contacter</a>."
 
-#: gcc/templates/gcc/editions.html:5
+#: gcc/templates/gcc/editions.html:8
+msgid "Editions"
+msgstr "Editions"
+
+#: gcc/templates/gcc/editions.html:11
 msgid "Past Editions"
 msgstr "Éditions Passées"
 
-#: gcc/templates/gcc/editions.html:22
+#: gcc/templates/gcc/editions.html:28
 msgid ""
 "\n"
 "            <br />\n"
@@ -745,7 +759,7 @@ msgstr ""
 "En 2020, Prologin a exceptionnellement organisé un stage à l'occasion de la <strong>Journée Internationale des Femmes et des Filles de Sciences</strong> en partenariat avec EPITA, pour <strong>14 jeunes filles</strong>.<br />\n"
 "Les inscriptions ouvriront bientôt pour les stages d'été de cette année.<br />Soyez les premiers informés en vous inscrivant à notre newsletter !"
 
-#: gcc/templates/gcc/editions.html:47
+#: gcc/templates/gcc/editions.html:53
 msgid ""
 "\n"
 "        The one week summer camps are still as iconic and <strong>80 girls</strong> attended throught the summer. This year was also created a new type of training camp : one or two days long, organized on Googles' premises in <strong>Montperllier</strong>, <strong>Nancy</strong> and <strong>Rennes</strong>. They brought together <strong>28</strong> junior high school and high school girls.<br />\n"
@@ -758,7 +772,7 @@ msgstr ""
 "Retrouvez les photos du stage de Juillet <a href=\"https://www.flickr.com/photos/prologin/albums/72157709807830322\">ici</a>.<br />\n"
 "Et celle d'Août <a href=\"https://www.flickr.com/photos/prologin/albums/72157710724424633\">ici</a>."
 
-#: gcc/templates/gcc/editions.html:73
+#: gcc/templates/gcc/editions.html:79
 msgid ""
 "\n"
 "        This year, the organization of a Girls Can Code! at <strong>Nantes</strong> was delegated to the organization Adn-ouest Atlantic 2020. Meanwhile, Prologin  organizes the summer camps in <strong>Paris</strong> and <strong>Lyon</strong>.<br />\n"
@@ -771,7 +785,7 @@ msgstr ""
 "Ces stages qui accueillent au total <strong>70 participantes</strong> voient l’arrivée d’un TP sur les <strong>microcontrôleurs microbit</strong> qui, avec le TP jeux vidéo, donnent la possibilité d’exprimer sa créativité.<br />\n"
 "Retrouvez l'album photo de cette année <a href=\"https://www.flickr.com/photos/prologin/albums/72157695163456110\">ici</a>."
 
-#: gcc/templates/gcc/editions.html:101
+#: gcc/templates/gcc/editions.html:107
 msgid ""
 "\n"
 "        In 2017, Prologin challenges itself to organize 3 Girls Can Code summer camps! One at <strong>Bordeaux</strong> in July and two others at <strong>Paris</strong> and <strong>Lyon</strong> at the same time at the end of august. They received a total of <strong>52 participants</strong> !<br />\n"
@@ -782,7 +796,7 @@ msgstr ""
 "En 2017, Prologin se lance un grand défi, l’organisation de 3 stages Girls Can Code!, un à <strong>Bordeaux</strong> en juillet et deux autres à <strong>Paris</strong> et <strong>Lyon</strong> en parallèle pendant la dernière semaine d'août. Ils ont réuni un total de <strong>52 participantes</strong> !\n"
 "Les photos de cette année sont disponibles <a href=\"https://www.flickr.com/photos/prologin/albums/72157713290224968\">ici</a>."
 
-#: gcc/templates/gcc/editions.html:124
+#: gcc/templates/gcc/editions.html:130
 msgid ""
 "\n"
 "        In 2016, the <strong>18 girls</strong> had very different levels, so the camp was split in small groups.\n"
@@ -795,7 +809,7 @@ msgstr ""
 "Le stage a vu l’arrivée d’un <strong>TP réseau</strong> qui consiste en la création d'un petit client de messagerie.\n"
 "Les photos sont disponibles <a href=\"https://www.flickr.com/photos/prologin/albums/72157669902774343\">ici</a>."
 
-#: gcc/templates/gcc/editions.html:146
+#: gcc/templates/gcc/editions.html:152
 msgid ""
 "\n"
 "        In 2015, there was <strong>12 girls</strong> taking part to the summer camps which for the first time as tutorials on <strong>web programming</strong>, and a small tutorial on <strong>video game creation</strong> with the Pygame library and even an introduction to  <strong>Linux</strong>.<br />\n"
@@ -805,7 +819,7 @@ msgstr ""
 "\n"
 "En 2015, c’est 12 filles qui ont pris part à un stage qui initie pour la première fois à des sujets sur le <strong>web</strong>, la création d’un petit <strong>jeu vidéo</strong> avec la<strong></strong> bibliothèque pygame ou encore sur l’os <strong>linux</strong>.<br />Les photos de 2015 peuvent être trouvées <a href=\"https://www.flickr.com/photos/prologin/albums/72157658107628891\">ici</a>."
 
-#: gcc/templates/gcc/editions.html:167
+#: gcc/templates/gcc/editions.html:173
 msgid ""
 "\n"
 "        This first summer camp hosted <strong>10 participants</strong> for 5 days to introduce to them to programming.\n"
@@ -816,10 +830,6 @@ msgstr ""
 "\n"
 "Ce premier stage a accueilli <strong>10 participantes</strong> pendant 5 jours d'initiation à la programmation.\n"
 "Parmi les participantes, deux en particulier ont poursuivi leurs études dans l'informatique et sont devenues organisatrices des stages !"
-
-#: gcc/templates/gcc/index.html:6 gcc/templates/gcc/main-footer.html:9
-msgid "Home"
-msgstr "Accueil"
 
 #: gcc/templates/gcc/index.html:17
 msgid "Girls Can Code! computer science summer camps for girls under 18."
@@ -891,7 +901,7 @@ msgstr ""
 "Girls Can Code! a été créé dans le but d'encourager des filles à s'essayer à l'informatique malgré le manque de femmes et les stéréotypes dans le domaine."
 
 #: gcc/templates/gcc/index.html:125 gcc/templates/gcc/index.html:138
-#: gcc/templates/gcc/index.html:150
+#: gcc/templates/gcc/index.html:150 gcc/templates/gcc/learn_more.html:9
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -948,15 +958,15 @@ msgstr ""
 "\n"
 "Termine par la création de ton propre projet."
 
-#: gcc/templates/gcc/learn_more.html:6
+#: gcc/templates/gcc/learn_more.html:12
 msgid "Main Informations"
 msgstr "L'Essentiel"
 
-#: gcc/templates/gcc/learn_more.html:14
+#: gcc/templates/gcc/learn_more.html:20
 msgid "The different types of Summer Camps"
 msgstr "Les différents types de stages"
 
-#: gcc/templates/gcc/learn_more.html:15
+#: gcc/templates/gcc/learn_more.html:21
 msgid ""
 "\n"
 "        There are two types of Girls Can Code! summer camps:\n"
@@ -973,11 +983,11 @@ msgstr ""
 "<li>Les stages courts, aussi appelés \"Girls Can Code! Week-end\", qui ont commencés en 2019.</li>\n"
 "</ul>"
 
-#: gcc/templates/gcc/learn_more.html:23
+#: gcc/templates/gcc/learn_more.html:29
 msgid "Content and schedule of the week-long Summer Camps"
 msgstr "Contenu et planning des stages Girls Can Code! d'une semaine"
 
-#: gcc/templates/gcc/learn_more.html:25
+#: gcc/templates/gcc/learn_more.html:31
 msgid ""
 "The summer camps lasts for one week and mainly consist of practical exercises.\n"
 "    The week starts with an initiation to the Python programming language, and then some\n"
@@ -991,7 +1001,7 @@ msgstr ""
 " se termine par la création d'un projet personnel, au choix entre un petit "
 "jeu vidéo, de la robotique ou de la programmation sur microcontrôleur. "
 
-#: gcc/templates/gcc/learn_more.html:32
+#: gcc/templates/gcc/learn_more.html:38
 msgid ""
 "Here is a typical schedule of a GCC! week. Notice that the attendees can arrive\n"
 "    between 9 am and 9:30 am and can leave at between 5 pm and 6 pm."
@@ -999,11 +1009,11 @@ msgstr ""
 "Voici un programme type, en particulier, remarquez que les participantes \n"
 "peuvent arriver entre 9h et 9h30 puis être récupérées le soir entre 17h et 18h."
 
-#: gcc/templates/gcc/learn_more.html:39
+#: gcc/templates/gcc/learn_more.html:45
 msgid "Content and schedule of the week-end Summer Camps"
 msgstr "Contenu et planning des  Girls Can Code! Week end"
 
-#: gcc/templates/gcc/learn_more.html:40
+#: gcc/templates/gcc/learn_more.html:46
 msgid ""
 "\n"
 "      They are shorter thus give less time to discover the variety of computer science but can be\n"
@@ -1016,7 +1026,7 @@ msgstr ""
 "\n"
 "Ils sont plus courts donc laissent moins de temps à la découverte de l'informatique dans sa globalité, mais sont plus faciles à organisés plus souvent et à des endroits plus variés. Ils peuvent être centrés sur un sujet en particulier mais quand rien n'est précisé, ils sont une introduction à l'informatique aux travers de travaux pratiques. Le premier jour se concentre sur la découverte du Python et le deuxième sur la réalisation d'un petit projet sur microcontrôleur."
 
-#: gcc/templates/gcc/learn_more.html:49
+#: gcc/templates/gcc/learn_more.html:55
 msgid ""
 "Here is an example schedule of a GCC! week-end, but the time of arrival and\n"
 "  departure may vary, you will be sent a precise one when accepted."
@@ -1025,11 +1035,11 @@ msgstr ""
 "amener à changer, en particulier,  les heures de début et de fin de journée "
 "dépendent du stage et seront précisées à l'acceptation de la candidature."
 
-#: gcc/templates/gcc/learn_more.html:56
+#: gcc/templates/gcc/learn_more.html:62
 msgid "Academic Level"
 msgstr "Niveau scolaire"
 
-#: gcc/templates/gcc/learn_more.html:58
+#: gcc/templates/gcc/learn_more.html:64
 msgid ""
 "We accept girls attending to secondary school are higher, the difficulty of the\n"
 "    internship aims at adapting to the knowledge of all participants."
@@ -1037,7 +1047,7 @@ msgstr ""
 "Nous acceptons les participantes à partir de la 6<sup>ème</sup> et le stage "
 "est adapté au niveau de chacune."
 
-#: gcc/templates/gcc/learn_more.html:64
+#: gcc/templates/gcc/learn_more.html:70
 #, python-format
 msgid ""
 "Please take some time reading our article about privacy:\n"
@@ -1135,14 +1145,15 @@ msgid "The summer camps"
 msgstr "Les stages"
 
 #: gcc/templates/gcc/main-footer.html:11 gcc/templates/gcc/main-menu.html:6
-msgid "Ressources"
+#: gcc/templates/gcc/resources.html:8 gcc/templates/gcc/resources.html:11
+msgid "Resources"
 msgstr "Ressources"
 
 #: gcc/templates/gcc/main-footer.html:12 gcc/templates/gcc/main-menu.html:7
 msgid "Past editions"
 msgstr "Éditions passées"
 
-#: gcc/templates/gcc/main-footer.html:14
+#: gcc/templates/gcc/main-footer.html:14 gcc/templates/gcc/privacy.html:8
 msgid "Privacy"
 msgstr "Vie privée"
 
@@ -1183,19 +1194,19 @@ msgstr "Coder en Python"
 msgid "Python Introduction"
 msgstr "Introduction au Python"
 
-#: gcc/templates/gcc/main-menu.html:16 gcc/templates/gcc/tutorials.html:61
+#: gcc/templates/gcc/main-menu.html:16 gcc/templates/gcc/tutorials.html:67
 msgid "Lists and strings"
 msgstr "Listes et chaînes de caractères"
 
-#: gcc/templates/gcc/main-menu.html:17 gcc/templates/gcc/tutorials.html:84
+#: gcc/templates/gcc/main-menu.html:17 gcc/templates/gcc/tutorials.html:90
 msgid "Object"
 msgstr "Objets"
 
-#: gcc/templates/gcc/main-menu.html:18 gcc/templates/gcc/tutorials.html:104
+#: gcc/templates/gcc/main-menu.html:18 gcc/templates/gcc/tutorials.html:110
 msgid "Web"
 msgstr "Web"
 
-#: gcc/templates/gcc/main-menu.html:19 gcc/templates/gcc/tutorials.html:126
+#: gcc/templates/gcc/main-menu.html:19 gcc/templates/gcc/tutorials.html:132
 msgid "Game"
 msgstr "Jeu"
 
@@ -1246,11 +1257,11 @@ msgstr ""
 msgid "Subscribe"
 msgstr "S'inscrire"
 
-#: gcc/templates/gcc/privacy.html:5
+#: gcc/templates/gcc/privacy.html:11
 msgid "privacy"
 msgstr "confidentialité"
 
-#: gcc/templates/gcc/privacy.html:9
+#: gcc/templates/gcc/privacy.html:15
 msgid ""
 "\n"
 "<section class=\"privacy\">\n"
@@ -1495,15 +1506,11 @@ msgstr "Me connecter et candidater"
 msgid "No summer camps currently open for registration"
 msgstr "Pas de stage à venir pour le moment"
 
-#: gcc/templates/gcc/resources.html:5
-msgid "Resources"
-msgstr "Ressources"
-
-#: gcc/templates/gcc/resources.html:10
+#: gcc/templates/gcc/resources.html:16
 msgid "Learning to program"
 msgstr "Apprendre à programmer"
 
-#: gcc/templates/gcc/resources.html:12
+#: gcc/templates/gcc/resources.html:18
 msgid ""
 "\n"
 "      Many resources are available on the internet to start coding, but it is sometime hard not to get lost in this ocean of informations.\n"
@@ -1514,11 +1521,11 @@ msgstr ""
 "Beaucoup de ressources sont disponibles sur Internet pour te permettre de découvrir l’informatique, mais il est parfois difficile de s'orienter face à la quantité d'informations.\n"
 "Nous détaillons ici quelques ressources particulièrement intéressantes pour débuter et s'entraîner."
 
-#: gcc/templates/gcc/resources.html:18
+#: gcc/templates/gcc/resources.html:24
 msgid "Which language to begin with ?"
 msgstr "Avec quel langage commencer ?"
 
-#: gcc/templates/gcc/resources.html:20
+#: gcc/templates/gcc/resources.html:26
 msgid ""
 "\n"
 "      When coding, we describe information that the machine will execute. To be able interact with the machine, we need to choose the language we will write in.\n"
@@ -1529,7 +1536,7 @@ msgstr ""
 "Coder consiste à décrire des opérations que la machine exécutera, et pour communiquer avec la machine, on doit choisir au préalable dans quel langage on va lui parler.\n"
 "Il existe beaucoup de langages de programmation différents, chacun avec leurs spécificités."
 
-#: gcc/templates/gcc/resources.html:26
+#: gcc/templates/gcc/resources.html:32
 msgid ""
 "\n"
 "      It's important to know in which language we want to start programming in when starting because we learn to program in a language.\n"
@@ -1541,11 +1548,11 @@ msgstr ""
 "Il est important de savoir dans quel langage on souhaite commencer à programmer avant de se lancer.\n"
 "Durant les stages, les participantes utilisent Python, un langage facile à prendre en main (plus que d'autres en tous cas ...) et qui a de très nombreuses applications. YouTube par exemple est codé à l'aide de Python !"
 
-#: gcc/templates/gcc/resources.html:33
+#: gcc/templates/gcc/resources.html:39
 msgid "Starting"
 msgstr "Débuter"
 
-#: gcc/templates/gcc/resources.html:35
+#: gcc/templates/gcc/resources.html:41
 msgid ""
 "\n"
 "        France-IOI offers a learning platform with exercises organized by level of difficulty, everything accessible completely freely and fully in french !\n"
@@ -1554,7 +1561,7 @@ msgstr ""
 "\n"
 "France-IOI offre une plateforme d'apprentissage avec des exercices organisés par niveaux, le tout gratuitement et entièrement en français !"
 
-#: gcc/templates/gcc/resources.html:39
+#: gcc/templates/gcc/resources.html:45
 msgid ""
 "\n"
 "        If you speak a bit of English, Codeacademy is a good resource to start programming.\n"
@@ -1563,11 +1570,11 @@ msgstr ""
 "\n"
 "Si tu parles un peu anglais, Codeacademy est une bonne ressource pour te lancer dans la programmation."
 
-#: gcc/templates/gcc/resources.html:45
+#: gcc/templates/gcc/resources.html:51
 msgid "Keep coding"
 msgstr "Continuer à coder"
 
-#: gcc/templates/gcc/resources.html:47
+#: gcc/templates/gcc/resources.html:53
 msgid ""
 "\n"
 "      The good thing when learning to program, is that it can be used in many ways, to do plenty of things\n"
@@ -1580,7 +1587,7 @@ msgstr ""
 "Il y a beaucoup de sous domaines et d'applications en informatique, et pour continuer à coder, c’est motivant de trouver quelque chose qui nous plaît.\n"
 "Voici quelques exemples :"
 
-#: gcc/templates/gcc/resources.html:54
+#: gcc/templates/gcc/resources.html:60
 msgid ""
 "\n"
 "        They have written a tutorial to create a blog in Python thanks to the Django framework.\n"
@@ -1593,7 +1600,7 @@ msgstr ""
 "Il a été traduit entièrement en français et est très accessible.\n"
 "Django est un outil très puissant pour le web. Les sites de GCC! et Prologin utilisent d’ailleurs ce framework."
 
-#: gcc/templates/gcc/resources.html:60
+#: gcc/templates/gcc/resources.html:66
 msgid ""
 "\n"
 "        It's the name of the organization that organize the Girls Can Code! camps but i's also a computer science contest for people under 21 years old.\n"
@@ -1606,11 +1613,11 @@ msgstr ""
 "Sur son site, tu peux trouver les archives des exercices des années précédentes.\n"
 "Ce sont des petits problèmes qui donnent une entrée et demandent une réponse précise, c’est à toi d’écrire le programme qui trouve la réponse !"
 
-#: gcc/templates/gcc/tutorials.html:5
+#: gcc/templates/gcc/tutorials.html:8 gcc/templates/gcc/tutorials.html:11
 msgid "Tutorials"
 msgstr "Travaux pratiques"
 
-#: gcc/templates/gcc/tutorials.html:15
+#: gcc/templates/gcc/tutorials.html:21
 #, python-format
 msgid ""
 "This page lists the tutorials used during the Girls Can Code! summer camps.<br />You can download the tutorials' \n"
@@ -1621,15 +1628,15 @@ msgstr ""
 "des travaux pratiques en cliquant sur 'TP 0' sur la gauche.<br />N'hésitez pas à nous contacter <a href=\"%(contact_page)s#contact\">ici</a> \n"
 "si vous avez des questions sur les exercices."
 
-#: gcc/templates/gcc/tutorials.html:22
+#: gcc/templates/gcc/tutorials.html:28
 msgid "Tutorial 0"
 msgstr "TP 0"
 
-#: gcc/templates/gcc/tutorials.html:24
+#: gcc/templates/gcc/tutorials.html:30
 msgid "What to use to code in Python"
 msgstr "Quoi utiliser pour coder en Python"
 
-#: gcc/templates/gcc/tutorials.html:28
+#: gcc/templates/gcc/tutorials.html:34
 msgid ""
 "Learn how to use <a href=\"https://codewith.mu\">Mu Editor</a> in order to code in Python.<br />\n"
 "            We will walk you through Mu Editor's core features and with these you will be able to run and debug your code in no time !"
@@ -1637,15 +1644,15 @@ msgstr ""
 "Apprenez à utiliser <a href=\"https://codewith.mu\">Mu Editor</a> pour coder en Python.<br />\n"
 "\tNous apprendrons à utiliser les fonctionnalités de base de Mu Editor pour pouvoir lancer et debug notre code !"
 
-#: gcc/templates/gcc/tutorials.html:36
+#: gcc/templates/gcc/tutorials.html:42
 msgid "Tutorial 1"
 msgstr "TP 1"
 
-#: gcc/templates/gcc/tutorials.html:38
+#: gcc/templates/gcc/tutorials.html:44
 msgid "Introduction to Python programming"
 msgstr "Introduction à la programmation en Python"
 
-#: gcc/templates/gcc/tutorials.html:42
+#: gcc/templates/gcc/tutorials.html:48
 msgid ""
 "This tutorial will teach you <strong>some basic things</strong> you need to know when programming in Python:\n"
 "            <ul>\n"
@@ -1671,11 +1678,11 @@ msgstr ""
 "Vous réussirez à faire un programme simple qui compte les points d'un tournoi de sport.<br />\n"
 "Vous n'aurez besoin que d'un éditeur et d'un interpréteur Python, que vous avez vu dans le tout premier TP."
 
-#: gcc/templates/gcc/tutorials.html:59
+#: gcc/templates/gcc/tutorials.html:65
 msgid "Tutorial 2"
 msgstr "TP 2"
 
-#: gcc/templates/gcc/tutorials.html:65
+#: gcc/templates/gcc/tutorials.html:71
 msgid ""
 "You will learn about <strong>lists</strong> and <strong>strings</strong> and practice what you learnt \n"
 "          in Tutorial 1.<br />Through the exercices, you will design functions that will:\n"
@@ -1700,11 +1707,11 @@ msgstr ""
 "<li>et plus encore !</li>\n"
 "</ul>"
 
-#: gcc/templates/gcc/tutorials.html:82
+#: gcc/templates/gcc/tutorials.html:88
 msgid "Tutorial 3"
 msgstr "TP 3"
 
-#: gcc/templates/gcc/tutorials.html:88
+#: gcc/templates/gcc/tutorials.html:94
 msgid ""
 "This tutorial introduces the <strong>Object-Oriented Programming</strong> (OOP) paradigm.<br />You will learn \n"
 "          how to build <strong>classes in Python</strong>. The first part will teach you:\n"
@@ -1723,11 +1730,11 @@ msgstr ""
 "</ul>\n"
 "La seconde partie se sert d'un exercice sur le thème des Pokémons pour vous entraîner sur ces notions."
 
-#: gcc/templates/gcc/tutorials.html:102
+#: gcc/templates/gcc/tutorials.html:108
 msgid "Tutorial 4"
 msgstr "TP 4"
 
-#: gcc/templates/gcc/tutorials.html:108
+#: gcc/templates/gcc/tutorials.html:114
 msgid ""
 "You will, in this tutorial, build your own <strong>website</strong> using <strong>HTML</strong> and \n"
 "          <strong>CSS</strong>.<br />With only an text editor and your web browser you will learn:\n"
@@ -1750,11 +1757,11 @@ msgstr ""
 "Vous trouverez la partie bonus de ce TP \n"
 "<a href=\"https://github.com/prologin/gcc-resources/blob/gh-pages/04_web_boni.pdf\">ici</a>."
 
-#: gcc/templates/gcc/tutorials.html:124
+#: gcc/templates/gcc/tutorials.html:130
 msgid "Tutorial 5"
 msgstr "TP 5"
 
-#: gcc/templates/gcc/tutorials.html:130
+#: gcc/templates/gcc/tutorials.html:136
 msgid ""
 "For this tutorial, we recommend using <a href=\"#editor\">Mu editor</a> because the \n"
 "          <strong>pygame</strong> library is already installed.<br />You will revise all the notions you learnt so far in order \n"
@@ -1769,7 +1776,7 @@ msgid ""
 msgstr ""
 "Pour ce TP, nous vous recommandons d'utiliser <a href=\"#editor\">Mu editor</a> car la bibliothèque <strong>pygame</strong> est déjà installée.<br />Vous réviserez toutes les notions apprises jusque là pour créer votre <strong>propre jeu vidéo</strong> :\n"
 "<ul>\n"
-"concevoir l'aspect visuel de votre jeu,\n"
+"<li>concevoir l'aspect visuel de votre jeu,</li>\n"
 "<li>gérer les événements du jeu,</li>\n"
 "<li>utiliser les fonctions de pygame pour modifier le visuel et le comportement de votre jeu,</li>\n"
 "<li>amusez-vous !</li>\n"
