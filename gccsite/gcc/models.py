@@ -114,6 +114,15 @@ class Event(models.Model):
             end=date_format(self.event_end, "SHORT_DATE_FORMAT"),
         )
 
+    def clean(self):
+        from django.core.exceptions import ValidationError
+        if self.event_start > self.event_end:
+            raise ValidationError('Event start date cannot precede event end date')
+        if self.signup_start > self.signup_end:
+            raise ValidationError('Signup start date cannot precede signup end date')
+        if self.signup_end > self.event_start:
+            raise ValidationError('Event start date cannot precede signup end date')
+
 
 class Corrector(models.Model):
     event = models.ForeignKey(
