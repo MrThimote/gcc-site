@@ -64,6 +64,7 @@ class Edition(models.Model):
             edition=self,
             signup_start__lt=timezone.now(),
             signup_end__gte=timezone.now(),
+            event_end__gt=timezone.now(),
         )
         return current_events.exists()
 
