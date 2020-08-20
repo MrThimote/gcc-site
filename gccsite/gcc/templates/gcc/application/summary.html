@@ -2,6 +2,13 @@
 {% load i18n static staticfiles %}
 {% load application_status utils %}
 
+{% load django_bootstrap_breadcrumbs crispy_forms_tags %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "gcc:summary" %}{% trans "Applications" %}{% endbreadcrumb_for %}
+{% endblock breadcrumbs %}
+
 {% block head %}
   <link rel="stylesheet" href="{% static 'vendor/bootstrap/dist/css/bootstrap.min.css' %}" />
 {% endblock %}

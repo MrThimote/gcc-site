@@ -2,6 +2,16 @@
 {% load static %}
 {% load crispy_forms_tags %}
 {% load i18n staticfiles rules %}
+
+{% load django_bootstrap_breadcrumbs utils %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "" %}{% trans "Members" %}{% endbreadcrumb_for %}
+  {% breadcrumb edited_user "users:profile" edited_user.id %}
+  {% breadcrumb_for "" %}{% trans "Edit" %}{% endbreadcrumb_for %}
+{% endblock breadcrumbs %}
+
 {% block title %}{% blocktrans with edited_user.username as username %}Editing {{ username }}'s profile{% endblocktrans %}{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="{% static 'vendor/bootstrap/dist/css/bootstrap.min.css' %}" />

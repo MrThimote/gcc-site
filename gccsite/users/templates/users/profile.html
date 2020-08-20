@@ -3,6 +3,14 @@
 {% load utils %}
 {% load i18n staticfiles rules %}
 
+{% load django_bootstrap_breadcrumbs utils %}
+
+{% block breadcrumbs %}
+  {{ block.super }}
+  {% breadcrumb_for "" %}{% trans "Members" %}{% endbreadcrumb_for %}
+  {% breadcrumb shown_user "users:profile" shown_user.id %}
+{% endblock breadcrumbs %}
+
 {% block head %}
 <link rel="stylesheet" href="{% static 'vendor/bootstrap/dist/css/bootstrap.min.css' %}" />
 {% endblock %}
