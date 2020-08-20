@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-21 15:30+0200\n"
+"POT-Creation-Date: 2020-08-20 23:30+0200\n"
 "PO-Revision-Date: 2019-03-06 21:42+0000\n"
 "Last-Translator: Augustin Thiercelin <augustin.thiercelin@prologin.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/prologin/teams/37333/fr/)\n"
@@ -35,7 +35,7 @@ msgstr "Géolocaliser les centres sélectionnés"
 msgid "Normalize selected center addresses"
 msgstr "Normaliser les adresses des centres sélectionnés"
 
-#: centers/models.py:25 gcc/templates/gcc/application/review_index.html:21
+#: centers/models.py:25 gcc/templates/gcc/application/review_index.html:28
 msgid "Center"
 msgstr "Centre"
 
@@ -96,7 +96,7 @@ msgstr "Sélection"
 msgid "Active"
 msgstr "Actif"
 
-#: gcc/forms.py:32 users/templates/users/profile.html:56
+#: gcc/forms.py:32 users/templates/users/profile.html:64
 msgid "Email address"
 msgstr "Adresse e-mail"
 
@@ -242,7 +242,7 @@ msgid "GCC! − Application"
 msgstr "GCC! - Candidature"
 
 #: gcc/templates/gcc/application/form.html:19
-#: gcc/templates/gcc/application/summary.html:115
+#: gcc/templates/gcc/application/summary.html:122
 #: gcc/templates/gcc/application/validation.html:14
 msgid ""
 "You are missing some key information, you won't be able to validate your "
@@ -293,11 +293,17 @@ msgid ""
 "      application. "
 msgstr "(*) Ce champ est requis pour valider votre inscription."
 
-#: gcc/templates/gcc/application/review.html:7
+#: gcc/templates/gcc/application/review.html:10
+#: gcc/templates/gcc/application/review_index.html:8
+msgid "Reviews"
+msgstr "Sélections"
+
+#: gcc/templates/gcc/application/review.html:14
+#: gcc/templates/gcc/application/summary.html:9
 msgid "Applications"
 msgstr "Candidatures"
 
-#: gcc/templates/gcc/application/review.html:16
+#: gcc/templates/gcc/application/review.html:23
 #, python-format
 msgid ""
 "\n"
@@ -307,7 +313,7 @@ msgstr ""
 "\n"
 "Candidates pour %(event)s (édition %(edition)s)"
 
-#: gcc/templates/gcc/application/review.html:23
+#: gcc/templates/gcc/application/review.html:30
 #, python-format
 msgid ""
 "\n"
@@ -319,7 +325,7 @@ msgstr ""
 "\n"
 "Accepter <span class=\"acceptables-counter\">%(nb_acceptables)s</span> candidate%(plural)s"
 
-#: gcc/templates/gcc/application/review.html:32
+#: gcc/templates/gcc/application/review.html:39
 #, python-format
 msgid ""
 "\n"
@@ -329,7 +335,7 @@ msgstr ""
 "\n"
 " %(nb_confirmed)s confirmée%(plural_confirmed)s et %(nb_accepted)s participante%(plural_accepted)s n'ont pas encore confirmé."
 
-#: gcc/templates/gcc/application/review.html:39
+#: gcc/templates/gcc/application/review.html:46
 msgid ""
 "↓↑ to browse among applicants, &lt;escape&gt; to\n"
 "          close all expanded applications."
@@ -337,201 +343,201 @@ msgstr ""
 "↓↑ pour parcourir les candidates, &lt;escape&gt; pour fermer toutes les "
 "candidatures ouvertes."
 
-#: gcc/templates/gcc/application/review.html:57
+#: gcc/templates/gcc/application/review.html:64
 #, python-format
 msgid ""
 "Candidates with event\n"
 "                as %(order)s choice "
 msgstr "Les candidates ayant l'évènement en %(order)s choix"
 
-#: gcc/templates/gcc/application/review.html:69
+#: gcc/templates/gcc/application/review.html:76
 msgid "None"
 msgstr "Aucun"
 
-#: gcc/templates/gcc/application/review.html:82
-#: gcc/templates/gcc/application/review.html:114
+#: gcc/templates/gcc/application/review.html:89
+#: gcc/templates/gcc/application/review.html:121
 msgid "incomplete"
 msgstr "incomplet"
 
-#: gcc/templates/gcc/application/review.html:83
-#: gcc/templates/gcc/application/review.html:115
+#: gcc/templates/gcc/application/review.html:90
+#: gcc/templates/gcc/application/review.html:122
 msgid "pending"
 msgstr "en attente"
 
-#: gcc/templates/gcc/application/review.html:84
-#: gcc/templates/gcc/application/review.html:116
+#: gcc/templates/gcc/application/review.html:91
+#: gcc/templates/gcc/application/review.html:123
 msgid "rejected"
 msgstr "rejetée"
 
-#: gcc/templates/gcc/application/review.html:85
-#: gcc/templates/gcc/application/review.html:117
+#: gcc/templates/gcc/application/review.html:92
+#: gcc/templates/gcc/application/review.html:124
 msgid "selected"
 msgstr "sélectionnée"
 
-#: gcc/templates/gcc/application/review.html:86
-#: gcc/templates/gcc/application/review.html:118
+#: gcc/templates/gcc/application/review.html:93
+#: gcc/templates/gcc/application/review.html:125
 msgid "accepted"
 msgstr "acceptée"
 
-#: gcc/templates/gcc/application/review.html:87
-#: gcc/templates/gcc/application/review.html:119
+#: gcc/templates/gcc/application/review.html:94
+#: gcc/templates/gcc/application/review.html:126
 msgid "confirmed"
 msgstr "confirmé"
 
-#: gcc/templates/gcc/application/review.html:96
+#: gcc/templates/gcc/application/review.html:103
 msgid "Profile of"
 msgstr "Profil de"
 
-#: gcc/templates/gcc/application/review.html:98
+#: gcc/templates/gcc/application/review.html:105
 msgid "login/nickname"
 msgstr "identifiant/pseudonyme"
 
-#: gcc/templates/gcc/application/review.html:100
+#: gcc/templates/gcc/application/review.html:107
 msgid "email"
 msgstr "E-mail"
 
-#: gcc/templates/gcc/application/review.html:102
+#: gcc/templates/gcc/application/review.html:109
 msgid "birthday"
 msgstr "anniversaire"
 
-#: gcc/templates/gcc/application/review.html:104
+#: gcc/templates/gcc/application/review.html:111
 msgid "participations"
 msgstr "participations"
 
-#: gcc/templates/gcc/application/review.html:124
+#: gcc/templates/gcc/application/review.html:131
 msgid "select"
 msgstr "sélectionner"
 
-#: gcc/templates/gcc/application/review.html:125
+#: gcc/templates/gcc/application/review.html:132
 msgid "reject"
 msgstr "rejeter"
 
-#: gcc/templates/gcc/application/review.html:126
+#: gcc/templates/gcc/application/review.html:133
 msgid "cancel"
 msgstr "annuler"
 
-#: gcc/templates/gcc/application/review_index.html:9
+#: gcc/templates/gcc/application/review_index.html:16
 msgid "Review index"
 msgstr "Index de review"
 
-#: gcc/templates/gcc/application/review_index.html:21
+#: gcc/templates/gcc/application/review_index.html:28
 msgid "Event"
 msgstr "Évènement"
 
-#: gcc/templates/gcc/application/review_index.html:33
+#: gcc/templates/gcc/application/review_index.html:40
 msgid "Long Summer Camp"
 msgstr "Stage Long"
 
-#: gcc/templates/gcc/application/review_index.html:35
+#: gcc/templates/gcc/application/review_index.html:42
 msgid "Short Summer Camp"
 msgstr "Stage Court"
 
-#: gcc/templates/gcc/application/review_index.html:41
+#: gcc/templates/gcc/application/review_index.html:48
 msgid "Browse"
 msgstr "Parcourir"
 
-#: gcc/templates/gcc/application/summary.html:9
+#: gcc/templates/gcc/application/summary.html:16
 msgid "GCC! − Summary"
 msgstr "GCC! - Résumé"
 
-#: gcc/templates/gcc/application/summary.html:16
+#: gcc/templates/gcc/application/summary.html:23
 msgid " Full name"
 msgstr "Nom complet"
 
-#: gcc/templates/gcc/application/summary.html:23
+#: gcc/templates/gcc/application/summary.html:30
 msgid " Phone number"
 msgstr "Téléphone"
 
-#: gcc/templates/gcc/application/summary.html:29
+#: gcc/templates/gcc/application/summary.html:36
 msgid " Email address"
 msgstr " Adresse e-mail"
 
-#: gcc/templates/gcc/application/summary.html:35
+#: gcc/templates/gcc/application/summary.html:42
 msgid " Birth day"
 msgstr " Date de naissance"
 
-#: gcc/templates/gcc/application/summary.html:41
+#: gcc/templates/gcc/application/summary.html:48
 msgid " Postal address"
 msgstr " Adresse postale"
 
-#: gcc/templates/gcc/application/summary.html:50
+#: gcc/templates/gcc/application/summary.html:57
 msgid " Date joined"
 msgstr " Date d'inscription"
 
-#: gcc/templates/gcc/application/summary.html:52
-#: users/templates/users/profile.html:80
+#: gcc/templates/gcc/application/summary.html:59
+#: users/templates/users/profile.html:88
 msgid "Member for"
 msgstr "Membre depuis"
 
-#: gcc/templates/gcc/application/summary.html:60
+#: gcc/templates/gcc/application/summary.html:67
 msgid "Edition"
 msgstr "Édition"
 
-#: gcc/templates/gcc/application/summary.html:67
+#: gcc/templates/gcc/application/summary.html:74
 msgid "Sadly you did not apply yet for the current edition..."
 msgstr ""
 "Malheureusement, vous ne vous êtes pas encore inscrite à l'édition de cette "
 "année..."
 
-#: gcc/templates/gcc/application/summary.html:72
+#: gcc/templates/gcc/application/summary.html:79
 #: gcc/templates/gcc/main-footer.html:47
 #: gcc/templates/gcc/registration_widget.html:25
 msgid "Apply"
 msgstr "Candidater"
 
-#: gcc/templates/gcc/application/summary.html:91
+#: gcc/templates/gcc/application/summary.html:98
 msgid "Edit application"
 msgstr "Modifier la candidature"
 
-#: gcc/templates/gcc/application/summary.html:97
+#: gcc/templates/gcc/application/summary.html:104
 #: gcc/templates/gcc/application/validation.html:20
 msgid "Validate application"
 msgstr "Enregistrer la candidature"
 
-#: gcc/templates/gcc/application/summary.html:112
+#: gcc/templates/gcc/application/summary.html:119
 msgid "My informations"
 msgstr "Mes informations"
 
-#: gcc/templates/gcc/application/summary.html:128
+#: gcc/templates/gcc/application/summary.html:135
 #: gcc/templates/gcc/main-menu.html:44
 msgid "My applications"
 msgstr "Mes candidatures"
 
-#: gcc/templates/gcc/application/summary.html:140
+#: gcc/templates/gcc/application/summary.html:147
 msgid "Confirm my venue"
 msgstr "Confirmer ma participation"
 
-#: gcc/templates/gcc/application/summary.html:151
+#: gcc/templates/gcc/application/summary.html:158
 msgid "My rejected applications"
 msgstr "Mes vœux refusés"
 
-#: gcc/templates/gcc/application/summary.html:166
+#: gcc/templates/gcc/application/summary.html:173
 msgid "Status"
 msgstr "Status"
 
-#: gcc/templates/gcc/application/summary.html:170
+#: gcc/templates/gcc/application/summary.html:177
 msgid "Please validate your applications."
 msgstr "Merci de valider votre candidature."
 
-#: gcc/templates/gcc/application/summary.html:172
+#: gcc/templates/gcc/application/summary.html:179
 msgid "Subscriptions are not opened yet for this year."
 msgstr "Les inscriptions ne sont pas encore ouvertes pour cette année."
 
-#: gcc/templates/gcc/application/summary.html:175
+#: gcc/templates/gcc/application/summary.html:182
 msgid "You will soon receive your assignation."
 msgstr "Nous vous assignerons bientôt à un centre."
 
-#: gcc/templates/gcc/application/summary.html:177
+#: gcc/templates/gcc/application/summary.html:184
 msgid "You have been assigned to an event, please confirm your venue."
 msgstr ""
 "Vous avez été assignée à un évènement, veuillez confirmer votre "
 "participation."
 
-#: gcc/templates/gcc/application/summary.html:179
+#: gcc/templates/gcc/application/summary.html:186
 msgid "Your venue has been confirmed!"
 msgstr "Votre participation a été confirmée !"
 
-#: gcc/templates/gcc/application/summary.html:181
+#: gcc/templates/gcc/application/summary.html:188
 msgid "Please wait while we review and update your application!"
 msgstr ""
 "Veuillez attendre que nous mettions à jours votre candidature, un email vous"
@@ -1427,7 +1433,7 @@ msgstr ""
 "<button class=\"btn btn-default btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#data_subjects\" aria-expanded=\"false\" aria-controls=\"data_subjects\">\n"
 "<h3>Personnes concernées</h3>\n"
 "</button>\n"
-"<div class=\"collapse\" id=\"data_subjects\">\n"
+"\n"
 "<p>Le traitement de données concerne :\n"
 " <ul>\n"
 " <li>les personnes physiques souhaitant participer à un stage GCC! ;</li>\n"
@@ -1436,9 +1442,12 @@ msgstr ""
 " <li>les personnes physiques ou morales partenaires ou sous-traitants de Prologin.</li>\n"
 " </ul>\n"
 "</p>\n"
+"<div class=\"collapse\" id=\"data_subjects\">\n"
+"\n"
 "<button class=\"btn btn-default btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#data_recipients\" aria-expanded=\"false\" aria-controls=\"data_recipients\">\n"
 "<h3>Destinataires des données</h3>\n"
 "</button>\n"
+"<div class=\"collapse\" id=\"data_recipients\">\n"
 "<h4>Catégories de destinataires</h4>\n"
 "<p>En fonction de leurs besoins respectifs, sont destinataires de tout ou partie des données :\n"
 " <ul>\n"
@@ -2407,7 +2416,7 @@ msgstr "Ancien étudiant"
 msgid "Educational stage"
 msgstr "Niveau scolaire"
 
-#: users/models.py:67 users/templates/users/profile.html:62
+#: users/models.py:67 users/templates/users/profile.html:70
 msgid "Birth day"
 msgstr "Date de naissance"
 
@@ -2437,6 +2446,9 @@ msgstr "Langue"
 
 #: users/templates/registration/password_reset_confirm.html:7
 #: users/templates/users/delete-confirm.html:7
+#: users/templates/users/edit.html:10
+#: users/templates/users/edit_password.html:8
+#: users/templates/users/profile.html:10
 #: users/templates/users/unsubscribe.html:9
 msgid "Members"
 msgstr "Membres"
@@ -2525,29 +2537,38 @@ msgstr ""
 "\n"
 "Cette action <strong>ne peut pas être annulée</strong>, conformément l'article 17 du RGPD. Vous serez immédiatement déconnecté⋅e après avoir cliqué sur le bouton ci-dessous. Pour continuer, fournissez votre nom d'utilisateur, votre mot de passe et confirmez."
 
-#: users/templates/users/edit.html:5 users/templates/users/edit.html:13
+#: users/templates/users/edit.html:12
+#: users/templates/users/edit_password.html:10
+msgid "Edit"
+msgstr "Modifier"
+
+#: users/templates/users/edit.html:15 users/templates/users/edit.html:23
 #, python-format
 msgid "Editing %(username)s's profile"
 msgstr "Modification du profil de %(username)s"
 
-#: users/templates/users/edit.html:16
+#: users/templates/users/edit.html:26
 msgid ""
 "Don't forget to click “Save” at the bottom when you are done making changes."
 msgstr ""
 "N'oubliez pas de cliquer sur « Enregistrer » en bas lorsque vous avez "
 "terminé vos modifications."
 
-#: users/templates/users/edit.html:20
+#: users/templates/users/edit.html:30
 msgid "Save"
 msgstr "Enregistrer"
 
-#: users/templates/users/edit_password.html:4
-#: users/templates/users/edit_password.html:9
+#: users/templates/users/edit_password.html:11
+msgid "Password"
+msgstr "Mot de passe"
+
+#: users/templates/users/edit_password.html:15
+#: users/templates/users/edit_password.html:20
 #, python-format
 msgid "Editing %(username)s's password"
 msgstr "Modification du mot de passe de %(username)s"
 
-#: users/templates/users/edit_password.html:16
+#: users/templates/users/edit_password.html:27
 msgid " Save"
 msgstr "Enregistrer"
 
@@ -2657,107 +2678,107 @@ msgstr ""
 msgid "Reset password"
 msgstr "Réinitialiser mon mot de passe"
 
-#: users/templates/users/profile.html:10
+#: users/templates/users/profile.html:18
 msgid "GCC! - Profile"
 msgstr "GCC! - Profil"
 
-#: users/templates/users/profile.html:17
+#: users/templates/users/profile.html:25
 msgid "<em>not provided</em>"
 msgstr "<em>non renseigné</em>"
 
-#: users/templates/users/profile.html:21
+#: users/templates/users/profile.html:29
 msgid "Edit profile"
 msgstr "Modifier le profil"
 
-#: users/templates/users/profile.html:31
+#: users/templates/users/profile.html:39
 #, python-format
 msgid "%(username)s's profile picture"
 msgstr "Photo de profil de %(username)s"
 
-#: users/templates/users/profile.html:36
+#: users/templates/users/profile.html:44
 #, python-format
 msgid "%(username)s's staff picture"
 msgstr "Photo de profil d'équipe de %(username)s"
 
-#: users/templates/users/profile.html:43
+#: users/templates/users/profile.html:51
 msgid "Full name"
 msgstr "Nom complet"
 
-#: users/templates/users/profile.html:50
+#: users/templates/users/profile.html:58
 msgid "Phone number"
 msgstr "Téléphone"
 
-#: users/templates/users/profile.html:68
+#: users/templates/users/profile.html:76
 msgid "Postal address"
 msgstr "Adresse postale"
 
-#: users/templates/users/profile.html:78
+#: users/templates/users/profile.html:86
 msgid "Date joined"
 msgstr "Date d'inscription"
 
-#: users/templates/users/profile.html:88
+#: users/templates/users/profile.html:96
 msgid "Contest involvment"
 msgstr "Participation au concours"
 
-#: users/templates/users/profile.html:102
+#: users/templates/users/profile.html:110
 msgid "See archives"
 msgstr "Voir les archives"
 
-#: users/templates/users/profile.html:108
+#: users/templates/users/profile.html:116
 msgid "Completed the qualification step"
 msgstr "A complété l'étape de qualification"
 
-#: users/templates/users/profile.html:111
+#: users/templates/users/profile.html:119
 msgid "Selected for regional events"
 msgstr "Sélectionné pour les épreuves régionales"
 
-#: users/templates/users/profile.html:113
+#: users/templates/users/profile.html:121
 msgid "Abandoned the regional events"
 msgstr "S'est désisté avant l'épreuve régionale"
 
-#: users/templates/users/profile.html:116
+#: users/templates/users/profile.html:124
 msgid "Competed in the regional events"
 msgstr "A participé aux épreuves régionales"
 
-#: users/templates/users/profile.html:118
+#: users/templates/users/profile.html:126
 msgid "Selected for the final"
 msgstr "Sélectionné en finale"
 
-#: users/templates/users/profile.html:131
+#: users/templates/users/profile.html:139
 #, python-format
 msgid "Download final home (tar.gz, %(size)s)"
 msgstr "Télécharger la “home” (tar.gz, %(size)s)"
 
-#: users/templates/users/profile.html:141
+#: users/templates/users/profile.html:149
 #, python-format
 msgid "Sadly, %(username)s did not take part in any Prologin edition yet."
 msgstr ""
 "Hélas, %(username)s n'a jusqu'ici participé à aucune édition de Prologin."
 
-#: users/templates/users/profile.html:153
+#: users/templates/users/profile.html:161
 msgid "Latest authored news entries"
 msgstr "Dernières actualités publiées"
 
-#: users/templates/users/profile.html:166
+#: users/templates/users/profile.html:174
 msgid "Staff roles"
 msgstr "Rôles dans l'équipe"
 
-#: users/templates/users/profile.html:170
+#: users/templates/users/profile.html:178
 #, python-format
 msgid ""
 "%(year)s ⋅\n"
 "                %(role)s"
 msgstr "%(year)s ⋅ %(role)s"
 
-#: users/templates/users/profile.html:184
+#: users/templates/users/profile.html:192
 msgid "Account management"
 msgstr "Gestion du compte"
 
-#: users/templates/users/profile.html:193
+#: users/templates/users/profile.html:201
 msgid "Export your personal data"
 msgstr "Exporter vos données personnelles"
 
-#: users/templates/users/profile.html:197
+#: users/templates/users/profile.html:205
 msgid ""
 "\n"
 "            You can download an archive containing all your personal data, as\n"
@@ -2767,11 +2788,11 @@ msgstr ""
 "\n"
 "Vous pouvez télécharger une archive contenant toutes vos données personnelles, comme prévu par le Droit à la portabilité (Art. 20 du RGPD)."
 
-#: users/templates/users/profile.html:216
+#: users/templates/users/profile.html:224
 msgid "Delete your account"
 msgstr "Supprimer votre compte"
 
-#: users/templates/users/profile.html:220
+#: users/templates/users/profile.html:228
 msgid ""
 "\n"
 "          You can delete your account and all associated personal data, as\n"
@@ -2781,7 +2802,7 @@ msgstr ""
 "\n"
 "Vous pouvez supprimer votre compte et toutes les données personnelles associées, comme prévu par votre Droit à la suppression (Art. 17 du RGPD)."
 
-#: users/templates/users/profile.html:225
+#: users/templates/users/profile.html:233
 msgid ""
 "\n"
 "              You cannot delete your account while participating to the\n"
