@@ -126,8 +126,6 @@
                                 <span class="update-wish" new-status="2" for-wish="{{wish.pk}}" {% if wish.status != 1 %}style="display: none;"{% endif %}>{% trans 'reject' %}</span>
                                 {% comment %} if currently accepted, can be changed to confirmed {% endcomment %}
                                 <span class="update-wish" new-status="5" for-wish="{{wish.pk}}" {% if wish.status != 4 %}style="display: none;"{% endif %}>{% trans 'confirm' %}</span>
-                                {% comment %} if currently confirmed, can be changed to accepted {% endcomment %}
-                                <span class="update-wish" new-status="4" for-wish="{{wish.pk}}" {% if wish.status != 5 %}style="display: none;"{% endif %}>{% trans 'cancel' %}</span>
                                 {% comment %} if currently selected/accepted/rejected, can be changed to pending {% endcomment %}
                                 <span class="update-wish" new-status="1" for-wish="{{wish.pk}}" {% if wish.status != 2 and wish.status != 3 and wish.status != 4 %}style="display: none;"{% endif %}>{% trans 'cancel' %}</span>
                               </span>

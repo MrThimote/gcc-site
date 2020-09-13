@@ -165,9 +165,6 @@ $('.update-wish').on('click', function (event) {
                 elem.find('.update-wish[new-status="5"]').show();
             }
             // If it's gonna be anything but pending/confirmed, show cancel (that redirects to pending)
-            else if (new_status != 5)
-                elem.find('.update-wish[new-status="1"]').show();
-            // Else it's gonna be confirmed, so show cancel (that redirects to accepted)
             else
                 elem.find('.update-wish[new-status="4"]').show();
 
