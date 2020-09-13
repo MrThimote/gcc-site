@@ -476,10 +476,10 @@ class Answer(models.Model):
     response = JSONField(encoder=DjangoJSONEncoder)
 
     def is_valid(self):
-        '''
+        """
         Check if an answer is valid, a checkbox with required beeing true must
         be checked, and other kind of fields must necessary be filled.
-        '''
+        """
         if not self.question.finaly_required:
             return True
 
