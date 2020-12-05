@@ -152,10 +152,24 @@ $('.update-wish').on('click', function (event) {
             elem.find('.update-wish').hide();
 
             // Update buttons
+            // If it's gonna be pending, show select & reject
             if (new_status == 1)
-                elem.find('.update-wish:not([new-status="1"])').show();
-            else
-                elem.find('.update-wish[new-status="1"]').show();
+            {
+                elem.find('.update-wish[new-status="2"]').show(); // reject
+                elem.find('.update-wish[new-status="3"]').show(); // select
+            }
+            // If it's gonna be accepted, show confirm & cancel (that redirects to pending)
+            else if (new_status == 4)
+            {
+                elem.find('.update-wish[new-status="1"]').show(); // cancel
+                elem.find('.update-wish[new-status="5"]').show(); // confirm
+            }
+            // If it's gonna be confirmed, show nothing (we can't unconfirm an applicant)
+            // Else show cancel
+            else if (new_status != 5)
+            {
+                elem.find('.update-wish[new-status="1"]').show(); // cancel
+            }
 
             // Update badge
             elem.find('.badge').hide();

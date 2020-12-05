@@ -6,6 +6,7 @@ import os
 from django.conf import settings
 from django.contrib import messages
 from django.contrib.staticfiles.storage import staticfiles_storage
+from django.http import Http404
 from django.http.response import JsonResponse
 from django.shortcuts import get_object_or_404
 from django.urls import reverse
@@ -92,7 +93,8 @@ class ApplicationReviewView(PermissionRequiredMixin, TemplateView):
         grouped_applicants = sorted(grouped_applicants.items())
 
         # TODO: remove redundancy
-        assert event.edition.year == kwargs['edition']
+        if event.edition.year != kwargs['edition']:
+            raise Http404("Incorrect edition")
 
         context = super().get_context_data(**kwargs)
         context.update(
@@ -108,6 +110,7 @@ class ApplicationReviewView(PermissionRequiredMixin, TemplateView):
         context['nb_confirmed'] = len(
             Applicant.confirmed_applicants_for(event)
         )
+        context['nb_applicants'] = applicants.count()
 
         return context
 

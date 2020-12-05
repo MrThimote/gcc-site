@@ -13,8 +13,8 @@
   <section class="wrapper">
     <div class="container">
       <h3>
-        {% blocktrans with event=event.short_description %}
-          Candidates for {{ event }} (edition {{ edition }})
+        {% blocktrans with event=event.short_description plural=nb_applicants|pluralize %}
+          {{ nb_applicants }} candidate{{ plural }} for {{ event }} (edition {{ edition }})
         {% endblocktrans %}
       </h3>
 
@@ -101,6 +101,8 @@
                         <dd>{{applicant.user.email}}</dd>
                         <dt>{% trans 'birthday' %}</dt>
                         <dd>{{applicant.user.birthday}}</dd>
+                        <dt>{% trans 'address' %}</dt>
+                        <dd>{{applicant.user.address}}, {{applicant.user.postal_code}} {{applicant.user.city}}, {{applicant.user.country}}</dd>
                         <dt>{% trans 'participations' %}</dt>
                         <dd>None</dd>
                       </dl>
@@ -120,9 +122,14 @@
                             {% has_perm 'gcc.can_accept_wish' request.user wish as can_accept %}
                             {% if can_accept %}
                               <span class="wish-actions">
+                                {% comment %} if currently pending, can be changed to selected {% endcomment %}
                                 <span class="update-wish" new-status="3" for-wish="{{wish.pk}}" {% if wish.status != 1 %}style="display: none;"{% endif %}>{% trans 'select' %}</span>
+                                {% comment %} if currently pending, can be changed to rejected {% endcomment %}
                                 <span class="update-wish" new-status="2" for-wish="{{wish.pk}}" {% if wish.status != 1 %}style="display: none;"{% endif %}>{% trans 'reject' %}</span>
-                                <span class="update-wish" new-status="1" for-wish="{{wish.pk}}" {% if wish.status != 2 and wish.status != 3 %}style="display: none;"{% endif %}>{% trans 'cancel' %}</span>
+                                {% comment %} if currently accepted, can be changed to confirmed {% endcomment %}
+                                <span class="update-wish" new-status="5" for-wish="{{wish.pk}}" {% if wish.status != 4 %}style="display: none;"{% endif %}>{% trans 'confirm' %}</span>
+                                {% comment %} if currently selected/accepted/rejected, can be changed to pending {% endcomment %}
+                                <span class="update-wish" new-status="1" for-wish="{{wish.pk}}" {% if wish.status != 2 and wish.status != 3 and wish.status != 4 %}style="display: none;"{% endif %}>{% trans 'cancel' %}</span>
                               </span>
                             {% endif %}
 
