@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'adminsortable',
     'bootstrap3',
     'bootstrapform',
+    'captcha',
     'compat',
     'crispy_forms',
     'django_bootstrap_breadcrumbs',

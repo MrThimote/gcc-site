@@ -2,14 +2,16 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 from collections import OrderedDict
-from django.utils import timezone
+from captcha.fields import CaptchaField
 from django import forms
 from django.contrib.auth import get_user_model
 from django.db.models import Q
+from django.urls import reverse
 from django.utils import formats
+from django.utils import timezone
 from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext_lazy as _
-from django.urls import reverse
+
 
 from gcc.models import (
     Answer,
@@ -30,6 +32,7 @@ class EmailForm(forms.Form):
     # See here for why 254 max
     # http://www.rfc-editor.org/errata_search.php?rfc=3696&eid=1690
     email = forms.EmailField(label=_('Email address'), max_length=254)
+    captcha = CaptchaField()
 
 
 def build_dynamic_form(form, user, edition):
