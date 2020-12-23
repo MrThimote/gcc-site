@@ -239,6 +239,12 @@ NPM_FILE_PATTERNS = {
     'jquery': ['dist/*.js'],
 }
 
+# Recaptcha
+
+RECAPTCHA_PUBLIC_KEY = ''
+RECAPTCHA_PRIVATE_KEY = ''
+
+
 # ZINNIA (newsblog)
 
 HOMEPAGE_ARTICLES = 4

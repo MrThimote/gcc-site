@@ -7,7 +7,7 @@ django-compat
 django-crispy-forms
 django-debug-toolbar
 django-npm
-django-simple-captcha
+django-recaptcha
 django-statictemplate
 django-timezone-field>=2.0rc1
 django<3
@@ -24,5 +24,3 @@ typing; python_version < '3.5'
 # From Prologin
 git+https://github.com/prologin/django-massmailer
 git+https://github.com/prologin/django-proloauth-client
-# Pillow for images
-pillow

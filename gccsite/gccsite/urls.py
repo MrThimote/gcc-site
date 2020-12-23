@@ -20,8 +20,6 @@ urlpatterns = [
         'user/auth/',
         include('proloauth_client.urls', namespace='proloauth_client'),
     ),
-    # Django simple captcha
-    path('captcha/', include('captcha.urls')),
     # Built-in Django admin
     path('admin/', admin.site.urls),
     # Language selector
