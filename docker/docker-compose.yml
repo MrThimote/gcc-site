@@ -1,0 +1,38 @@
+version: "3.5"
+services:
+  prologin_gccsite:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    image: prologin_gccsite
+    container_name: prologin_gccsite
+    environment:
+      DJANGO_SETTINGS_MODULE: gccsite.settings.docker_dev
+    command: |
+      sh -c '
+      cd gccsite
+      python manage.py runserver 0.0.0.0:8001
+      '
+    ports:
+      - "127.0.0.1:8001:8001"
+    volumes:
+      - type: bind
+        source: "${SITE_SOURCE:-../}"
+        target: /var/prologin/gccsite
+        #read_only: true
+      - type: bind
+        source: "${SITE_ARCHIVES:-../../archives}"
+        target: /var/prologin/archives
+        read_only: true
+    depends_on:
+      - prologin_gccsite_db
+  prologin_gccsite_db:
+    image: postgres:alpine
+    restart: on-failure
+    container_name: prologin_gccsite_db
+    environment:
+      POSTGRES_PASSWORD: whocareslol
+      POSTGRES_USER: gcc
+      PGDATA: /var/lib/postgresql/data/prologin
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
