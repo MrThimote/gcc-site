@@ -1,6 +1,7 @@
 # Copyright (C) <2019> Association Prologin <association@prologin.org>
 # SPDX-License-Identifier: GPL-3.0+
 
+import hashlib
 import random
 from datetime import datetime
 
@@ -31,6 +32,7 @@ from gcc.models import (
     EventWish,
     Sponsor,
     SubscriberEmail,
+    SubscriberVerification
 )
 from prologin.email import send_email
 from rules.contrib.views import PermissionRequiredMixin
@@ -63,18 +65,27 @@ class IndexView(FormView):
     success_url = reverse_lazy("gcc:index")
 
     def form_valid(self, form):
-        instance, created = SubscriberEmail.objects.get_or_create(
-            email=form.cleaned_data['email']
-        )
+        actual = None
+        email = form.cleaned_data['email']
+        try:
+            actual = SubscriberEmail.objects.get(email=email)
+        except SubscriberEmail.DoesNotExist:
+            pass
 
-        if created:
+        if actual == None:
+            enc_email = str(email).encode()
+            secret = settings.SECRET_KEY.encode()
+            verify_token = hashlib.sha256(enc_email + secret).hexdigest()[:32]
+
+            instance, created = SubscriberVerification.objects.update_or_create(email=email, defaults={"token":verify_token})
+
             messages.add_message(
-                self.request, messages.SUCCESS, _('Subscription succeeded')
+                self.request, messages.SUCCESS, _('Sent mail to your adress')
             )
             send_email(
-                'gcc/mails/subscribe',
-                instance.email,
-                {'unsubscribe_url': instance.get_unsubscribe_url},
+                'gcc/mails/verify',
+                email,
+                {'verify_url': instance.get_verify_url},
             )
         else:
             messages.add_message(
@@ -163,6 +174,44 @@ class LearnMoreView(FormView):
 
 # Newsletter
 
+class NewsletterVerifySubscribeView(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        return reverse('gcc:index')
+    
+    def get(self, request, *args, **kwargs):
+        try:
+            verifier = SubscriberVerification.objects.get(email=kwargs['email'])
+
+            if verifier.token == kwargs['token']:
+                instance = SubscriberEmail.objects.create(
+                    email=kwargs['email']
+                )
+
+                send_email(
+                    "gcc/mails/subscribe",
+                    kwargs['email'],
+                    {"unsubscribe_url":instance.get_unsubscribe_url}
+                )
+
+                verifier.delete()
+                messages.add_message(
+                    request,
+                    messages.SUCCESS,
+                    _('Successfully subscribed to newsletter.'),
+                )
+            else:
+                messages.add_message(
+                    request,
+                    messages.ERROR,
+                    _('Failed to subscribe: wrong token.'),
+                )
+        except SubscriberVerification.DoesNotExist:
+            messages.add_message(
+                request,
+                messages.ERROR,
+                _('Failed to subscribe: unregistered address'),
+            )
+        return super().get(request, *args, **kwargs)
 
 class NewsletterUnsubscribeView(RedirectView):
     def get_redirect_url(self, *args, **kwargs):

@@ -542,11 +542,23 @@ class SubscriberEmail(models.Model):
     def __str__(self):
         return self.email
 
+class SubscriberVerification(models.Model):
+    email = models.EmailField()
+    token = models.CharField(max_length=255, db_index=True)
+
+    def __str__(self):
+        return self.email
+    
+    @property
+    def get_verify_url(self):
+        return settings.SITE_BASE_URL + reverse(
+            'gcc:news_verify',
+            kwargs={'email': self.email, 'token': self.token},
+        )
 
 class SponsorQuerySet(models.QuerySet):
     def active(self):
         return self.filter(is_active=True)
-
 
 class Sponsor(AddressableModel, ContactModel, models.Model):
     def upload_logo_to(self, *args, **kwargs):

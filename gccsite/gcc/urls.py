@@ -22,6 +22,11 @@ NEWSLETTER_PATTERNS = [
         'unsubscribe/<str:email>/<str:token>/',
         views.NewsletterUnsubscribeView.as_view(),
         name='news_unsubscribe',
+    ),
+    path(
+        'subscribe/<str:email>/<str:token>/',
+        views.NewsletterVerifySubscribeView.as_view(),
+        name='news_verify',
     )
 ]
 
