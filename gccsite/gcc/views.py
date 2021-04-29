@@ -1,7 +1,9 @@
 # Copyright (C) <2019> Association Prologin <association@prologin.org>
 # SPDX-License-Identifier: GPL-3.0+
 
+import json
 import random
+import requests
 from datetime import datetime
 
 from django.conf import settings
@@ -63,6 +65,22 @@ class IndexView(FormView):
     success_url = reverse_lazy("gcc:index")
 
     def form_valid(self, form):
+        recaptcha_token = self.request.POST.get("g-recaptcha-response")
+        recaptcha_verifyurl = "https://www.google.com/recaptcha/api/siteverify"
+        recaptcha_data = {
+            "secret":settings.RECAPTCHA_PRIVATE_KEY,
+            "response":recaptcha_token
+        }
+        recaptcha_response = requests.post(url=recaptcha_verifyurl, data=recaptcha_data)
+        recaptcha_response_data = json.loads(recaptcha_response.text)
+        print(recaptcha_response_data)
+
+        if not recaptcha_response_data["success"]:
+            messages.add_message(
+                self.request, messages.ERROR, _('An Error occured with ReCaptcha during subscription, try again')
+            )
+            return super().form_valid(form)
+
         instance, created = SubscriberEmail.objects.get_or_create(
             email=form.cleaned_data['email']
         )
@@ -95,6 +113,7 @@ class IndexView(FormView):
                 'last_edition': Edition.objects.latest(),
                 'sponsors': list(Sponsor.objects.active()),
                 'articles': articles,
+                'public_key': settings.RECAPTCHA_PUBLIC_KEY
             }
         )
         context['events'] = Event.objects.filter(

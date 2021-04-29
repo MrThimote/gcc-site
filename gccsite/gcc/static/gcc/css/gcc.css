@@ -1376,3 +1376,7 @@ table.table-align-middle > tbody > tr > td {
 .badge.badge-danger {
     background-color: #d9534f !important;
 }
+
+.grecaptcha-badge {
+  z-index: 5;
+}

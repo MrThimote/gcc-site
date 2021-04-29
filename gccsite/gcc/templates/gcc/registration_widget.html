@@ -30,6 +30,10 @@
   {% else %}
     <h3>{% trans "No summer camps currently open for registration" %}</h3>
   {% endif %}
-  {% include 'gcc/newsletter_widget.html' %}
+  {% with area_id="form-newsletter1" %}
+    {% with data_callback="onSubmitSecond" %}
+      {% include 'gcc/newsletter_widget.html' %}
+    {% endwith %}
+  {% endwith %}
 </section>
 {% endblock %}

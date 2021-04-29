@@ -8,6 +8,17 @@
 {% block extra_head %}
 <link rel="stylesheet" type="text/css" href="{% static 'gcc/css/homepage.css' %}" />
 <link rel="stylesheet" href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}"/>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+  function onSubmitFirst(token) {
+    document.getElementById("form-newsletter0").submit();
+  }
+  function onSubmitSecond(token) {
+    document.getElementById("form-newsletter1").submit();
+  }
+</script>
 {% endblock %}
 
 {% block super_content %}
@@ -108,7 +119,12 @@
         <ul class="clearfix nav text-center"><li><a href="{% url 'zinnia:entry_archive_index' %}"><i class="fa fa-newspaper-o"></i> {% trans "Browse all news" %}</a></li></ul>
 
         <h2>{% trans 'Get updated!' %}</h2>
-        {% include 'gcc/newsletter_widget.html' %}
+        
+        {% with area_id="form-newsletter0" %}
+          {% with data_callback="onSubmitFirst" %}
+            {% include 'gcc/newsletter_widget.html' %}
+          {% endwith %}
+        {% endwith %}
 
         <h2>{% trans 'History behind Girls Can Code!' %}</h2>
          <div class="row uniform-row">

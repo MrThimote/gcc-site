@@ -6,12 +6,13 @@
     Subscribe to the newsletter to get updated with the latest news.
   {% endblocktrans %}
 </p>
-<form action="" method="POST" class="form-horizontal">
+<form action="" method="POST" class="form-horizontal" id="{{ area_id }}">
   {% csrf_token %}
   {{ form|bootstrap_horizontal:'col-sm-3' }}
+
   <div class="form-group">
     <div class="col-sm-offset-3 col-sm-9">
-      <button class="btn btn-primary" type="submit">
+      <button data-sitekey="{{ public_key }}" data-callback='{{ data_callback }}' class="g-recaptcha btn btn-primary" type="submit">
         <i class="fa fa-newspaper-o"></i> {% trans "Subscribe" %}
       </button>
     </div>
