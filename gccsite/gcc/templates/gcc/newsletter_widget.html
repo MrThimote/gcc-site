@@ -6,12 +6,23 @@
     Subscribe to the newsletter to get updated with the latest news.
   {% endblocktrans %}
 </p>
-<form action="" method="POST" class="form-horizontal">
+<form action="" method="POST" class="form-horizontal" id="recaptcha-area">
   {% csrf_token %}
   {{ form|bootstrap_horizontal:'col-sm-3' }}
+
+  <div class="form-group recaptcha-area recaptcha-disabled" id="recaptcha-box">
+    <p>
+      {% blocktrans %}
+        You need to verify that you are not a bot.
+      {% endblocktrans %}
+    </p>
+    <!--Create Re Captcha Div-->
+    
+  </div>
+
   <div class="form-group">
     <div class="col-sm-offset-3 col-sm-9">
-      <button class="btn btn-primary" type="submit">
+      <button class="btn btn-primary" type="button" id="recaptcha-button">
         <i class="fa fa-newspaper-o"></i> {% trans "Subscribe" %}
       </button>
     </div>

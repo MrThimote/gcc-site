@@ -1376,3 +1376,17 @@ table.table-align-middle > tbody > tr > td {
 .badge.badge-danger {
     background-color: #d9534f !important;
 }
+
+.recaptcha-disabled {
+    max-height: 0px !important;
+    opacity: 0 !important;
+}
+
+.recaptcha-enabled {
+  opacity: 1 i !important;
+}
+
+.recaptcha-area {
+  padding-left: 15px;
+  padding-right: 15px;
+}
